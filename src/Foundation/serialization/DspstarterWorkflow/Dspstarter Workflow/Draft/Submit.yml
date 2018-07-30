@@ -1,0 +1,21 @@
+﻿---
+ID: "4d1b0987-71f6-4687-ba33-b57a2cb3c2e0"
+Parent: "9b95c625-5a3e-4843-8f79-0ee7d9a5c41a"
+Template: "cb01f9fc-c187-46b3-ab0b-97a8468d8303"
+Path: /sitecore/system/Workflows/Dspstarter Workflow/Draft/Submit
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/16x16/submit.png
+- ID: "dcbebc58-6124-4100-a248-fc717d6c78d5"
+  Hint: Next state
+  Value: "{AB4DDE9D-95F6-4EC3-B7E2-F8A54923C954}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161214T002332Z

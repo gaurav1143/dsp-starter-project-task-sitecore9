@@ -1,0 +1,15 @@
+﻿@model DeloitteDigital.Atlas.Mvc.ErrorHandling.ErrorRenderingModel
+
+@if (Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <div style="color: red;">
+        <b>Error rendering @Model.RenderingName</b>
+        <pre style="color: black">
+           @Model.Exception
+        </pre>
+    </div>
+}
+else
+{
+    <!-- Error rendering @Model.RenderingName - see logs for details -->
+}

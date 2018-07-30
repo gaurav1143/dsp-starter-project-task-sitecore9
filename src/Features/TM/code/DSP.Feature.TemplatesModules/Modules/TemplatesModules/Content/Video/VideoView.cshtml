@@ -1,0 +1,22 @@
+﻿@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Content.Video.VideoRendering
+
+<section class="cm cm-video youtube" itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+    <div class="intrinsic">
+        <div class="intrinsic-wrap intrinsic-16x9">
+            @* Do not set an ID on this .video element *@
+            <div class="intrinsic-el video" data-youtube-id="@Model.ViewModel.YoutubeId">
+            </div>
+        </div>
+    </div>
+    <div class="video-desc">
+        <h1>@Model.ViewModel.Title</h1>
+        @Model.ViewModel.GeneralText
+    </div>
+    @{var i = Guid.NewGuid();}
+    <div class="video-transcript">
+        <a href="#transcript-@i" class="js-ec-link accordion-item">@Model.ViewModel.VideoTranscriptTitle</a>
+        <div id="transcript-@i" class="js-ec expandcollapse-content">
+            @Model.ViewModel.VideoTranscript
+        </div>
+    </div>
+</section>

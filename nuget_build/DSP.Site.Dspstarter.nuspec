@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>DSP.Site.Dspstarter</id>
+    <version>$version$</version>
+    <title>DSP Demo Site</title>
+    <authors>Deloitte Digital</authors>
+    <owners>Deloitte Digital</owners>
+    <projectUrl>https://hub.deloittedigital.com.au/wiki/display/DSP/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/DeloitteDigitalAPAC/Atlas/master/lib/logos/dd-logo-square.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Deloitte Sitecore Platform - Demo Site</description>
+    <copyright>Copyright 2016</copyright>
+    <tags>DSP Demo Site</tags>
+    <dependencies>
+		<dependency id="DeloitteDigital.Atlas" version="1.0.0" />
+    </dependencies>
+  </metadata>
+  <files>    
+    <file src="..\src\Sites\dspstarter\code\DSP.Site.Dspstarter\bin\DSP.Site.Dspstarter.dll" target="lib" />
+
+    <!-- note: the Serialization.Nuget.config file gets created during the NuGet build process and deleted again afterwards -->
+    <file src="..\src\Sites\dspstarter\code\DSP.Site.Dspstarter\App_Config\Include\z_dspstarter\DSP.Site.Dspstarter.Serialization.NuGet.config" target="content\App_Config\Include\z_dspstarter" />
+	<file src="..\src\Sites\dspstarter\code\DSP.Site.Dspstarter\App_Config\Include\z_dspstarter\DSP.Site.Dspstarter.Serialization.Content.NuGet.config" target="content\App_Config\Include\z_dspstarter" />
+	<file src="..\src\Sites\dspstarter\code\DSP.Site.Dspstarter\App_Config\Include\z_dspstarter\DSP.Site.Dspstarter.config" target="content\App_Config\Include\z_dspstarter" />
+	
+    <file src="..\src\Sites\dspstarter\code\DSP.Site.Dspstarter\assets\**\*" target="content\assets" />	
+	<file src="..\src\Sites\dspstarter\code\DSP.Site.Dspstarter\fonts\**\*" target="content\fonts" />
+	    
+    <!-- Serialisation -->
+    <file src="..\src\Sites\dspstarter\serialization\**\*.*" target="serialization" />
+	<file src="..\src\Sites\dspstarter\serialization.content\**\*.*" target="serialization.content" />
+  </files>
+</package>

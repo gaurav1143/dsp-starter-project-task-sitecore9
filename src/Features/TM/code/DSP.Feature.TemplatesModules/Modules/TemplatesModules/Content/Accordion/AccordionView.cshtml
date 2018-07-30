@@ -1,0 +1,22 @@
+﻿@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Content.Accordion.AccordionRendering
+
+<section class="cm cm-accordion">
+    <ul class="accordion-list">
+
+        @foreach (var item in Model.ViewModel.AccordionItems)
+        {
+            var i = Guid.NewGuid();
+                <li>
+                    <a href="#accordion-@i" class="js-ec-link accordion-item">@item.Title</a>
+                    <div id="accordion-@i" class="js-ec expandcollapse-content" data-ec-group="accordion">
+                        @item.GeneralText
+                    </div>
+                </li>
+             i = Guid.NewGuid();
+        }
+    </ul>
+    @if (!Model.ViewModel.AccordionItems.Any())
+    {
+        <p>Please select at least one item.</p>
+    }
+</section>

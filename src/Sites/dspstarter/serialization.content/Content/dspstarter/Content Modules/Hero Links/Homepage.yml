@@ -1,0 +1,83 @@
+﻿---
+ID: "2695fb39-f31c-4253-b950-2003a32ef6bf"
+Parent: "09fd94cd-ed8c-4b3b-a8d7-7d47af685e5e"
+Template: "f96a6cd1-d5b2-413c-a236-0c51d93b2da9"
+Path: /sitecore/content/dspstarter/Content Modules/Hero Links/Homepage
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160307T041258Z
+    - ID: "2ed53f9b-229a-4390-9bfd-8c20cd50afc2"
+      Hint: HeroLinksItems
+      Type: Treelist
+      Value: |
+        {7365D31C-6065-4539-913D-9D2ECB28F45C}
+        {0467C160-AF97-49C4-AA63-C310DDC89EE9}
+        {05726C36-0855-4CE8-8037-7BD527BA12B3}
+        {4ED99DE7-37AB-4831-87A4-F32B25CE38BF}
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Insights
+    - ID: "80ddf73a-c493-45c7-8473-b58544e44943"
+      Hint: TaxonomyParent
+      Value: "{8224A3D9-54CD-45D8-AE1C-4D0E387F0B4D}"
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160826T020608Z
+    - ID: "2ed53f9b-229a-4390-9bfd-8c20cd50afc2"
+      Hint: HeroLinksItems
+      Type: Treelist
+      Value: |
+        {7365D31C-6065-4539-913D-9D2ECB28F45C}
+        {0467C160-AF97-49C4-AA63-C310DDC89EE9}
+        {05726C36-0855-4CE8-8037-7BD527BA12B3}
+        {4ED99DE7-37AB-4831-87A4-F32B25CE38BF}
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: 见解
+    - ID: "80ddf73a-c493-45c7-8473-b58544e44943"
+      Hint: TaxonomyParent
+      Value: "{8224A3D9-54CD-45D8-AE1C-4D0E387F0B4D}"
+- Language: "zh-TW"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160808T045044Z
+    - ID: "2ed53f9b-229a-4390-9bfd-8c20cd50afc2"
+      Hint: HeroLinksItems
+      Type: Treelist
+      Value: |
+        {7365D31C-6065-4539-913D-9D2ECB28F45C}
+        {0467C160-AF97-49C4-AA63-C310DDC89EE9}
+        {05726C36-0855-4CE8-8037-7BD527BA12B3}
+        {4ED99DE7-37AB-4831-87A4-F32B25CE38BF}
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: 見解
+    - ID: "80ddf73a-c493-45c7-8473-b58544e44943"
+      Hint: TaxonomyParent
+      Value: "{8224A3D9-54CD-45D8-AE1C-4D0E387F0B4D}"

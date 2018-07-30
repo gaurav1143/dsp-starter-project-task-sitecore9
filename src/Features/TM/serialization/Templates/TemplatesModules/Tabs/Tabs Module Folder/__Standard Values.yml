@@ -1,0 +1,28 @@
+﻿---
+ID: "ebb671f2-7a83-4fa1-95c5-4e95789e609b"
+Parent: "512b6e7a-defd-4ceb-badf-860e315413d2"
+Template: "512b6e7a-defd-4ceb-badf-860e315413d2"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Tabs/Tabs Module Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/folder_cubes.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {512B6E7A-DEFD-4CEB-BADF-860E315413D2}
+    {586670C7-B065-4C3E-8CC9-AB1BF6D0F562}
+    {09DC2CA3-61DD-4E96-9F2A-60CC5B7D3D6A}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160518T235350Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

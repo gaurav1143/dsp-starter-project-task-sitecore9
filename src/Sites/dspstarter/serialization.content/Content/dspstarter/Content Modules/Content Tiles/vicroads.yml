@@ -1,0 +1,23 @@
+﻿---
+ID: "482cd3a0-6314-4fe7-a3f7-4cf256ab1081"
+Parent: "446405a9-4b40-408b-8015-76c9b44ef702"
+Template: "7c69e05f-19cf-48d2-8382-c9a10255a825"
+Path: /sitecore/content/dspstarter/Content Modules/Content Tiles/vicroads
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link id=\"{AB4B3AAD-0606-488B-88A9-8CB0879BB0F3}\" querystring=\"\" text=\"\" title=\"\" class=\"\" linktype=\"internal\" url=\"/dspstarter/Home/work/vicroads\" target=\"\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160222T234756Z
+    - ID: "2f1f0ab9-0450-49a3-a505-226b87ecab13"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{62FBA01A-FA93-4043-B3AA-1C8C4799D2AD}\" />"
+    - ID: "f7f92772-48f1-49de-8a65-d8055f7488bf"
+      Hint: Title
+      Value: VicRoads

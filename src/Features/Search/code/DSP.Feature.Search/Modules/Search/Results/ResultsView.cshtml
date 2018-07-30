@@ -1,0 +1,11 @@
+﻿@model DSP.Feature.Search.Modules.Search.Results.Results
+
+@using (Html.BeginEditFrame(@Model.ContextItemId, "/sitecore/content/Applications/WebEdit/Edit Frame Buttons/DSP/Features/Search"))
+{
+    <ol class="collection-list">
+        @foreach (var item in Model.SearchResults)
+        {
+            @Model.ResultPartialFactory.Partial(Html, item)
+        }
+    </ol>
+}

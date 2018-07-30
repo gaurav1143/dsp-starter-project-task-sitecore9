@@ -1,0 +1,35 @@
+﻿---
+ID: "9d3005e7-6313-4020-a110-e27ff635a6d9"
+Parent: "dadcce3e-ec29-4d51-98b9-9b0c999b8f15"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/content/dspstarter/Content Modules/Rich Text/landing_about
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: |
+        Deloitte Digital is committed to helping clients unlock the business value of emerging technologies. We provide clients with a full suite of digital services, covering digital strategy, user experience, content, creative, engineering and implementation across mobile, web and social media channels.<br>
+        <br>
+        We employ over 400 people, comprising many of the country’s most talented online strategists, designers, engineers, marketers, copywriters, consultants, business analysts and quality assurance professionals.<br>
+        <br>
+        The integration of our skills and talents enables us to build more than just a website. We build new business capability by creating the right balance of creativity, communications and technology. <br>
+        <br>
+        How are we different? Our difference comes from our diversity. We bring many different perspectives to our clients’ challenges and opportunities. We have the business acumen of a strategic advisor; the design capability of a creative agency and the engineering depth of a technology firm.<br>
+        <br>
+        Furthermore, we can shape our broader range of capabilities into an integrated solution for the more transformational projects requiring expertise in areas such as operations, human capital management, risk management and data analytics.<br>
+        <br>
+        <strong>In essence, we think, we shape, we act<br></strong>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160104T045754Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"

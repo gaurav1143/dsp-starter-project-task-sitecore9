@@ -1,0 +1,41 @@
+﻿---
+ID: "d60651a3-2b3d-4001-a779-549be7273c96"
+Parent: "ad308003-a86f-4681-b671-5a5a3c685e28"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Deloitte/Foundation/Common/Base Page
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/document_down.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {6C8A8A14-21E9-4512-A34B-3C973B84C25D}
+    {3F64FA8F-2006-4534-AEC1-D43BA065214D}
+    {C9454F9A-AA8D-4581-A502-7463A1AA7D30}
+    {4EA38D85-4D8A-4279-BD70-478775A83423}
+    {34CB17E0-220C-4135-8223-2BC6C5A8F9D2}
+    {7299C9C5-8AC3-47DF-B7C0-21EF7999BB4B}
+    {E77A1B33-E53A-488D-A197-613BFF03DF6A}
+    {A258D609-C687-4A8D-BD41-159173DBF343}
+    {02B5F3EC-4E44-4CE6-983D-DA82A9B34039}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{0ACADE17-695E-4F52-B4D1-3333B2D46B37}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150902T054147Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

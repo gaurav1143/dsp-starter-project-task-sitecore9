@@ -1,0 +1,41 @@
+﻿---
+ID: "c91f2d6b-058e-490e-85a7-6cc67be7e9b3"
+Parent: "d7d21637-a7c0-4a8e-99a6-e753b4c06276"
+Template: "0e12e814-46f2-4e78-91a2-3782eb320c31"
+Path: /sitecore/content/dspstarter/Configuration/Footer Links/Contact/Terms of Use
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link linktype=\"external\" text=\"Terms of Use\" url=\"http://www2.deloitte.com/au/en/legal/legal.html\" anchor=\"\" target=\"_blank\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160316T032421Z
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"使用条款\" linktype=\"external\" url=\"http://www2.deloitte.com/au/en/legal/legal.html\" anchor=\"\" target=\"\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160826T003828Z
+- Language: "zh-TW"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"使用條款\" linktype=\"external\" url=\"http://www2.deloitte.com/au/en/legal/legal.html\" anchor=\"\" target=\"\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160826T003614Z

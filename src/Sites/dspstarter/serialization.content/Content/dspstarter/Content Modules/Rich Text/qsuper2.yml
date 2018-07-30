@@ -1,0 +1,24 @@
+﻿---
+ID: "102daafe-94d9-4937-820f-aee3d4af94c9"
+Parent: "dadcce3e-ec29-4d51-98b9-9b0c999b8f15"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/content/dspstarter/Content Modules/Rich Text/qsuper2
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: "<p><strong style=\"font-size: 1rem; line-height: 1.875;\">Rebuilding the online experience</strong><br></p><p style=\"margin-bottom: 14px;\">To ensure that the redesigned website served QSuper’s members more effectively, Deloitte conducted user testing and utilised valuable member feedback to validate the design and architecture. Opportunities were identified to execute a content strategy designed to increase the efficiency of navigation. By enhancing the consumption of the content and consolidating pages, a sustainable website structure with minimal maintenance was re-platformed.</p>"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160520T042235Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"

@@ -1,0 +1,11 @@
+﻿---
+Role: sitecore\Base Content Publisher
+MemberOf:
+  Role: sitecore\Can Edit Aliases
+  Role: sitecore\Can Edit HTML Source of Rich Text Editor
+  Role: sitecore\Sitecore Client Publishing
+  Role: sitecore\Can Reorder Pages
+  Role: sitecore\Base Content Author
+  Role: sitecore\Can Archive Content
+  Role: sitecore\Can Delete Pages
+  Role: sitecore\Can Personalise Content

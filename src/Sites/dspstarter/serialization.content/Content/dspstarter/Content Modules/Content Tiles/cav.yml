@@ -1,0 +1,23 @@
+﻿---
+ID: "f005ff39-ee81-4700-8964-7951b9b93f1e"
+Parent: "446405a9-4b40-408b-8015-76c9b44ef702"
+Template: "7c69e05f-19cf-48d2-8382-c9a10255a825"
+Path: /sitecore/content/dspstarter/Content Modules/Content Tiles/cav
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link id=\"{49AD800A-7AE0-4B3C-BC4D-CAAF4DD9BADF}\" querystring=\"\" text=\"\" title=\"\" class=\"\" linktype=\"internal\" url=\"/dspstarter/Home/work/cav\" target=\"\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160223T232233Z
+    - ID: "2f1f0ab9-0450-49a3-a505-226b87ecab13"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{D672C046-5391-4A2A-B8B0-9CF8D5E1297C}\" />"
+    - ID: "f7f92772-48f1-49de-8a65-d8055f7488bf"
+      Hint: Title
+      Value: Consumer Affairs Victoria

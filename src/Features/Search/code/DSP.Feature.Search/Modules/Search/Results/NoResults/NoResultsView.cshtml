@@ -1,0 +1,18 @@
+﻿@using DeloitteDigital.Atlas.Mvc
+@model DSP.Feature.Search.Modules.Search.Results.NoResults.NoResults
+
+@using (Html.BeginEditFrame(Model.ContextItemId, "/sitecore/content/Applications/WebEdit/Edit Frame Buttons/DSP/Features/Search"))
+{
+    <div class="collection-no-results">
+        <h2>Sorry we couldn't find anything to match your search.</h2>
+        <p>Suggestions:</p>
+        <ul>
+            <li>Make sure all the words are spelled correctly.</li>
+            <li>Try different keywords</li>
+            @if (Model.FiltersApplied)
+            {
+                <li><a href="?@Model.NoFiltersLink">Clear all filters</a></li>
+            }
+        </ul>
+    </div>
+}

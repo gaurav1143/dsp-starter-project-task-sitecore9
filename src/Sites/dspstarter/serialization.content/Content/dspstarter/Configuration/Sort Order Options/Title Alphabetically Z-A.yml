@@ -1,0 +1,31 @@
+﻿---
+ID: "18702659-5460-48e2-a39d-2c24121ef1a5"
+Parent: "b18a7df7-61bd-49b1-a590-3f67743c1c5a"
+Template: "bdc3d199-d33a-4b6c-9b09-5dbf9c863c63"
+Path: "/sitecore/content/dspstarter/Configuration/Sort Order Options/Title Alphabetically Z-A"
+DB: master
+SharedFields:
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160205T061156Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "5ec2d104-3ac4-4a68-95f2-48a29669c52f"
+      Hint: Type
+      Value: DSP.Business.Search.Sorting.TitleAlphabeticallyDescendingSorter, DSP.Business.Search
+    - ID: "8d32957e-59bc-4d57-a04d-eba44a5e6c1d"
+      Hint: Label
+      Value: "Alphabetically (Z-A)"
+    - ID: "ca55301d-c459-4bb4-84c2-fc4db55aee15"
+      Hint: Key
+      Value: za

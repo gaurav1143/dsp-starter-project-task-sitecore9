@@ -1,0 +1,26 @@
+/*
+ * RTE.CSS
+ * This is a set of class names to provide to sitecore so they can be applied by a dropdown menu
+ */
+
+/* IMAGE Styles */
+img.is-left {}
+
+img.is-right {}
+
+img.is-full {}
+
+/* LINK/BUTTON Styles */
+a.cta {}
+
+a.cta-is-small {}
+
+a.cta-is-secondary {}
+
+a.cta-is-secondary-small {}
+
+/* TABLE Styles */
+table.js-responsive-table {}
+
+/* PARAGRAPH Styles */
+p.intro {}

@@ -1,0 +1,24 @@
+﻿---
+ID: "70c0fc68-5bbe-4cbc-888a-f3f38b37dbef"
+Parent: "dadcce3e-ec29-4d51-98b9-9b0c999b8f15"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/content/dspstarter/Content Modules/Rich Text/vroads3
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: "<p style=\"margin-top: 0pt; margin-bottom: 9pt; margin-left: 0in;\"><strong style=\"font-size: 1rem; line-height: 1.875;\">Bigger, better and responsive</strong><br></p><p style=\"margin-top: 0pt; margin-bottom: 9pt; margin-left: 0in;\">Our user research showed that most customers would prefer to interact with VicRoads through the online channel and expect to be able to complete most tasks on different devices.</p><p style=\"margin-top: 0pt; margin-bottom: 9pt; margin-left: 0in;\">This supported our recommendation for responsive design where there is no distinction for end users between mobile and desktop versions of the website.</p>"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160520T010813Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"

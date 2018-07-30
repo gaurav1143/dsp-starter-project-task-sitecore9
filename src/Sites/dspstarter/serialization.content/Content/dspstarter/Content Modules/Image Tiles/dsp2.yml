@@ -1,0 +1,23 @@
+﻿---
+ID: "70ef00f3-995d-408d-897a-7727c76ba5ec"
+Parent: "da43c42f-9357-4fa6-91fa-2d728b908cb7"
+Template: "a433ed38-7d03-4d29-bc2b-1471bbb1d2c4"
+Path: /sitecore/content/dspstarter/Content Modules/Image Tiles/dsp2
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160215T054645Z
+    - ID: "4226a6a7-ebc8-423f-8428-c5f812ac174d"
+      Hint: ImageCaption
+      Value: Image
+    - ID: "e4791d22-a8e4-41f8-ae5f-57c4e0553884"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{E6603492-27A6-4A9A-8ACE-A9B9A96C2C97}\" alt=\"Meeting\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" />"
+    - ID: "f7f92772-48f1-49de-8a65-d8055f7488bf"
+      Hint: Title
+      Value: DSP 2

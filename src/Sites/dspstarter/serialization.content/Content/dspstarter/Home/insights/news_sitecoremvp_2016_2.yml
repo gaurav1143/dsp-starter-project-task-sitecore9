@@ -1,0 +1,81 @@
+﻿---
+ID: "6373d7f6-d0a2-4919-9dc2-7610363e10bb"
+Parent: "a0263b64-b001-43dd-879a-582af7d9d71c"
+Template: "24368a0b-c05d-470c-b544-9be20be3fff7"
+Path: /sitecore/content/dspstarter/Home/insights/news_sitecoremvp_2016_2
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{D25C7DD1-0459-44E5-A928-D675CF2E02D5}"
+              s:ds="{3987362C-010C-4433-8A4B-CE4D6607DAA0}"
+              s:id="{6ADB977C-B0AF-4BA4-8FCE-E6C7AB6973B7}"
+              s:ph="/layout/aside">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="CE502A29EB4B46B58AA00E06BCE6CB4F"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160211T000755Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Cameron Walker and Troy Outtram named Sitecore Most Valuable Professionals
+    - ID: "72691cae-f39c-44e8-bf26-c8d65e384d89"
+      Hint: MetaBrowserTitle
+      Value: Cameron Walker and Troy Outtram named Sitecore Most Valuable Professionals
+    - ID: "8357be37-6e13-4bdd-9b01-2fbbf0b763b2"
+      Hint: HideFromNavigation
+      Type: Checkbox
+      Value: 1
+    - ID: "9b35b0c9-3bfc-4de7-b932-a7ee4c774cd7"
+      Hint: GeneralText
+      Value: |
+        Deloitte Digital has been recognised as Australia&rsquo;s leading digital agency with the recent announcement of two 2016 Sitecore Most Valuable Professional (MVP) awards. Cameron Walker was named as a Technology MVP for the third consecutive year and Troy Outtram was recognised as a Digital Strategist MVP.<br>
+        <br>
+        This is a fantastic recognition for Deloitte Digital as only 177 people worldwide were named a Technology MVP this year and 35 people were named a Digital Strategist MVP. Cameron leads Deloitte Digital&rsquo;s Sitecore and .NET implementation team and has over 18 years&rsquo; experience as a software developer and solution architect. While Troy, as a Director at Deloitte Digital, leverages his previous experience across over 30+ Sitecore implementations, to help organisations fully utilise Sitecore&rsquo;s capabilities to transform their business and drive engaging customer experiences.<br>
+        <br>
+        Now in its tenth year, Sitecore&rsquo;s MVP program acknowledges technology, digital strategy, and commerce advocates who share their Sitecore passion and expertise to offer positive customer experiences that drive business results. The Sitecore Technology MVP Award recognises the most active Sitecore experts from around the world who participate in online and offline communities to share their knowledge with other Sitecore partners and customers.<br>
+        <br>
+        &ldquo;We are grateful for the leadership, expertise, and ongoing contributions that both Cameron and Troy have made to the Sitecore community,&rdquo; said Pieter Brinkman, Director of Developer and Platform Evangelism, Sitecore. &ldquo;They have both demonstrated a mastery of our technology that exemplifies the spirit of Sitecore.&rdquo;<br>
+        <br>
+        Sitecore&rsquo;s experience platform combines web content management, omni-channel digital delivery, customer insight and engagement, and strategic digital marketing tools into a single, unified platform. The platform is incredibly easy to use, capturing every minute interaction &ndash; and intention &ndash; that customers and prospects have with a brand, both on a website and across other digital channels. The end-to-end experience technology works behind the scenes to deliver context marketing to individual customers, so that they engage in relevant brand experiences that earn loyalty and achieve results.<br>
+        <br>
+        Deloitte Digital has one of the largest and most experienced Sitecore implementation teams in Australia, comprising over seventy certified and experienced Sitecore professionals across Australia and South East Asia. The MVP awards continue the recognition of Deloitte Digital&rsquo;s work with Sitecore following five separate Sitecore Experience Awards that were bestowed for Sitecore solutions delivered in 2015.
+    - ID: "f4f81abf-4b1e-44ab-a640-d4b383f51c9c"
+      Hint: NavigationTitle
+      Value: Cameron Walker and Troy Outtram named Sitecore Most Valuable Professionals

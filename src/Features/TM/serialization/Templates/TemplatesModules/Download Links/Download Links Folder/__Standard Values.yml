@@ -1,0 +1,24 @@
+﻿---
+ID: "136f788e-fd78-48c1-b4b7-e916d26a874f"
+Parent: "eddec721-0744-46f3-bae7-b258138b666f"
+Template: "eddec721-0744-46f3-bae7-b258138b666f"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Download Links/Download Links Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {D2632F2A-A347-466C-A2FE-96AA71D0E4EB}
+    {EDDEC721-0744-46F3-BAE7-B258138B666F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160104T032524Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

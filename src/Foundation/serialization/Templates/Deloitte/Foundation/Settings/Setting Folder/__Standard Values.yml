@@ -1,0 +1,30 @@
+﻿---
+ID: "b82064af-7527-4bef-aa87-3ad950f47af4"
+Parent: "4a2cefc3-510f-4a6a-94eb-d0108915fcea"
+Template: "4a2cefc3-510f-4a6a-94eb-d0108915fcea"
+Path: /sitecore/templates/Deloitte/Foundation/Settings/Setting Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {4A2CEFC3-510F-4A6A-94EB-D0108915FCEA}
+    {7564FB4F-21D5-4533-8B2C-BF307F341EDE}
+    {B9C68040-AF98-4BC6-8000-7CBD79CE1F08}
+    {07391768-7140-48B8-8D8C-21885E364E24}
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20141223T072012Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

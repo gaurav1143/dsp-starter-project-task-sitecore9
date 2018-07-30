@@ -1,0 +1,32 @@
+﻿---
+ID: "045d734b-2015-44e7-8635-e306b91c4e53"
+Parent: "90e85629-dcbb-4d8d-ac02-5df602d40c7d"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/dspstarter/Landing/Landing-Main"
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: 
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {9643086E-7EB3-4C51-B75F-20874E672A7A}
+    {6F43647E-A53C-411B-BDC7-0AF6AC17D370}
+    {55CA3141-2782-4A5E-B0E7-9753CAF37B3C}
+    {B8EA0BC7-C09A-40F6-B2BE-480EC20BF626}
+    {55137D48-3560-4039-8581-8B1AF8867E1E}
+    {032BFC78-9019-40C9-9E51-07C36B4D7510}
+    {A3B58273-CAF6-46D8-88A9-15CEF4E54F8A}
+    {DC809DB2-95D7-4B0A-8CF2-B29821976B9F}
+    {1750089B-5429-4DFC-AC58-B29ED26CD364}
+    {20B5EB2D-9D1B-45EE-863C-B30EEDD3AB46}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151224T005628Z

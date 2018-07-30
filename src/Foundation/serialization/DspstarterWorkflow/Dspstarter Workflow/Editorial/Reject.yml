@@ -1,0 +1,21 @@
+﻿---
+ID: "8c243848-1485-4f1e-9d71-97e2d8e056c8"
+Parent: "ab4dde9d-95f6-4ec3-b7e2-f8a54923c954"
+Template: "cb01f9fc-c187-46b3-ab0b-97a8468d8303"
+Path: /sitecore/system/Workflows/Dspstarter Workflow/Editorial/Reject
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/16x16/delete.png
+- ID: "dcbebc58-6124-4100-a248-fc717d6c78d5"
+  Hint: Next state
+  Value: "{9B95C625-5A3E-4843-8F79-0EE7D9A5C41A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161214T002343Z

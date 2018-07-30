@@ -1,0 +1,22 @@
+﻿---
+ID: "ae876d09-c133-4015-b833-e65e187b69aa"
+Parent: "5f90e321-31da-4747-902f-139d88510af1"
+Template: "7564fb4f-21d5-4533-8b2c-bf307f341ede"
+Path: "/sitecore/content/dspstarter/Configuration/Rendering Options/Text Position Options/is-alt-side"
+DB: master
+SharedFields:
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160226T031135Z
+    - ID: "f51115a8-58df-4e93-bf63-4befac265fcf"
+      Hint: Help
+      Value: Move the text and image to the opposite sides

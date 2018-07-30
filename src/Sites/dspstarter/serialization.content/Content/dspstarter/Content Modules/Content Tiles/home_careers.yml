@@ -1,0 +1,64 @@
+﻿---
+ID: "73dd02e3-23c8-42d4-8e33-419cd3b896c9"
+Parent: "446405a9-4b40-408b-8015-76c9b44ef702"
+Template: "7c69e05f-19cf-48d2-8382-c9a10255a825"
+Path: /sitecore/content/dspstarter/Content Modules/Content Tiles/home_careers
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00df211e-7ca3-4adf-93b5-ce636d2d9898"
+      Hint: Description
+      Value: "Are you developer who has a passion for all things digital? "
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link id=\"{4C15E6B9-EEE7-487F-A886-3D63A7BE68D9}\" querystring=\"\" text=\"\" title=\"\" class=\"\" linktype=\"internal\" url=\"/dspstarter/Home/about_us/careers\" target=\"\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160105T032808Z
+    - ID: "2f1f0ab9-0450-49a3-a505-226b87ecab13"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{2928D319-D5C2-407E-9F44-F5BDBD5F7F99}\" ></image>"
+    - ID: "f7f92772-48f1-49de-8a65-d8055f7488bf"
+      Hint: Title
+      Value: Careers
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00df211e-7ca3-4adf-93b5-ce636d2d9898"
+      Hint: Description
+      Value: "你是对全数位化有极大兴趣的程式开发人员吗?"
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{4C15E6B9-EEE7-487F-A886-3D63A7BE68D9}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160826T021512Z
+    - ID: "2f1f0ab9-0450-49a3-a505-226b87ecab13"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{2928D319-D5C2-407E-9F44-F5BDBD5F7F99}\" />"
+    - ID: "f7f92772-48f1-49de-8a65-d8055f7488bf"
+      Hint: Title
+      Value: 工作机会
+- Language: "zh-TW"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00df211e-7ca3-4adf-93b5-ce636d2d9898"
+      Hint: Description
+      Value: "你是對全數位化有極大興趣的程式開發人員嗎?"
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{4C15E6B9-EEE7-487F-A886-3D63A7BE68D9}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160826T021310Z
+    - ID: "2f1f0ab9-0450-49a3-a505-226b87ecab13"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{2928D319-D5C2-407E-9F44-F5BDBD5F7F99}\" />"
+    - ID: "f7f92772-48f1-49de-8a65-d8055f7488bf"
+      Hint: Title
+      Value: 工作機會

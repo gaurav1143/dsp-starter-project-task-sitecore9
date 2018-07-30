@@ -1,0 +1,23 @@
+﻿---
+ID: "ed8e078e-79ad-451f-bb8d-5c7fe09743c7"
+Parent: "446405a9-4b40-408b-8015-76c9b44ef702"
+Template: "7c69e05f-19cf-48d2-8382-c9a10255a825"
+Path: /sitecore/content/dspstarter/Content Modules/Content Tiles/racmembers
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00df211e-7ca3-4adf-93b5-ce636d2d9898"
+      Hint: Description
+      Value: In partnership with Deloitte Digital, RAC has recently launched myRAC, the first release of a new portal for its member. 
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{F1433CA7-B7F4-4D10-8A66-0F09E6455319}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160321T215653Z
+    - ID: "f7f92772-48f1-49de-8a65-d8055f7488bf"
+      Hint: Title
+      Value: Deloitte Digital and RAC place members at the centre of the experience

@@ -1,0 +1,29 @@
+﻿---
+ID: "fee55d4f-f03a-4a51-b27f-65917949c05a"
+Parent: "e42f6684-f6b9-40ff-99ab-44034887fdc2"
+Template: "0ca88c8e-e38f-4496-9cec-1c7ed01897ef"
+Path: /sitecore/content/dspstarter/Content Modules/Accordion/AccordionItems/FAQ1
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160517T111759Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Frequently asked question 1
+    - ID: "9b35b0c9-3bfc-4de7-b932-a7ee4c774cd7"
+      Hint: GeneralText
+      Value: |
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices et nunc nec mattis. Donec at feugiat diam. Duis auctor non nibh non laoreet. Aliquam sed efficitur est. Donec accumsan commodo pharetra. Nulla vel ipsum dolor. Aenean vitae ligula vehicula, vestibulum est vitae, iaculis ligula. Aenean tempor augue sed nunc dignissim, malesuada blandit quam consequat. Nunc elementum augue eget tortor volutpat, ac placerat diam efficitur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+        <p>Aenean vitae ligula vehicula, vestibulum est vitae, iaculis ligula. Aenean tempor augue sed nunc dignissim, malesuada blandit quam consequat. Nunc elementum augue eget tortor volutpat, ac placerat diam efficitur.</p>

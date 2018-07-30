@@ -1,0 +1,24 @@
+﻿@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Content.QueryRelatedLinks.QueryRelatedLinksRendering
+
+<!-- START .cm-links-related -->
+<section class="cm cm-links cm-links-related has-top-border">
+    <h1>@Model.ViewModel.Title</h1>
+
+    @using (Html.BeginEditFrame(Model.Item, "/sitecore/content/Applications/WebEdit/Edit Frame Buttons/DSP/Features/TemplatesModules/Query Related Links"))
+    {
+    <ul>
+        @foreach (var item in Model.ViewModel.Links)
+        {
+            <li>
+                <a href="@item.Link" class="link-item">
+                    <strong>@item.Title</strong>
+                    <p>@item.ShortDescription</p>
+                </a>
+            </li>
+        }
+    </ul>
+    }
+
+    @Model.ViewModel.ViewMoreLink
+</section>
+<!-- END .cm-links-related -->

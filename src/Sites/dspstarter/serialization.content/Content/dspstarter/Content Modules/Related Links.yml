@@ -1,0 +1,18 @@
+﻿---
+ID: "25926666-8190-4c52-b84f-a9c872620374"
+Parent: "b9f5a81a-64b6-495e-8d14-5f76eaa3c2b8"
+Template: "35880ee6-12f4-4f84-94d7-521d21bf6ffa"
+Path: /sitecore/content/dspstarter/Content Modules/Related Links
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151125T060950Z

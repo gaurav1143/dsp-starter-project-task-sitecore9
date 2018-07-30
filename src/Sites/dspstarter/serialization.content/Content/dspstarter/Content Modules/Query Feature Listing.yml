@@ -1,0 +1,14 @@
+﻿---
+ID: "104616b7-20c6-4967-9874-f32e89f6ec52"
+Parent: "b9f5a81a-64b6-495e-8d14-5f76eaa3c2b8"
+Template: "1b92f603-880a-4692-a0d6-75c8767a5733"
+Path: /sitecore/content/dspstarter/Content Modules/Query Feature Listing
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160615T011546Z

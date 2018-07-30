@@ -1,0 +1,86 @@
+﻿---
+ID: "48b5e8b4-45a2-4413-adef-a123c1ad850f"
+Parent: "3889a8a1-8317-40a8-8d98-6ec2d36e1826"
+Template: "4712801f-1d3f-4384-86b2-89bb8410a2cb"
+Path: /sitecore/content/dspstarter/Content Modules/Hero Carousels/Slides/Award winning
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{255A5250-71D6-4F2A-87FE-1683E8B10989}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160307T034939Z
+    - ID: "2e373548-c1dd-4091-8514-4222d32a1d34"
+      Hint: MoreText
+      Value: Find out more
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Award winning platform
+    - ID: "7f66b395-ebfb-40d2-a452-fd480284d8be"
+      Hint: ShortDescription
+      Value: Deloitte Digital have won a number of awards for clients with the Deloitte Sitecore Platform. 
+    - ID: "e4791d22-a8e4-41f8-ae5f-57c4e0553884"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{4A2416A3-C4D1-4EF8-ABE1-814BBE587A00}\" height=\"\" hspace=\"\" width=\"\" alt=\"awards\" vspace=\"\" />"
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"更多\" linktype=\"internal\" querystring=\"\" target=\"\" id=\"{255A5250-71D6-4F2A-87FE-1683E8B10989}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160821T032513Z
+    - ID: "2e373548-c1dd-4091-8514-4222d32a1d34"
+      Hint: MoreText
+      Value: 更多
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: 受众多奖项肯定的平台
+    - ID: "7f66b395-ebfb-40d2-a452-fd480284d8be"
+      Hint: ShortDescription
+      Value: Deloitte Digital开发的Deloitte Sitecore Platform已为众多客户赢得许多奖项
+    - ID: "e4791d22-a8e4-41f8-ae5f-57c4e0553884"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{4A2416A3-C4D1-4EF8-ABE1-814BBE587A00}\" />"
+- Language: "zh-TW"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"更多\" linktype=\"internal\" querystring=\"\" target=\"\" id=\"{255A5250-71D6-4F2A-87FE-1683E8B10989}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160727T010127Z
+    - ID: "2e373548-c1dd-4091-8514-4222d32a1d34"
+      Hint: MoreText
+      Value: 更多
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: 受眾多獎項肯定的平臺
+    - ID: "7f66b395-ebfb-40d2-a452-fd480284d8be"
+      Hint: ShortDescription
+      Value: Deloitte Digital 開發的Deloitte Sitecore Platform 已為眾多客戶贏得許多獎項
+    - ID: "e4791d22-a8e4-41f8-ae5f-57c4e0553884"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{4A2416A3-C4D1-4EF8-ABE1-814BBE587A00}\" height=\"\" hspace=\"\" width=\"\" alt=\"Award\" vspace=\"\" />"

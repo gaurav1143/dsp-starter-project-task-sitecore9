@@ -1,0 +1,34 @@
+﻿---
+ID: "d135c26d-52ef-4544-b5dd-fec18832f38c"
+Parent: "41a7ae5f-167e-4528-83f2-1b6cd490949f"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Deloitte/Foundation/Common/Field Sections/Query Path/Query/QueryPath
+DB: master
+SharedFields:
+- ID: "074f44ca-359a-4c13-b3aa-4a6be2a675b1"
+  Hint: Validation
+  Value: "^(\{[^}]+\}\|?){0,1}$"
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: Datasource=/sitecore/content/dspStarter/Home&ExcludeTemplatesForSelection=root,Main Section,Website
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Treelist
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: Location to start searching from
+  - ID: "b12e4906-b96b-495e-b343-cd2e92dc6347"
+    Hint: ValidationText
+    Value: You can only select a maximum of one location
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160609T002229Z

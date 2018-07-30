@@ -1,0 +1,23 @@
+﻿---
+ID: "feab8e7f-36a6-467c-b41c-48c15fcca0bd"
+Parent: "d84c18e6-d548-4be2-b6a6-7721d178e19f"
+Template: "ca7a9ed6-848f-4d58-8db9-818bc7553dbd"
+Path: /sitecore/content/dspstarter/Configuration/Tags/Automated Tags
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{C6BFB493-0511-473C-9AD4-2E50FD845C2E}"
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151202T051359Z

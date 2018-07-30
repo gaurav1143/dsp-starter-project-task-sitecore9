@@ -1,0 +1,64 @@
+﻿---
+ID: "66291f94-79df-4d19-9760-d8e1f9e06cca"
+Parent: "446405a9-4b40-408b-8015-76c9b44ef702"
+Template: "7c69e05f-19cf-48d2-8382-c9a10255a825"
+Path: /sitecore/content/dspstarter/Content Modules/Content Tiles/home_partnership
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00df211e-7ca3-4adf-93b5-ce636d2d9898"
+      Hint: Description
+      Value: We have one of the strongest and largest Sitecore partnerships in Australia. 
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link id=\"{559430B2-02C3-4B9C-9740-4F6BF1776A39}\" querystring=\"\" text=\"\" title=\"\" class=\"\" linktype=\"internal\" url=\"/dspstarter/Home/about_us/partnership\" target=\"\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160105T032808Z
+    - ID: "2f1f0ab9-0450-49a3-a505-226b87ecab13"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{88EE1BBA-01F3-4B10-A48B-9D94F75E747E}\" ></image>"
+    - ID: "f7f92772-48f1-49de-8a65-d8055f7488bf"
+      Hint: Title
+      Value: Our Partnership
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00df211e-7ca3-4adf-93b5-ce636d2d9898"
+      Hint: Description
+      Value: 我们是澳大利亚最强大的Sitecore的合作伙伴
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{559430B2-02C3-4B9C-9740-4F6BF1776A39}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160826T021651Z
+    - ID: "2f1f0ab9-0450-49a3-a505-226b87ecab13"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{88EE1BBA-01F3-4B10-A48B-9D94F75E747E}\" />"
+    - ID: "f7f92772-48f1-49de-8a65-d8055f7488bf"
+      Hint: Title
+      Value: 合作关系
+- Language: "zh-TW"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00df211e-7ca3-4adf-93b5-ce636d2d9898"
+      Hint: Description
+      Value: 我們是澳洲最強大的Sitecore合作夥伴
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{559430B2-02C3-4B9C-9740-4F6BF1776A39}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160826T021925Z
+    - ID: "2f1f0ab9-0450-49a3-a505-226b87ecab13"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{88EE1BBA-01F3-4B10-A48B-9D94F75E747E}\" />"
+    - ID: "f7f92772-48f1-49de-8a65-d8055f7488bf"
+      Hint: Title
+      Value: 合作關係

@@ -1,0 +1,14 @@
+﻿---
+ID: "04119361-0d98-455b-9c73-ee34e1cfa7aa"
+Parent: "a47eac9f-6130-4efb-8274-3594a02f14f0"
+Template: "4a2cefc3-510f-4a6a-94eb-d0108915fcea"
+Path: /sitecore/content/dspstarter/Configuration/MetaData/Robots
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151221T034751Z

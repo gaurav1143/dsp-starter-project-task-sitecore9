@@ -1,0 +1,22 @@
+﻿---
+ID: "ba546cc9-b137-417a-9964-c6976f006f63"
+Parent: "ca5982b8-52c4-4c40-8b23-078e2de6c035"
+Template: "ca5982b8-52c4-4c40-8b23-078e2de6c035"
+Path: /sitecore/templates/Deloitte/Foundation/Sections/Facebook App ID/__Standard Values
+DB: master
+SharedFields:
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160705T052522Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

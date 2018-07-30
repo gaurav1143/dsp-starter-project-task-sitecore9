@@ -1,0 +1,51 @@
+﻿---
+ID: "d1ed2c6a-2794-4b68-9a47-a53d4ab36971"
+Parent: "dadcce3e-ec29-4d51-98b9-9b0c999b8f15"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/content/dspstarter/Content Modules/Rich Text/dsp_6
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: "<div><b>Focus on delivering value to your business</b></div><div><br></div><div>The value that your business website delivers is not in the way you get your content published onto your website. You deliver value through your content, your understanding of your users and the custom functionality that you deliver - and those are the things that we want to assist you to deliver. </div><div><br></div><div>Our preferred approach is to focus on getting a minimum viable site implementation to market as quickly and efficiently as possible, then using that as a platform to iteratively, incrementally and continuously deliver improved functionality focusing on where the most value is created. Your new platform allows you to use analytics and optimisation capabilities of Sitecore to take an evidence based approach to developing your site. Deloitte Digital’s customer behaviour team are experts in maximising the value extracted from digital platforms.</div>"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160215T042442Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+- Language: "ms-MY"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: |
+        <p><strong>Fokus Dalam Penyampaian Solusi Terbaik Bagi Anda</strong></p>
+        <p>Anda menyampaikan nilai melalui pengarangan kandungan anda, bukan dalam cara anda menerbitkan kandungan ke dalam laman sesawang &ndash; jadi penting bagi anda untuk memahami pengguna anda dan pengkhususan solusi yang dilaksanakan. Di situlah di mana kami mahu membantu anda. Cara pendekatan kami adalah memberikan fokus kepada pelaksanaan minimum viable product dengan pantas dan efisien. Dengan itu, perkembangan boleh dijalankan secara iteratif dan berperingkat. Platform baru yang direka khusus untuk anda ini juga membolehkan penggunaan analytics agar setiap penambahbaikan laman sesawang adalah berasaskan bukti yang wajar. Pasukan customer behaviour Deloitte Digital adalah pakar dalam memaksimumkan nilai yang diekstrak daripada setiap platform digital.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160907T004319Z
+- Language: "th-TH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: |
+        <div><strong>มุ่งเน้นสร้างมูลค่าให้ธุรกิจคุณ</strong></div>
+        <div> </div>
+        <div>คุณค่าของเว็บไซต์ของธุรกิจคุณไม่ได้มีแค่เพียงการนำเสนอคอนเทนต์บนเว็บไซต์เท่านั้น คุณสร้างมูลค่าของธุรกิจจากการใช้คอนเทนต์ จากความเข้าใจเกี่ยวกับยูสเซอร์ และการให้บริการฟังก์ชั่นเฉพาะที่คุณสร้างขึ้น และสิ่งเหล่านี้คือสิ่งที่เราต้องการช่วยให้คุณทำได้ดีขึ้น </div>
+        <div> </div>
+        <div>วิธีการที่เราแนะนำให้ใช้คือการมุ่งเน้นสร้างเว็บที่มีฟังก์ชั่นน้อยที่สุดเท่าที่จำเป็น (minimal viable site) เพื่อนำสู่ตลาดให้เร็วและมีประสิทธิภาพมากที่สุดเท่าที่จะเป็นไปได้ แล้วใช้เป็นแพลตฟอร์มพื้นฐานในการที่จะค่อยๆ ปรับปรุงซ้ำๆ อย่างต่อเนื่อง เพื่อให้บริการฟังก์ชั่นที่ตรงความต้องการและสร้างมูลค่าสูงที่สุด แพลตฟอร์มใหม่ของคุณจะทำให้คุณใช้ความสามารถในการวิเคราะห์และปรับความเหมาะสมของไซต์คอร์ได้ และนำคุณไปสู่การพัฒนาเว็บไซต์อย่างมีหลักฐานและเหตุผล โดยทีมวิเคราะห์พฤติกรรมลูกค้าของดีลอยท์ดิจิตอลเป็นผู้เชี่ยวชาญที่จะช่วยให้คุณดึงมูลค่าได้สูงสุดจากดิจิตอลแพลตฟอร์ม</div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160907T001140Z

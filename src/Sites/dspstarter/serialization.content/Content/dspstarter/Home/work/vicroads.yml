@@ -1,0 +1,48 @@
+﻿---
+ID: "ab4b3aad-0606-488b-88a9-8cb0879bb0f3"
+Parent: "422f39d9-e106-4fa5-9ace-cb2702f5c86b"
+Template: "1e8966bf-97d7-449b-ac14-3421c16a5e78"
+Path: /sitecore/content/dspstarter/Home/work/vicroads
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151224T064627Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: VicRoads
+    - ID: "72691cae-f39c-44e8-bf26-c8d65e384d89"
+      Hint: MetaBrowserTitle
+      Value: VicRoads
+    - ID: "8357be37-6e13-4bdd-9b01-2fbbf0b763b2"
+      Hint: HideFromNavigation
+      Type: Checkbox
+      Value: 1
+    - ID: "9b35b0c9-3bfc-4de7-b932-a7ee4c774cd7"
+      Hint: GeneralText
+      Value: |
+        <p style="margin-top: 0pt; margin-bottom: 9pt; margin-left: 0in;"><span><strong>Optimising the digital channel</strong></span></p>
+        <p style="margin-top: 0pt; margin-bottom: 9pt; margin-left: 0in;"><span>Looking </span><span>to broaden their digital business services and to enrich their customer engagement, VicRoads engaged Deloitte to design a refreshed website </span><span>replatformed</span><span> onto a new Content Management System (CMS).<br><br></span></p>
+        <p style="margin-top: 0pt; margin-bottom: 9pt; margin-left: 0in;"><span><strong>Improving customer service through the digital channel</strong></span></p>
+        <p style="margin-top: 0pt; margin-bottom: 9pt; margin-left: 0in;"><span>VicRoads </span><span>acknowledged that the changing needs and expectations of its customers were not being met by its existing digital presence. Legacy systems posed significant constraints on the business when it came to implementing the latest web capability and technology.</span></p>
+        <p style="margin-top: 0pt; margin-bottom: 9pt; margin-left: 0in;"><span><strong><br>Bigger, better and responsive</strong></span></p>
+        <p style="margin-top: 0pt; margin-bottom: 9pt; margin-left: 0in;"><span>Our </span><span>user research showed that most customers would prefer to interact with VicRoads through the online channel and expect to be able to complete most tasks on different devices. </span></p>
+        <p style="margin-top: 0pt; margin-bottom: 9pt; margin-left: 0in;"><span>This supported our recommendation for responsive design where there is no distinction for end users between mobile and desktop versions of the website</span><span>.</span></p>
+        <p style="margin-top: 0pt; margin-bottom: 9pt; margin-left: 0in;"><span><strong><br>Integration into existing systems</strong></span></p>
+        <p style="margin-top: 0pt; margin-bottom: 9pt; margin-left: 0in;"><span>In </span><span>supporting the business, the web delivery environment had become overwhelmingly complex with multiple service arrangements and technology components. This delivered a disjointed user experience that continually took the user away from the main site. The new website, built on the Sitecore CMS, integrated many of these existing systems to provide an optimal experience on desktop, tablet and mobile devices.</span></p>
+        <p style="margin-top: 0pt; margin-bottom: 9pt; margin-left: 0in;"><span>The new design is clean, current and user-centred, allowing VicRoads customers to complete tasks and find information quickly and efficiently wherever they are. The website is also AA compliant with Web Content Accessibility Guidelines 2.0.</span></p>
+        <p style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 0.01in;"> </p>
+    - ID: "f4f81abf-4b1e-44ab-a640-d4b383f51c9c"
+      Hint: NavigationTitle
+      Value: VicRoads

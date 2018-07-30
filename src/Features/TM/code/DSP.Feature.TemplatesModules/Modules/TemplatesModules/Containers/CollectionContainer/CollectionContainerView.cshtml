@@ -1,0 +1,14 @@
+﻿<div class="l-layout l-two-column-right cf">
+    @Html.Sitecore().Placeholder("breadcrumb")
+    @Html.Sitecore().Placeholder("container-top")
+    <div class="l-content-container l-padding cf">
+        <aside id="aside" tabindex="-1" role="complementary" class="l-aside">
+            @Html.Sitecore().Placeholder("aside")
+        </aside>
+        <div class="l-content-column">
+            <main id="main" tabindex="-1" role="main" class="l-main">
+                @Html.Sitecore().Placeholder("main")
+            </main>
+        </div>
+    </div>
+</div>

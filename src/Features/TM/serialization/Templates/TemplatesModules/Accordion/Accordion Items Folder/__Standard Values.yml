@@ -1,0 +1,28 @@
+﻿---
+ID: "b83d5e6a-398c-4648-ba1a-b50cbd00dfd1"
+Parent: "b27a9c77-2263-4fd6-8e0c-65d640414850"
+Template: "b27a9c77-2263-4fd6-8e0c-65d640414850"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Accordion/Accordion Items Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {0CA88C8E-E38F-4496-9CEC-1C7ED01897EF}
+    {B27A9C77-2263-4FD6-8E0C-65D640414850}
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Accordion Items
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161220T010311Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

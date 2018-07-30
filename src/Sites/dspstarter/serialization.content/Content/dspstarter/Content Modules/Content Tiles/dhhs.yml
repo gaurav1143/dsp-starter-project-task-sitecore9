@@ -1,0 +1,23 @@
+﻿---
+ID: "e773a9b7-17e0-43ec-9b2a-3d93b91d0382"
+Parent: "446405a9-4b40-408b-8015-76c9b44ef702"
+Template: "7c69e05f-19cf-48d2-8382-c9a10255a825"
+Path: /sitecore/content/dspstarter/Content Modules/Content Tiles/dhhs
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{B0E293C5-973D-4EA1-90A8-331C70C1113D}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160520T023537Z
+    - ID: "2f1f0ab9-0450-49a3-a505-226b87ecab13"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{4F5678F2-FFDF-4E9A-A07A-BDF473FF9F78}\" />"
+    - ID: "f7f92772-48f1-49de-8a65-d8055f7488bf"
+      Hint: Title
+      Value: Department of Health & Human Services (Victoria)

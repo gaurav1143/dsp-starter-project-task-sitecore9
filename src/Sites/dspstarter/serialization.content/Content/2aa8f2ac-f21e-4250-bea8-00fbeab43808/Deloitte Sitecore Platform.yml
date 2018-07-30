@@ -1,0 +1,17 @@
+﻿---
+ID: "e25cb505-3540-48b0-a483-6314fc3fd2ed"
+Parent: "2aa8f2ac-f21e-4250-bea8-00fbeab43808"
+Template: "0e12e814-46f2-4e78-91a2-3782eb320c31"
+Path: /sitecore/content/dspstarter/Configuration/Footer Links/Capability/Deloitte Sitecore Platform
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link id=\"{E8BB6F63-99A8-46FA-9D9F-D2417628E57F}\" querystring=\"\" target=\"\" text=\"Deloitte Sitecore Platform\" url=\"/dspstarter/Home/capability\" linktype=\"internal\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160311T032345Z

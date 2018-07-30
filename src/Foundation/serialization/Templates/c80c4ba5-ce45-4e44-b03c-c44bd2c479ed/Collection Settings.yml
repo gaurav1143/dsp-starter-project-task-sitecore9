@@ -1,0 +1,17 @@
+﻿---
+ID: "69de6bad-3b7e-4d69-afb0-e7a3e40e2b24"
+Parent: "c80c4ba5-ce45-4e44-b03c-c44bd2c479ed"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Deloitte/Foundation/Common/Field Sections/Has Collection Facets/Collection Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160225T091208Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

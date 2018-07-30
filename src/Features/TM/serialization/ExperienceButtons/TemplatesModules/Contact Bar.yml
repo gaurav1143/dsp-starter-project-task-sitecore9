@@ -1,0 +1,14 @@
+﻿---
+ID: "1604fa8c-1b0e-4961-aeee-dc1ae5b3ab94"
+Parent: "3d1aec45-a743-478b-8fa1-b3ec5da954d8"
+Template: "b0666cfe-8c7b-4cc1-8e32-8253742ebfa9"
+Path: /sitecore/content/Applications/WebEdit/Custom Experience Buttons/DSP/Features/TemplatesModules/Contact Bar
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160607T100405Z

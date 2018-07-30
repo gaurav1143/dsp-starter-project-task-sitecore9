@@ -1,0 +1,21 @@
+﻿<div class="l-layout l-one-column cf">
+    <!-- START Breadcrumbs -->
+    @Html.Sitecore().Placeholder("breadcrumb")
+    <!-- END Breadcrumbs -->
+    <!-- START .l-content-container -->
+    <div class="l-content-container l-padding cf">
+        <!-- START .l-content-column -->
+        <article class="l-content-column">
+            <!-- START .l-main -->
+            <main id="main" tabindex="-1" role="main" class="l-main">
+                <!-- START .content-header -->
+               @Html.Sitecore().Placeholder("container-top")
+                <!-- END .content-header -->
+                @Html.Sitecore().Placeholder("main")
+            </main>
+            <!-- END .main -->
+        </article>
+        <!-- END .l-content-column -->
+    </div>
+    <!-- END .l-content-container -->
+</div>

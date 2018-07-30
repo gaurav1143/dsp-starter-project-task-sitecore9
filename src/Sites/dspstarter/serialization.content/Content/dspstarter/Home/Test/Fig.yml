@@ -1,0 +1,36 @@
+﻿---
+ID: "3ca60d79-c46a-44f5-af1f-b6d001a7148a"
+Parent: "31af4e76-33b8-4701-8188-c167764169ed"
+Template: "1e8966bf-97d7-449b-ac14-3421c16a5e78"
+Path: /sitecore/content/dspstarter/Home/Test/Fig
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160614T063054Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "46fe049f-5d28-406c-8c3a-d2c660ff5fa2"
+      Hint: Description
+      Value: Not tagged at all
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Fig
+    - ID: "72691cae-f39c-44e8-bf26-c8d65e384d89"
+      Hint: MetaBrowserTitle
+      Value: Fig
+    - ID: "9b35b0c9-3bfc-4de7-b932-a7ee4c774cd7"
+      Hint: GeneralText
+      Value: Not tagged at all
+    - ID: "f4f81abf-4b1e-44ab-a640-d4b383f51c9c"
+      Hint: NavigationTitle
+      Value: Fig

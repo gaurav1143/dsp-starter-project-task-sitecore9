@@ -1,0 +1,24 @@
+﻿---
+ID: "b4657762-1b93-49cb-9bf2-9c3bfe264a8d"
+Parent: "ca7a9ed6-848f-4d58-8db9-818bc7553dbd"
+Template: "ca7a9ed6-848f-4d58-8db9-818bc7553dbd"
+Path: /sitecore/templates/Deloitte/Foundation/Common/Tag Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {CA7A9ED6-848F-4D58-8DB9-818BC7553DBD}
+    {CCDCEDCB-694E-495D-B78F-382D4EDB3011}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151130T022556Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

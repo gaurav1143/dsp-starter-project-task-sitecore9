@@ -1,0 +1,24 @@
+﻿---
+ID: "a4e4bbca-b56b-4757-a3de-b794a1305533"
+Parent: "dadcce3e-ec29-4d51-98b9-9b0c999b8f15"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/content/dspstarter/Content Modules/Rich Text/racq4
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: "<p><strong style=\"font-size: 1rem; line-height: 1.875;\">Getting users excited about the road ahead</strong></p><p>The RACQ free2go team now have a dynamic website that can tailor content to a user’s needs and create a personal experience for each user based on their browsing behaviour and location.<br><br>The refreshed website now offers younger drivers of Queensland an engaging and youthful design and experience across all platforms and the ability to join free2go online.</p>"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160520T065026Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"

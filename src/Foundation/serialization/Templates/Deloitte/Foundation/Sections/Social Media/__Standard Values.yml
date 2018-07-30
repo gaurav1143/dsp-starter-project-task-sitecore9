@@ -1,0 +1,22 @@
+﻿---
+ID: "fd9f00f7-aab0-4f0f-ac77-c1a5ceb1a270"
+Parent: "7f4a28bc-65df-4f60-ba6d-3f914f202353"
+Template: "7f4a28bc-65df-4f60-ba6d-3f914f202353"
+Path: /sitecore/templates/Deloitte/Foundation/Sections/Social Media/__Standard Values
+DB: master
+SharedFields:
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160106T034714Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

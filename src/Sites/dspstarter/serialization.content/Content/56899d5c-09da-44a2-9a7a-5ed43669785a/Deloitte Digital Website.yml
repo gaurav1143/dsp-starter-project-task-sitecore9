@@ -1,0 +1,27 @@
+﻿---
+ID: "753a5b4e-e56b-4200-bee5-0557bde04231"
+Parent: "56899d5c-09da-44a2-9a7a-5ed43669785a"
+Template: "14fa946a-f92a-4b3b-be90-c9540d91d233"
+Path: /sitecore/content/dspstarter/Content Modules/Related Links/Related Sites/Deloitte Digital Website
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"www.deloittedigital.com.au\" linktype=\"external\" url=\"http://www.deloittedigital.com.au\" anchor=\"\" target=\"\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160120T053052Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+    - ID: "7f66b395-ebfb-40d2-a452-fd480284d8be"
+      Hint: ShortDescription
+      Value: The Deloitte Digital Australia Website

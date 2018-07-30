@@ -1,0 +1,14 @@
+﻿---
+ID: "482c3a4c-b1df-4816-9c04-1711af2f58d2"
+Parent: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: /sitecore/templates/System/Media/Unversioned/Image/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20121130T051800

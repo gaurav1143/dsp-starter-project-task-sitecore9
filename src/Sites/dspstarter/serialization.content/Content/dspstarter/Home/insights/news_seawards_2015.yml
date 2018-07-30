@@ -1,0 +1,89 @@
+﻿---
+ID: "d793b6f3-66bf-4485-9ce8-d65b2b6ec593"
+Parent: "a0263b64-b001-43dd-879a-582af7d9d71c"
+Template: "24368a0b-c05d-470c-b544-9be20be3fff7"
+Path: /sitecore/content/dspstarter/Home/insights/news_seawards_2015
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{D25C7DD1-0459-44E5-A928-D675CF2E02D5}"
+              s:ds="{3987362C-010C-4433-8A4B-CE4D6607DAA0}"
+              s:id="{6ADB977C-B0AF-4BA4-8FCE-E6C7AB6973B7}"
+              s:ph="/layout/aside">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="CE502A29EB4B46B58AA00E06BCE6CB4F"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160211T000755Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "46fe049f-5d28-406c-8c3a-d2c660ff5fa2"
+      Hint: Description
+      Value: Read about the five awards our clients took home
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Deloitte Digital and Clients win big at Sitecore 2015 Experience Awards
+    - ID: "72691cae-f39c-44e8-bf26-c8d65e384d89"
+      Hint: MetaBrowserTitle
+      Value: Deloitte Digital and Clients win big at Sitecore 2015 Experience Awards
+    - ID: "8357be37-6e13-4bdd-9b01-2fbbf0b763b2"
+      Hint: HideFromNavigation
+      Type: Checkbox
+      Value: 1
+    - ID: "9b35b0c9-3bfc-4de7-b932-a7ee4c774cd7"
+      Hint: GeneralText
+      Value: |
+        <p>Deloitte Digital and their clients won five of the Sitecore Australia and New Zealand 2015 Experience Awards, which were announced on Thursday.<br>
+        <br>
+        Now, in its eighth year, the Sitecore Experience Awards are awarded to Sitecore solutions delivering an outstanding experience for both their customers and their own organisation. &nbsp;The Sitecore judges consider creativity in the use of Sitecore&rsquo;s capabilities to deliver outstanding and transformative business results, integration with applications, and multichannel engagement.<br>
+        <br>
+        Deloitte Digital clients won a total of five awards for Sitecore solutions delivered together over the last year, representing the largest haul from any digital agency:</p>
+        <p>&nbsp;</p>
+        <ul>
+            <li><strong>CPA Australia</strong> was recognised in the Business and Professional Services category for the INTHEBLACK website <a href="http://">(http://intheblack.com</a>)</li>
+            <li><strong>The Department of Health (Victoria) </strong>was recognised in the Healthcare and Medical category for their new digital platform which includes the new Department &nbsp;<a href="http://">(http://www.health.vic.gov.au</a>), <strong>Better Health Channel</strong> (<a href="http://">https://www.betterhealth.vic.gov.au/</a>) and Seniors Online websites <a href="http://">(https://www.seniorsonline.vic.gov.au/</a>). &nbsp;The Department of Health platform was also recognised with with the award for Best Use of Web Personalisation.</li>
+            <li><strong>Finsia </strong>was recognised in the Not For Profit category for their new members portal&nbsp;</li>
+            <li><strong>VicRoads </strong>was recognised as winners in the Systems Integration category <a href="http://">(http://www.vicroads.vic.gov.au/</a>)</li>
+        </ul>
+        <p>&nbsp;</p>
+        <p>&ldquo;These awards recognise the strategic investments of our clients in digital business transformation and as a result have reaped a very positive return in consumer engagement. We are delighted to see so many of our clients win these awards, a testament to Sitecore&rsquo;s flexibility to drive rapid personalisation and market acceptance. Deloitte Digital is very proud of our partnership with Sitecore, as these awards also serve as a great recognition of the talent, passion and deep experience of our Sitecore team.&rdquo; said Joel Lipman, Sitecore MVP and Partner, Deloitte Digital&rdquo;</p>
+        <p>&nbsp;</p>
+        <p><img alt="" height="232" width="146" src="-/media/abaa87fb1c054c0eae52eae0973af9a6.ashx">&nbsp;<span style="font-weight: lighter;">&nbsp;</span><img alt="" height="232" width="146" src="-/media/8753ef3ef3f64fa5a7ee281bd0125436.ashx?h=232&amp;w=146" style="font-weight: lighter; height: 232px; width: 146px;"><span style="font-weight: lighter;">&nbsp;&nbsp;<img alt="" height="232" width="146" src="-/media/f1d7097d6cdc4ad0b90e75827c5048bf.ashx">&nbsp;&nbsp;<img alt="" height="232" width="146" src="-/media/0b296ef67f73432b9d73bb58535d5bc1.ashx">&nbsp;&nbsp;<img alt="" height="232" width="146" src="-/media/8fc3786f33324a92b17e51c68be17345.ashx"></span></p>
+    - ID: "f4f81abf-4b1e-44ab-a640-d4b383f51c9c"
+      Hint: NavigationTitle
+      Value: Deloitte Digital and Clients win big at Sitecore 2015 Experience Awards

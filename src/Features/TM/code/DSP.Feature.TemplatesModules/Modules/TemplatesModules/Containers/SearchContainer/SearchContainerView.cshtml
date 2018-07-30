@@ -1,0 +1,27 @@
+﻿@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Containers.SearchContainer.SearchContainerRendering
+
+<div class="l-layout l-two-column-right cf">
+    <header class="content-header is-search">
+        <div class="l-padding">
+            <h1>Search results
+            @if (!string.IsNullOrEmpty(Model.ViewModel.SearchTerm))
+            {
+             @: for &ldquo;@Model.ViewModel.SearchTerm&rdquo;
+            }             
+            </h1>
+        </div>
+    </header>
+    <div class="l-content-container l-padding cf">
+        <aside id="aside" tabindex="-1" role="complementary" class="l-aside">
+            @Html.Sitecore().Placeholder("aside")
+        </aside>
+        <div class="l-content-column">
+            <main id="main" tabindex="-1" role="main" class="l-main">
+                <section class="cm cm-collection">
+                    @Html.Sitecore().Placeholder("main")
+                </section>
+            </main>
+        </div>
+    </div>
+</div>
+

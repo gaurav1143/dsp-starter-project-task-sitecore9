@@ -1,0 +1,20 @@
+﻿---
+ID: "017e206d-4d0d-4cae-bc85-132cc7ab2fec"
+Parent: "da43c42f-9357-4fa6-91fa-2d728b908cb7"
+Template: "a433ed38-7d03-4d29-bc2b-1471bbb1d2c4"
+Path: /sitecore/content/dspstarter/Content Modules/Image Tiles/army3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160520T021856Z
+    - ID: "e4791d22-a8e4-41f8-ae5f-57c4e0553884"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{919066EE-B3D9-43A1-AA78-840F1B4F482B}\" />"
+    - ID: "f7f92772-48f1-49de-8a65-d8055f7488bf"
+      Hint: Title
+      Value: 

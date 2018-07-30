@@ -1,0 +1,24 @@
+﻿---
+ID: "a5d9c64d-ef3a-4df2-8d68-5aa1ef806645"
+Parent: "63ca5304-3e52-4e48-86c4-1b628bc7c0d1"
+Template: "63ca5304-3e52-4e48-86c4-1b628bc7c0d1"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/IFrame/IFrame Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {63CA5304-3E52-4E48-86C4-1B628BC7C0D1}
+    {81BC04D0-192F-4694-808F-08BF066B6B58}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160629T090815Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

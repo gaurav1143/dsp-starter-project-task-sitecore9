@@ -1,0 +1,20 @@
+﻿---
+ID: "c458f8bd-9680-469c-9c68-2e95a2ba2dde"
+Parent: "da43c42f-9357-4fa6-91fa-2d728b908cb7"
+Template: "a433ed38-7d03-4d29-bc2b-1471bbb1d2c4"
+Path: /sitecore/content/dspstarter/Content Modules/Image Tiles/free2
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160523T055806Z
+    - ID: "e4791d22-a8e4-41f8-ae5f-57c4e0553884"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{91752A74-83A9-46C8-AE8C-3E5EA2BF1BCB}\" />"
+    - ID: "f7f92772-48f1-49de-8a65-d8055f7488bf"
+      Hint: Title
+      Value: 

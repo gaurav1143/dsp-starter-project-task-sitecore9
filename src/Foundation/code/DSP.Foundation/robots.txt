@@ -1,0 +1,11 @@
+﻿User-agent: *
+Disallow: /assets/
+Disallow: /dev/
+Disallow: /layouts/
+Disallow: /sitecore/
+Disallow: /sitecore_files/
+Disallow: /sitecore modules/
+Disallow: /sublayouts/
+Disallow: /temp/
+Disallow: /upload/
+Disallow: /xsl/

@@ -1,0 +1,24 @@
+﻿---
+ID: "1a46c5be-dea2-4f95-bb05-f18308f1c31f"
+Parent: "dadcce3e-ec29-4d51-98b9-9b0c999b8f15"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/content/dspstarter/Content Modules/Rich Text/emerald2
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: <strong><div>Connecting a distributed workforce</div><div><br></div>Responsive design</strong><br>Through end user interviews and desktop research we identified that secure mobile access to information was a key problem in Emerald Grain’s distributed workforce. Our design approach was based on a mobile first user experience design to enable staff to find information from any location on any device. The design focused on developing an intuitive Information Architecture to enable users to navigate and share knowledge information quickly and easily.<br><strong><br>Built in collaboration</strong><br>Emerald Grain use Salesforce to manage their customer interactions and use Chatter to communicate online. We integrated with Chatter to bring in group discussions into the Intranet to encourage communication and collaboration within the Intranet.<br>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160520T011950Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"

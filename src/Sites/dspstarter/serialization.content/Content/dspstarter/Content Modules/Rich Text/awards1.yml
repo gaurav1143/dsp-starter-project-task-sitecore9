@@ -1,0 +1,61 @@
+﻿---
+ID: "6a96ae35-3f00-4c56-b688-a9cead40b9e1"
+Parent: "dadcce3e-ec29-4d51-98b9-9b0c999b8f15"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/content/dspstarter/Content Modules/Rich Text/awards1
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: |
+        <p><strong>Sitecore Most Valuable Professional  (2016)<br>
+        </strong>
+        Technology: Cameron Walker</p>
+        <p><strong>Sitecore Most Valuable Professional (2016)<br>
+        </strong>
+        Digital Strategist: Troy Outtram</p>
+        <p><strong>Sitecore Experience Awards (2015) <br>
+        </strong>
+        Best System Intergration: VicRoads</p>
+        <p><strong>Sitecore Experience Awards (2015) <br>
+        </strong>Healthcare & Medical: Department of Health</p>
+        <p><strong>Sitecore Experience Awards (2015)<br>
+        </strong>
+        Department of Health</p>
+        <p><strong>Sitecore Experience Awards (2015) <br>
+        </strong>
+        Finsia</p>
+        <p><strong>Sitecore Experience Awards (2015) <br>
+        </strong>
+        CPA Australia</p>
+        <p><strong>Australian Web Awards (2015)  <br>
+        </strong>
+        QSuper</p>
+        <p><strong>Australian Web Awards (2015)  <br>
+        </strong>
+        RACQ</p>
+        <p><strong>Melbourne Design Awards (2015) <br>
+        </strong>
+        VicRoads</p>
+        <p style="margin-top: 0px;"><strong>Pixel Awards (2015) <br>
+        </strong>Web Automotive: RACQ</p>
+        <p><strong>Webby Awards (2015) <br>
+        </strong>Websites: Government: VicRoads</p>
+        <p><strong style="font-size: 1rem; line-height: 1.875;">Good Design Australia (2015) <br></strong><span style="font-weight: lighter; font-size: 1rem; line-height: 1.875;">VicRoads</span></p>
+        <p><strong>Sitecore Most Valuable Professional (2015)<br>
+        </strong>
+        Technology: Cameron Walker</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160329T025408Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"

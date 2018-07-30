@@ -1,0 +1,25 @@
+﻿---
+ID: "08be8796-7b91-4e5e-a404-d494b8fa8cef"
+Parent: "a258d609-c687-4a8d-bd41-159173dbf343"
+Template: "a258d609-c687-4a8d-bd41-159173dbf343"
+Path: /sitecore/templates/Deloitte/Foundation/Sections/Navigation/__Standard Values
+DB: master
+SharedFields:
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20141223T071323Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "f4f81abf-4b1e-44ab-a640-d4b383f51c9c"
+      Hint: NavigationTitle
+      Value: $name

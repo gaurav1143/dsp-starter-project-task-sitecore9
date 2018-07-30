@@ -1,0 +1,17 @@
+﻿---
+ID: "33129e7e-b341-4fda-8eab-d15a239ef6ae"
+Parent: "1cca03f5-1ca0-4c44-af14-5e838568ecd2"
+Template: "1cca03f5-1ca0-4c44-af14-5e838568ecd2"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Video/Video/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160524T110115Z
+    - ID: "ff71b715-2bbb-4870-a333-185ec28afaca"
+      Hint: VideoTranscriptTitle
+      Value: Video Transcript

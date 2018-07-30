@@ -1,0 +1,17 @@
+﻿---
+ID: "4c7c502e-2986-4bc0-8e48-3d24f0c0c07a"
+Parent: "e77a1b33-e53a-488d-a197-613bff03df6a"
+Template: "e77a1b33-e53a-488d-a197-613bff03df6a"
+Path: /sitecore/templates/Deloitte/Foundation/Sections/Social Media Meta Data/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151223T013006Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

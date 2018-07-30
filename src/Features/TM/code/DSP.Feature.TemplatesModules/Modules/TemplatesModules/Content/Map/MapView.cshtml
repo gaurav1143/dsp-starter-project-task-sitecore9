@@ -1,0 +1,48 @@
+﻿@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Content.Map.MapRendering
+
+@if (Model.IsPageEditor())
+{
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <td>Title</td>
+                    <td>Description</td>
+                    <td>Link</td>
+                    <td>Latitude</td>
+                    <td>Longitude</td>
+                </tr>
+            </thead>
+            @foreach (var item in Model.ViewModel.MapModuleItems)
+                {
+                <tr>
+                    <td>@item.Title</td>
+                    <td>@item.GeneralText</td>
+                    <td>@item.Link</td>
+                    <td>@item.Latitude</td>
+                    <td>@item.Longitude</td>
+                </tr>
+            }
+        </table>
+    </div>
+}
+<section class="cm cm-map" data-map-api-key="@Model.ViewModel.MapAPIKey" data-initial-zoom="1">
+    
+    <div class="map-container"></div>
+    <ul class="marker-list h-geo-list">
+        @foreach (var item in Model.ViewModel.MapModuleItems)
+        {
+            <li class="geo-item">
+                <a href="@item.Link.Url" class="vh content focusable">
+                    <h2>@item.Title.DisableWebEdit()</h2>
+                    <p class="geo-description">@item.GeneralText.DisableWebEdit() </p>
+                </a>
+                <div class="h-geo geo">
+                    <span class="p-latitude latitude">@item.Latitude.DisableWebEdit()</span>
+                    <span class="p-longitude longitude">@item.Longitude.DisableWebEdit() </span>
+                </div>
+
+            </li>
+        }
+    </ul>
+</section>

@@ -1,0 +1,19 @@
+﻿@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Content.HeroLinks.HeroLinksRendering
+
+<section class="cm cm-hero-links">
+    <h1>@Model.ViewModel.Title</h1>
+    <ul data-heights-type="hero-links">
+        @foreach (var item in Model.ViewModel.HeroLinksItems)
+        {
+            <li>
+                <a href="@item.ItemUrl" class="link-item">
+                    <div class="content">
+                        <span class="tag">@item.ContentType</span>
+                        <strong>@item.Title</strong>
+                    </div>
+                    <span class="faux-link">Read more<span class="vh"> about @item.Title</span></span>
+                </a>
+            </li>
+        }
+    </ul>
+</section>

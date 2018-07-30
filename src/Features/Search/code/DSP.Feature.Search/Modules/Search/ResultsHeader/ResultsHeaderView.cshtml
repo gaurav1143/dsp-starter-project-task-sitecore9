@@ -1,0 +1,59 @@
+﻿@using DSP.Business.Search
+@model DSP.Feature.Search.Modules.Search.ResultsHeader.ResultsHeaderRendering
+
+@if (Model.ViewModel.ResultsTotal > 0)
+{
+    <!-- START .collection-header -->
+    <div class="collection-header has-sort has-left-facets">
+        <div class="collection-header-results">
+            <h1>Showing results <strong>@string.Format("{0}-{1}", Model.ViewModel.ResultPageFrom, Model.ViewModel.ResultPageTo)</strong> 
+            of @Model.ViewModel.ResultsTotal</h1>
+        </div>
+        <div class="collection-header-sort">
+            <button class="js-modal-open cta is-secondary is-small modal-toggle" data-modal-id="modal-collection-header-sort">Sort results</button>
+            <div class="ctrl-group is-inline is-small cf">
+                <div class="collection-header-sort-form js-modal-dynamic" data-modal-id="modal-collection-header-sort">
+                    <strong class="h2 modal-title">Sort results</strong>
+                    <form method="GET" action="@Model.ViewModel.FormBaseUrl">
+                        @foreach (var key in Model.ViewModel.HiddenFields.AllKeys)
+                        {
+                            <input type="hidden" name="@key" value="@Model.ViewModel.HiddenFields[key]" />
+                        }
+                        <fieldset>
+                            <legend class="vh">Sort results</legend>
+                            @if (Model.ViewModel.ShowItemsPerPage)
+                            {
+                                <div class="ctrl-holder">
+                                    <label for="sort-numitems">Items per page</label>
+                                    <select name="@Constants.SearchContext.Keys.PageSize" id="sort-numitems">
+                                        @foreach (var item in Model.ViewModel.ItemsPerPage)
+                                        {
+                                            <option value="@item.Value" selected="@item.IsSelected">
+                                                @item.Label
+                                            </option>
+                                        }
+                                    </select>
+                                </div>
+                            }
+                            <div class="ctrl-holder">
+                                <label for="sort-by">Sort by</label>
+                                <select name="@Constants.SearchContext.Keys.Sort" id="sort-by">
+                                    @foreach (var item in Model.ViewModel.SortOrderOptions)
+                                    {
+                                        <option value="@item.Value" selected="@item.IsSelected">
+                                            @item.Label
+                                        </option>
+                                    }
+                                </select>
+                            </div>
+                            <input type="submit" class="cta is-secondary" value="Go"/>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END .collection-header -->
+}
+
+

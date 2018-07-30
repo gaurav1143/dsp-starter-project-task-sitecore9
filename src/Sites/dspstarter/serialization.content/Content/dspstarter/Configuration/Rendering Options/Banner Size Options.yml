@@ -1,0 +1,19 @@
+﻿---
+ID: "c7e1d5eb-021a-4007-a1a9-f4e6a0d79835"
+Parent: "c5ea862d-db64-492c-97b8-108472041f13"
+Template: "4a2cefc3-510f-4a6a-94eb-d0108915fcea"
+Path: /sitecore/content/dspstarter/Configuration/Rendering Options/Banner Size Options
+DB: master
+SharedFields:
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160226T040143Z

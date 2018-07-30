@@ -1,0 +1,17 @@
+﻿---
+ID: "3892079e-5174-4d18-b714-3864b85c47f3"
+Parent: "e3d4af5c-4f21-4bec-8328-5971f33680c2"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Deloitte/Foundation/Common/Field Sections/Has Dark Option/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160120T042754Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

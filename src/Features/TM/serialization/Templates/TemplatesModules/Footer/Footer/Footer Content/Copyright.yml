@@ -1,0 +1,25 @@
+﻿---
+ID: "ecee6a96-6ea1-41f8-9127-5d928f6aa82c"
+Parent: "aaf6f6c0-9d88-4ec6-ac84-4b6a38c0e685"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Footer/Footer/Footer Content/Copyright
+DB: master
+SharedFields:
+- ID: "24cb32f0-e364-4f37-b400-0f2899097b5b"
+  Hint: Enable Shared Language Fallback
+  Type: Checkbox
+  Value: 1
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 201
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160125T024659Z

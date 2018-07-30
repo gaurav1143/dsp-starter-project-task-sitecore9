@@ -1,0 +1,131 @@
+﻿---
+ID: "46d53b06-4da1-42df-890c-f20c1c802010"
+Parent: "0fd3b54b-502e-40af-b663-7c1980013476"
+Template: "0fd3b54b-502e-40af-b663-7c1980013476"
+Path: /sitecore/templates/Deloitte/Sites/dspstarter/Pages/Collection List/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {57ED0A05-EF04-4EC1-9A83-0E6F986A6123}
+    {46BAE768-310D-4314-AEF2-AE247E5C4850}
+    {1E8966BF-97D7-449B-AC14-3421C16A5E78}
+    {24368A0B-C05D-470C-B544-9BE20BE3FFF7}
+- ID: "4c9312a5-2e4e-42f8-ab6f-b8db8b82bf22"
+  Hint: __Controller
+  Value: SearchResults
+- ID: "9fb734cc-8952-4072-a2d4-40f890e16f56"
+  Hint: __Controller Action
+  Value: CollectionSearch
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{CBA6F985-745D-4220-984C-152D2E12CF98}">
+        <r
+          id="{76D16409-DC94-47F0-BA2E-F9B98FCA0AB5}"
+          ph="/layout"
+          uid="{063A5BB7-49A2-4A4B-A146-D984B75A4B84}" />
+        <r
+          ds=""
+          id="{2FBCFF96-E945-4486-B3DC-E5A745A567B5}"
+          par=""
+          ph="/metadata"
+          uid="{EBD79502-A9E0-493B-BD24-653CFB56FD48}" />
+        <r
+          ds=""
+          id="{3CB61F58-19A8-45F1-884B-D241E657F0CC}"
+          par=""
+          ph="/metadata"
+          uid="{764E00EB-3499-40A8-9391-7F3C7BA1850E}" />
+        <r
+          ds=""
+          id="{D6114104-F799-4323-BC51-EB6367FDD917}"
+          par=""
+          ph="/metadata"
+          uid="{D0504834-6E11-49F5-8318-AD61D1767CC3}" />
+        <r
+          cac="0"
+          ds=""
+          id="{BEE91FA9-957B-4341-BB2E-B917AA4B7A0A}"
+          par=""
+          ph="/header"
+          uid="{66150550-7E62-49C8-940F-D3E9C05AA5CA}"
+          vbd="0" />
+        <r
+          id="{B2BFF110-8565-4E43-965E-C765E2807E7B}"
+          ph="/layout/breadcrumb"
+          uid="{3524431D-9697-46AB-8653-A55DE6030E5E}" />
+        <r
+          id="{7C11F46D-ECFF-44CB-8C4D-F78162AD73C8}"
+          ph="/layout/container-top"
+          uid="{4B480095-7C29-41FB-9575-D943723A9F4F}" />
+        <r
+          cac="0"
+          ds=""
+          id="{96289EFC-0113-47B0-A08C-66BCC7AD3D65}"
+          par=""
+          ph="/mobile-nav"
+          uid="{F714784A-BBBB-45B0-A5BB-6EE58E7F89D4}"
+          vbd="0" />
+        <r
+          cac="0"
+          ds=""
+          id="{17E34F5C-5A0F-4203-BD44-930E459C128A}"
+          par=""
+          ph="/header/primary-nav"
+          uid="{B1A663B1-20E6-47F9-84B1-6C1A1D33F4B1}"
+          vbd="0" />
+        <r
+          ds=""
+          id="{AE747F3E-508D-40C5-B3FF-CE3C7E6A53B5}"
+          par=""
+          ph="/header/search"
+          uid="{30C1F153-0B20-487D-99DC-720FC387A9EF}" />
+        <r
+          cac="0"
+          ds=""
+          id="{0FACA6FE-131C-4AF7-9182-CF7D4ABBC918}"
+          par=""
+          ph="/layout/aside"
+          uid="{B4DA2838-DDDF-4350-91C3-D2CD875062FE}"
+          vbd="0" />
+        <r
+          id="{7BBE3A0E-C381-48A9-A2FE-CC0AE1CE3E88}"
+          ph="/layout/main"
+          uid="{5437C940-1B80-414F-9389-C7ACC5F56C7E}" />
+        <r
+          id="{EFED566F-D28D-420A-B01C-8183C7B2C13D}"
+          ph="/layout/main"
+          uid="{E48AA4CF-E1D7-401C-92E8-5337BD001B0F}" />
+        <r
+          id="{C595FF06-7367-4416-BFB7-21C34248AA45}"
+          ph="/layout/main"
+          uid="{0B2B3D35-C207-4A52-BF1A-F895A0CD0557}" />
+        <r
+          cac="0"
+          ds=""
+          id="{A26AEE6F-B80F-40F9-9282-43BC0F6EBF22}"
+          par=""
+          ph="/footer"
+          uid="{B4244C67-C151-49D6-95EB-94B19537B725}"
+          vbd="0" />
+        <r
+          id="{E2408BCE-BA63-4069-81A9-917AF694B0F7}"
+          ph="/header/language"
+          uid="{13ED9379-066B-4BB9-9BCD-640F4B2918F4}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160227T104501Z

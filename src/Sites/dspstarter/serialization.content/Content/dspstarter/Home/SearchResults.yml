@@ -1,0 +1,50 @@
+﻿---
+ID: "f264ae67-a3b0-4baa-afe2-288fb18f42ee"
+Parent: "e3d0aeaf-c4c6-49a6-9856-a8f3a06e688b"
+Template: "9e58d964-ac66-4120-b95a-9741b5c19098"
+Path: /sitecore/content/dspstarter/Home/SearchResults
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "05294a29-0b84-4c6b-8520-5b02cee3651d"
+      Hint: CollectionFacets
+      Type: Treelist
+      Value: |
+        {0282794A-EF1D-4156-B4AD-429BE89ED411}
+        {EA0C670A-8CBB-4CE2-A8A4-7985C4807189}
+        {32C3A1CF-5CC4-447C-ACB7-FC6A8F8FBCE0}
+        {60AD565C-E42D-4DC4-A091-912EE1FDDC2D}
+        {F93BDD4A-451E-4757-A00A-C97FA0D5D715}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160204T052638Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Search Results
+    - ID: "72691cae-f39c-44e8-bf26-c8d65e384d89"
+      Hint: MetaBrowserTitle
+      Value: Search Results
+    - ID: "c745718e-0154-4473-8553-198784de98c3"
+      Hint: SortOrder
+      Type: Multilist
+      Value: |
+        {23E12391-392D-4715-8A56-E8DC3BF5E7BB}
+        {2028EFDC-4BCB-468A-BFDC-E6DBFEFBDBAF}
+        {18702659-5460-48E2-A39D-2C24121EF1A5}
+        {6A892CA9-43E8-40FA-BBB8-4898EACA0DE1}
+    - ID: "f4f81abf-4b1e-44ab-a640-d4b383f51c9c"
+      Hint: NavigationTitle
+      Value: Search Results

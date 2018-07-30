@@ -1,0 +1,43 @@
+﻿---
+ID: "9d10b065-5a30-4847-b576-99cf5094e640"
+Parent: "1719280c-db7c-47dc-9987-366f60528539"
+Template: "0e12e814-46f2-4e78-91a2-3782eb320c31"
+Path: /sitecore/content/dspstarter/Configuration/Footer Links/About/Careers
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link id=\"{4C15E6B9-EEE7-487F-A886-3D63A7BE68D9}\" querystring=\"\" text=\"Careers\" title=\"\" class=\"\" linktype=\"internal\" url=\"/dspstarter/Home/about_us/careers\" target=\"\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160125T042058Z
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"工作机会\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{4C15E6B9-EEE7-487F-A886-3D63A7BE68D9}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160829T052647Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: "zh-TW"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"工作機會\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{4C15E6B9-EEE7-487F-A886-3D63A7BE68D9}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160727T011401Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

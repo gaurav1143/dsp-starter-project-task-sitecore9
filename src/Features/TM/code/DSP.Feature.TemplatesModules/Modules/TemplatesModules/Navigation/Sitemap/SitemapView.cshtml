@@ -1,0 +1,22 @@
+﻿@using DSP.Foundation.Navigation
+@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Navigation.Sitemap.SitemapRendering
+
+<div class="cm cm-site-map">
+    <ul>
+        @foreach (var page in Model.ViewModel.Children)
+        {
+            <li class="@(page.Children.Any() ? "has-children" : "")">
+                <h2>
+                    <a href="@page.ItemUrl" class="nav-lvl1">@page.NavigationTitle</a>
+                </h2>
+
+                @if (page.Children.Any())
+                {
+                    <ul class="nav-site-map" data-heights-type="cm-site-map">
+                        @Html.Partial("~/Modules/TemplatesModules/Navigation/Sitemap/_SitemapLevelPartial.cshtml", new Tuple<NavigationItem, int>(page, 2))
+                    </ul>
+                }
+            </li>
+        }
+    </ul>
+</div>

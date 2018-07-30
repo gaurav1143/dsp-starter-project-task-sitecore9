@@ -1,0 +1,51 @@
+﻿---
+ID: "72604be1-bc78-43cd-b77d-be7105afc768"
+Parent: "dadcce3e-ec29-4d51-98b9-9b0c999b8f15"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/content/dspstarter/Content Modules/Rich Text/dsp_5
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: "<div><b>Designed to grow with you</b></div><div><br></div><div>The Deloitte Sitecore Platform has been architected to allow you to accelerate time to market and quickly establish a digital platform, without locking you into a rigid white-label solution. It supports extension and expansion to meet your organisations functional needs as they evolve into the future. </div><div><br></div><div>Our platform consists of our Deloitte Sitecore Framework which supports a structured development approach to implementing Sitecore, enforcing sound implementation architecture of both platform features and any bespoke features developed for you. In addition it provides a  Platform Accelerator Site which provides a set of layouts and components that can be configured to provide underlying content and search capabilities that can be directly tailored to meet your specific requirements. Finally the platform provides architecture for delivering pluggable feature modules allowing certain prebuilt features to be added easily into DSP platform based solutions.</div>"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160215T042320Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+- Language: "ms-MY"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: |
+        <p><strong>Perkembangan Yang Sejurus Dengan Anda</strong></p>
+        <p>Platform Deloitte Sitecore direka bagi melanjutkan masa ke pasaran agar perlaksanaan platform digital yang bukan generik dapat dipercepatkan. Ini juga memberikan masa untuk menyokong perlanjutan dan pengembangan jika perlu untuk memenuhi keperluan operasi terperinci organisasi anda di masa hadapan. Platform kami terdiri daripada Deloitte Sitecore Framework yang merangkumi pendekatan pembangunan berstruktur untuk perlaksanaan sistem Sitecore yang boleh dirumuskan khas untuk anda. Ia juga menyediakan Platform Accelerator Site yang menyediakan satu set susun atur dan komponen yang boleh diubah suai untuk menyediakan kandungan belakang tabir dan keupayaan pencarian khas untuk memenuhi keperluan khusus anda. Di samping itu, platform ini juga mempunyai struktur agar modul ciri boleh pasang mudah untuk diimplementasi, membolehkan penambahan ciri-ciri sedia ada tertentu di atas platform yang berasaskan DSP</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160907T004250Z
+- Language: "th-TH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: |
+        <div><strong>ออกแบบมาเพื่อเติบโตไปกับคุณ</strong></div>
+        <div> </div>
+        <div>แพลตฟอร์มไซต์คอร์ของดีลอยท์ถูกออกแบบมาช่วยให้คุณลดเวลาในการนำโปรดักส์ออกสู่ตลาด และสร้างแพลตฟอร์มดิจิตอลได้อย่างรวดเร็ว โดยที่ไม่ล็อคคุณไว้ในระบบ เรารองรับการเชื่อมต่อและขยายแพลตฟอร์มให้ตรงตามความต้องการขององค์กรของคุณที่อาจจะมีมากขึ้นเมื่อองค์กรเติบโตในอนาคต </div>
+        <div> </div>
+        <div>เฟรมเวิร์คแพลตฟอร์มไซต์คอร์ของดีลอยท์รองรับการอิมพลีเมนท์ไซต์คอร์ด้วยวิธีการพัฒนาอย่างเป็นระบบ ซึ่งทำให้การอิมพลีเมนท์ทั้งฟีเจอร์ของแพลตฟอร์มเองและฟีเจอร์ที่คุณอยากพัฒนาเพิ่มเติมเองเป็นไปได้อย่างดี และแพลตฟอร์มของเรายังมี Platform Accelerator Site ที่ประกอบไปด้วยเซ็ทของเลย์เอาท์และคอมโพเนนท์ที่พร้อมให้คุณปรับแต่งให้เหมาะสมกับคอนเทนท์และความสามารถในการค้นหาที่ตรงกับความต้องการของคุณได้ นอกจากนั้นแพลตฟอร์มนี้ยังให้โครงสร้างที่เหมาะสำหรับการเชื่อมต่อกับโมดูลฟีเจอร์อื่นๆ ซึ่งทำให้คุณสามารถเพิ่มฟีเจอร์สำเร็จรูปอื่นๆ ให้กับแพลตฟอร์มไซต์คอร์ของดีลอยท์ได้ด้วย</div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160907T001046Z

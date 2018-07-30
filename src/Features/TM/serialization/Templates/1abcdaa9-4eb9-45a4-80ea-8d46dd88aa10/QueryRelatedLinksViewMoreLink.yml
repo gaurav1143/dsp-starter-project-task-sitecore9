@@ -1,0 +1,25 @@
+﻿---
+ID: "6a364769-0070-451a-ab43-a6e0de8adb36"
+Parent: "1abcdaa9-4eb9-45a4-80ea-8d46dd88aa10"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Query Related Links/Query Related Links/Content/QueryRelatedLinksViewMoreLink
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: General Link
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: View more
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160614T033432Z

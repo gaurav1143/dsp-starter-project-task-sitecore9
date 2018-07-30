@@ -1,0 +1,19 @@
+﻿---
+ID: "bc4bd707-fede-44c5-bb28-9d99734ce111"
+Parent: "ee17fffe-4288-4c28-977d-592696345bcb"
+Template: "4a2cefc3-510f-4a6a-94eb-d0108915fcea"
+Path: /sitecore/content/dspstarter/Configuration/Footer Links
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{A2D6999F-3696-4A38-9619-3A17B23E80CA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160125T013022Z

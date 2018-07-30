@@ -1,0 +1,20 @@
+﻿---
+ID: "c3e0d332-cdc0-49a8-b29a-57b3748395b4"
+Parent: "da43c42f-9357-4fa6-91fa-2d728b908cb7"
+Template: "a433ed38-7d03-4d29-bc2b-1471bbb1d2c4"
+Path: /sitecore/content/dspstarter/Content Modules/Image Tiles/qsuper1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160523T053944Z
+    - ID: "e4791d22-a8e4-41f8-ae5f-57c4e0553884"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{2DFCA395-2CDD-417D-8882-2708CE8F26D6}\" />"
+    - ID: "f7f92772-48f1-49de-8a65-d8055f7488bf"
+      Hint: Title
+      Value: 

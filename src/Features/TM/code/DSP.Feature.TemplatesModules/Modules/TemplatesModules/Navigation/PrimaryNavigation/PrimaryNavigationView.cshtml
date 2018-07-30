@@ -1,0 +1,39 @@
+﻿@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Navigation.NavigationRendering
+
+<nav class="nav-onscreen js-onscreen">
+    <ul class="nav cf">
+        @foreach (var navigationItem in Model.ViewModel.Item1.Children)
+        {
+            <li class="nav-item @Model.BuildActiveClass(navigationItem)">
+                <a href="@navigationItem.ItemUrl">@navigationItem.NavigationTitle</a>
+
+                @if (navigationItem.Children.Any())
+                {
+                    <div class="dropdown">
+                        <div class="l-padding">
+                            <ul data-heights-type="nav-onscreen">
+                                @foreach (var childItem in navigationItem.Children)
+                                {
+                                    <li class="@Model.BuildActiveClass(childItem)">
+                                        <a href="@childItem.ItemUrl" class="nav-lvl2 link-caret-block">@childItem.NavigationTitle</a>
+                                        @if (childItem.Children.Any())
+                                        {
+                                            <ul>
+                                                @foreach (var item in childItem.Children)
+                                                {
+                                                    <li class="@Model.BuildActiveClass(item)">
+                                                        <a href="@item.ItemUrl" class="nav-lvl3 link-caret-block">@item.NavigationTitle</a>
+                                                    </li>
+                                                }
+                                            </ul>
+                                        }
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                }
+            </li>
+        }
+    </ul>
+</nav>

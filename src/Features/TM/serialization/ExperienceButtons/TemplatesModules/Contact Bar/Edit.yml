@@ -1,0 +1,31 @@
+﻿---
+ID: "1fb95b7b-57bb-42f9-9742-fb540a164a51"
+Parent: "1604fa8c-1b0e-4961-aeee-dc1ae5b3ab94"
+Template: "1ab4f9ad-b004-413c-8924-3e07143a614b"
+Path: /sitecore/content/Applications/WebEdit/Custom Experience Buttons/DSP/Features/TemplatesModules/Contact Bar/Edit
+DB: core
+SharedFields:
+- ID: "4431914a-c40b-437c-8add-d2ed12cc8cc3"
+  Hint: Icon
+  Value: People/32x32/cube_blue_preferences.png
+- ID: "cf738220-908d-4c3f-9482-32e625daf13c"
+  Hint: Fields
+  Value: Title|GeneralImage|EmailIcon|EmailLink|LocationIcon|LocationLink|PhoneIcon|PhoneLink
+Languages:
+- Language: en
+  Fields:
+  - ID: "108d3a63-baaa-4560-86d8-3a112ed84717"
+    Hint: Header
+    Value: Edit Contact Bar
+  - ID: "5f0812af-d370-4292-afee-f26a39b7406d"
+    Hint: Tooltip
+    Value: Edit Contact Bar
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160607T100420Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

@@ -1,0 +1,24 @@
+﻿---
+ID: "516190fd-1801-4ef8-9a26-184cd040a4eb"
+Parent: "1b92f603-880a-4692-a0d6-75c8767a5733"
+Template: "1b92f603-880a-4692-a0d6-75c8767a5733"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Query Feature Listing/Query Feature Listing Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {1B92F603-880A-4692-A0D6-75C8767A5733}
+    {B6D20AA5-0E5F-432C-B0A5-E0283F7A7752}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150510T030041Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

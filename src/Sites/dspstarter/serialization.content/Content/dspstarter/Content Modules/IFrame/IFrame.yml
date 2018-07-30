@@ -1,0 +1,30 @@
+﻿---
+ID: "04365b21-7fa8-4209-99d2-21ce3cfb562a"
+Parent: "84175cf0-5fcf-4993-8f4f-1c4ff767eaf6"
+Template: "81bc04d0-192f-4694-808f-08bf066b6b58"
+Path: /sitecore/content/dspstarter/Content Modules/IFrame/IFrame
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"Deloitte Digital\" linktype=\"external\" url=\"http://www.deloittedigital.com.au\" anchor=\"\" target=\"\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160629T091445Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Deloitte Digital
+    - ID: "c2d74603-d758-4f77-b36f-2b8a3ec4785b"
+      Hint: Height
+      Value: 500px

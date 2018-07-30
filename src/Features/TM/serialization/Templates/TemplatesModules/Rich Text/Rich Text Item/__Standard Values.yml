@@ -1,0 +1,14 @@
+﻿---
+ID: "e6f102b1-e4df-44d0-9754-701d83109ca3"
+Parent: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Rich Text/Rich Text Item/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160104T042217Z

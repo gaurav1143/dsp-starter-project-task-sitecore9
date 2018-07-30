@@ -1,0 +1,14 @@
+﻿---
+ID: "ce623d06-bec4-46ea-baf8-8f43e43e4179"
+Parent: "b4a2df4d-9356-4ad8-864b-794f06b36f91"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
+Path: /sitecore/layout/Renderings/Features/Example Forms/Contact Form
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T055331Z

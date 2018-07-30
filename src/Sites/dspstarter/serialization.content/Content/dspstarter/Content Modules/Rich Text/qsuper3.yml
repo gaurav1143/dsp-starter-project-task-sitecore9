@@ -1,0 +1,24 @@
+﻿---
+ID: "86d00e8f-6feb-48a4-a94c-8f56279d4481"
+Parent: "dadcce3e-ec29-4d51-98b9-9b0c999b8f15"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/content/dspstarter/Content Modules/Rich Text/qsuper3
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: "<p><strong style=\"font-size: 1rem; line-height: 1.875;\">Reinventing the member journey</strong><br></p><p style=\"margin-bottom: 14px;\">The vision was to build the foundation for the ultimate personalisation experience, a site that tailors its content based off visitor behaviours and patterns, a strength made possible through the Sitecore CMS platform. User research validated the design direction, using their contextual feedback as a guide for content coupling and visual hierarchy. The proposed solution provides greater choice and flexibility for members to obtain information and advice through their preferred communication channel. The online experience is simple and easy to use, no matter the device.<br></p>"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160520T042438Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"

@@ -1,0 +1,23 @@
+﻿---
+ID: "a9781ca8-d882-461b-b6b6-335c90d86349"
+Parent: "da43c42f-9357-4fa6-91fa-2d728b908cb7"
+Template: "a433ed38-7d03-4d29-bc2b-1471bbb1d2c4"
+Path: /sitecore/content/dspstarter/Content Modules/Image Tiles/Deloitte Image
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160106T233351Z
+    - ID: "4226a6a7-ebc8-423f-8428-c5f812ac174d"
+      Hint: ImageCaption
+      Value: View from Deloitte, high high up in the clouds
+    - ID: "e4791d22-a8e4-41f8-ae5f-57c4e0553884"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{9D101063-80E0-4C8D-823B-4C7F3B60C130}\" ></image>"
+    - ID: "f7f92772-48f1-49de-8a65-d8055f7488bf"
+      Hint: Title
+      Value: Deloitte Image

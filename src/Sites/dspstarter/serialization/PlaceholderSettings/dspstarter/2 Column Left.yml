@@ -1,0 +1,14 @@
+﻿---
+ID: "868f4834-1643-4a4c-9371-4a75089b6b24"
+Parent: "0ff29767-7c35-4d30-a3d9-587c28abc45e"
+Template: "c3b037a0-46e5-4b67-ac7a-a144b962a56f"
+Path: /sitecore/layout/Placeholder Settings/dspstarter/2 Column Left
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151223T053202Z

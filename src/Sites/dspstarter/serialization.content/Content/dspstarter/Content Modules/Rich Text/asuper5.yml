@@ -1,0 +1,27 @@
+﻿---
+ID: "b0dafcd4-ed3a-49c1-9121-918ec2a87ef1"
+Parent: "dadcce3e-ec29-4d51-98b9-9b0c999b8f15"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/content/dspstarter/Content Modules/Rich Text/asuper5
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: |
+        <strong>The site achieved WCAG2 Level &lsquo;A&rsquo; Accessibility.<br>
+        </strong><br>
+        Since the launch there has been a 25% increase in traffic compared to last year, a 60% annual increase in new Member acquisitions. 88% of all self-service transactions are now completed online (compared to a baseline of 15% &ndash; from the old site).
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160520T005103Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"

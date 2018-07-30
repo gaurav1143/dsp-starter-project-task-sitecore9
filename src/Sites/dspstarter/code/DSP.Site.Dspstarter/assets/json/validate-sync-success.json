@@ -1,0 +1,9 @@
+{
+	"status": [
+		{
+			"type": "success",
+			"title": "Success",
+			"description": "Thanks for submitting the form."
+		}
+	]
+}

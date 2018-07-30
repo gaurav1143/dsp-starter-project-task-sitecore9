@@ -1,0 +1,17 @@
+﻿---
+ID: "69eb9bc9-0679-4c51-887b-f8accbdb2a6b"
+Parent: "6c8a8a14-21e9-4512-a34b-3c973b84c25d"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Deloitte/Foundation/Common/Field Sections/Title Required/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151125T040322Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

@@ -1,0 +1,23 @@
+﻿---
+ID: "c2e9a407-4c32-4ecf-a57b-51f6b9d9db29"
+Parent: "446405a9-4b40-408b-8015-76c9b44ef702"
+Template: "7c69e05f-19cf-48d2-8382-c9a10255a825"
+Path: /sitecore/content/dspstarter/Content Modules/Content Tiles/quu
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link id=\"{4866A8D0-3968-4480-9980-C2A5196486AC}\" querystring=\"\" text=\"\" title=\"\" class=\"\" linktype=\"internal\" url=\"/dspstarter/Home/work/queensland_urban\" target=\"\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160222T234550Z
+    - ID: "2f1f0ab9-0450-49a3-a505-226b87ecab13"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{3263D6C6-6FAA-4AAE-850A-3CAA3175BCDE}\" />"
+    - ID: "f7f92772-48f1-49de-8a65-d8055f7488bf"
+      Hint: Title
+      Value: Queensland Urban Utilities

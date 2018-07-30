@@ -1,0 +1,56 @@
+﻿---
+ID: "4ff41dde-da07-4133-9fb4-77a621abc28a"
+Parent: "dadcce3e-ec29-4d51-98b9-9b0c999b8f15"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/content/dspstarter/Content Modules/Rich Text/awards2
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: |
+        <p><strong>Sitecore Site of the Year Awards (2014)<br>
+        </strong>Best Government & Public Sector Site: Department of Defence</p>
+        <p><strong>Sitecore Site of the Year Awards (2014)<br>
+        </strong>Best Customer/User Experience:  Queensland Urban Utilities </p>
+        <p><strong>Sitecore Site of the Year Awards (2014)<br>
+        </strong>People's Choice Award: QSuper Member Online Portal</p>
+        <p><strong style="font-size: 1rem; line-height: 1.875;">Sitecore Most Valuable Professional (2014)<br>
+        </strong>Digital Strategist: Joel Lipman</p>
+        <p>
+        <strong style="font-weight: bold;">Sitecore Most Valuable Professional (2014)<br>
+        </strong>Technology: Cameron Walker</p>
+        <p><strong>Sitecore Site of the Year Awards (2013)</strong><br>
+        Best DMS Deployment/Integration: Australian Super</p>
+        <p><strong>Sitecore Site of the Year Awards (2013)</strong><br>
+        Best Business & Professional Services Site: CPA Australia</p>
+        <p><strong>Sitecore Site of the Year Awards (2013)</strong><br>
+        Best Financial Services Site: AustralianSuper</p>
+        <p><strong>Sitecore Site of the Year Awards (2013)</strong><br>
+        The ROI Award: AustralianSuper
+        </p>
+        <p><strong>WebAward (2012)<br>
+        </strong>
+        Outstanding Website: Consumer Affairs Victoria</p>
+        <p><strong>WebAward (2012)<br>
+        </strong>
+        Outstanding Website: Australian Army </p>
+        <p><strong>Sitecore Site of the Year Awards (2012) <br>
+        </strong>
+        Best Financial Services Site: AustralianSuper</p>
+        <p><strong>Sitecore Site of the Year Awards (2012)<br>
+        </strong>
+        Best Federal Government Site: Australian Army</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160329T030309Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"

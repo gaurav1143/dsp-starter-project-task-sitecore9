@@ -1,0 +1,23 @@
+﻿---
+ID: "b18a7df7-61bd-49b1-a590-3f67743c1c5a"
+Parent: "ee17fffe-4288-4c28-977d-592696345bcb"
+Template: "4a2cefc3-510f-4a6a-94eb-d0108915fcea"
+Path: /sitecore/content/dspstarter/Configuration/Sort Order Options
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{BDC3D199-D33A-4B6C-9B09-5DBF9C863C63}"
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160205T050457Z

@@ -1,0 +1,17 @@
+﻿---
+ID: "8a5e2fa3-612b-4b49-a1e3-54f87ae7fba6"
+Parent: "3474b642-3636-4ce3-9c41-25c8d7325077"
+Template: "ccdcedcb-694e-495d-b78f-382d4edb3011"
+Path: /sitecore/content/dspstarter/Configuration/Tags/Content Tags/Geography/Oceania/Australia
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151207T032357Z
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Australia

@@ -1,0 +1,27 @@
+﻿---
+ID: "f7307ffc-1cb1-43ec-bf83-e43fff4094c0"
+Parent: "0f02c70b-fc11-47a5-92e9-1aa2112f8cad"
+Template: "fe21e247-308e-46f4-88f6-2cffe783ac54"
+Path: /sitecore/content/dspstarter/Content Modules/Hero Carousels/Homepage
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160307T032256Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "8201ba83-7a23-407a-af8c-c7cf3f46c25e"
+      Hint: CarouselItems
+      Type: Treelist
+      Value: |
+        {1D46849D-FB55-42E2-BF63-C8B6A878EE15}
+        {48B5E8B4-45A2-4413-ADEF-A123C1AD850F}

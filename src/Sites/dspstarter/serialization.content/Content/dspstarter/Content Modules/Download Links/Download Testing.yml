@@ -1,0 +1,24 @@
+﻿---
+ID: "3ec928f4-c7a9-4af7-b037-6fdb8ccd5ca1"
+Parent: "84111942-02cc-4436-8dfb-8956ee8fce22"
+Template: "d2632f2a-a347-466c-a2fe-96aa71d0e4eb"
+Path: /sitecore/content/dspstarter/Content Modules/Download Links/Download Testing
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160505T024239Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "f7f92772-48f1-49de-8a65-d8055f7488bf"
+      Hint: Title
+      Value: Download Testing

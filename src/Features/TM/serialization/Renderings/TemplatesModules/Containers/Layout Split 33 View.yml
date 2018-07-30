@@ -1,0 +1,25 @@
+﻿---
+ID: "20b5eb2d-9d1b-45ee-863c-b30eedd3ab46"
+Parent: "2d153d22-a3ed-4475-888d-6e58dab17128"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Features/TemplatesModules/Containers/Layout Split 33 View
+DB: master
+SharedFields:
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /modules/templatesmodules/containers/dynamiccontainer/layoutsplit33view.cshtml
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{104CFB76-DF5D-439B-BBB2-835CE6055648}"
+- ID: "a2f5d9df-8cba-4a1d-99eb-51acb94cb057"
+  Hint: Page Editor Buttons
+  Type: Treelist
+  Value: "{6E8F1C1A-3408-4D92-9083-C97A67159D34}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160107T021303Z

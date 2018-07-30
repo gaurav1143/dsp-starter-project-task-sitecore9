@@ -1,0 +1,26 @@
+﻿@using DeloitteDigital.Atlas.Extensions
+@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Content.SocialShare.SocialShareRendering
+
+<div class="cm cm-social-share">
+    @{string CurrentURL = Convert.ToString(@HttpContext.Current.Request.GetFullUrl()); }
+    <ul>
+        <li>
+            <a href="#" target="_blank" rel="noopener" title="Follow us on LinkedIn" 
+               onclick="window.open('https://www.linkedin.com/cws/share?url=@HttpUtility.UrlEncode(CurrentURL)', 'newwindow', 'width=600, height=350'); return false;">
+                <span class="icon svg-social-linkedin-grey" data-grunticon-embed></span>
+            </a>
+        </li>
+        <li>
+            <a href="#" target="_blank" rel="noopener" title="Like us on Facebook" 
+               onclick="window.open('https://www.facebook.com/dialog/share?app_id=@Model.ViewModel.FacebookAppID&href=@HttpUtility.UrlEncode(CurrentURL)', 'newwindow', 'width=600, height=350'); return false;">
+                <span class="icon svg-social-facebook-grey" data-grunticon-embed></span>
+            </a>
+        </li>
+        <li>
+            <a href="#" target="_blank" rel="noopener" title="Tweet us on Twitter" 
+               onclick="window.open('https://twitter.com/intent/tweet?url=@HttpUtility.UrlEncode(CurrentURL)', 'newwindow', 'width=600, height=350'); return false;">
+                <span class="icon svg-social-twitter-grey" data-grunticon-embed></span>
+            </a>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,17 @@
+﻿---
+ID: "4e285eef-19f8-452d-b511-46d3f5b18f07"
+Parent: "f2ff7a72-5907-4784-ba6a-89de786d9e81"
+Template: "ccdcedcb-694e-495d-b78f-382d4edb3011"
+Path: /sitecore/content/dspstarter/Configuration/Tags/Content Tags/Press/Awards
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160316T000114Z
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Awards

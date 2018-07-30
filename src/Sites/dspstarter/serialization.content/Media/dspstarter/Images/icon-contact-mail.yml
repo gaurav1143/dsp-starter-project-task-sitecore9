@@ -1,0 +1,31 @@
+﻿---
+ID: "b00ad0d8-7ad4-4cf9-9734-c12bfc98986f"
+Parent: "bc918008-f2c0-42e6-90e0-e9c2393f5c4c"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/dspstarter/Images/icon-contact-mail"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/b00ad0d87ad44cf99734c12bfc98986f.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "7fc8b90d-fbf0-4b4b-a6d7-68d47e86f905"
+  Value: PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjIuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0MCA0NSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDAgNDU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojRkZGRkZGO30KPC9zdHlsZT4KPGc+Cgk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMzUuMiwyOUg1LjhjLTEuOCwwLTMuMy0xLjQtMy4zLTMuMlY4LjJDMi41LDYuNCw0LDUsNS44LDVoMjkuNWMxLjgsMCwzLjMsMS40LDMuMywzLjJ2MTcuNgoJCUMzOC41LDI3LjYsMzcsMjksMzUuMiwyOXogTTUuOCw2LjZjLTAuOSwwLTEuNiwwLjctMS42LDEuNnYxNy42YzAsMC45LDAuNywxLjYsMS42LDEuNmgyOS41YzAuOSwwLDEuNi0wLjcsMS42LTEuNlY4LjIKCQljMC0wLjktMC43LTEuNi0xLjYtMS42SDUuOHoiLz4KCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yMC41LDIwLjJjLTAuMiwwLTAuNC0wLjEtMC41LTAuMkwzLjYsNy4yQzMuMyw2LjksMy4yLDYuNCwzLjUsNi4xQzMuOCw1LjgsNC4zLDUuNyw0LjYsNmwxNS45LDEyLjRMMzYuNCw2CgkJYzAuNC0wLjMsMC45LTAuMiwxLjIsMC4xYzAuMywwLjMsMC4yLDAuOC0wLjEsMS4xTDIxLDIwQzIwLjksMjAuMSwyMC43LDIwLjIsMjAuNSwyMC4yeiIvPgo8L2c+Cjwvc3ZnPgo=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 896
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160623T083238Z

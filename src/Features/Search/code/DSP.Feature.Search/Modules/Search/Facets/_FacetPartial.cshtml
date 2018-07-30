@@ -1,0 +1,26 @@
+﻿@using System.Web.Mvc.Html
+@model DSP.Feature.Search.Modules.Search.Facets.Facet
+
+<li>
+    @if (Model.IsSelected)
+    {
+        <a class="search-facet-item is-selected" href="?@Model.Url">
+            @Model.Title<span class="vh"> Currently selected. Click to unselect</span>
+        </a>
+        if (Model.Children.Any())
+        {
+            <ul class="search-facet-items">
+                @foreach (var facet in Model.Children)
+                {
+                    @Html.Partial("~/Modules/Search/Facets/_FacetPartial.cshtml", facet)
+                }
+            </ul>
+        }
+    }
+    else
+    {
+        <a class="search-facet-item" href="?@Model.Url">
+            <span class="vh">Add filter: </span>@Model.Title <span class="num">@Model.Count</span>
+        </a>
+    }
+</li>

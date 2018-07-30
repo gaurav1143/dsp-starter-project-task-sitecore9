@@ -1,0 +1,20 @@
+﻿---
+ID: "76c83f53-0105-4967-bb55-1d08a00d6609"
+Parent: "b6b76f21-3643-40c6-ac59-fac42344ff27"
+Template: "b6b76f21-3643-40c6-ac59-fac42344ff27"
+Path: /sitecore/templates/Deloitte/Foundation/Common/Field Sections/Query Skip Results/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160609T002027Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "8fcda5e5-0a42-4bab-93be-eab6dd6a8649"
+      Hint: QuerySkip
+      Value: 0

@@ -1,0 +1,20 @@
+﻿@using DSP.Foundation.Extensions
+@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Content.Image.ImageRendering
+<section class="cm cm-image">
+    <figure class="is-full">
+        @Model.ViewModel.GeneralImage.AsResponsiveImage()
+        @if (Model.HasValueOrIsPageEditor(Model.ViewModel.Title) || Model.HasValueOrIsPageEditor(Model.ViewModel.ImageCaption))
+        {
+            <figcaption>
+                @if (Model.HasValueOrIsPageEditor(Model.ViewModel.Title))
+                {
+                    <strong>@Model.ViewModel.Title</strong>
+                }
+                @if (Model.HasValueOrIsPageEditor(Model.ViewModel.ImageCaption))
+                {
+                    <p>@Model.ViewModel.ImageCaption</p>
+                }
+            </figcaption>
+        }
+    </figure>
+</section>

@@ -1,0 +1,8 @@
+﻿@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Content.RichText.RichTextRendering
+
+@if ((Model.IsPageEditor() && Model.ViewModel.GeneralText == null))
+{
+    <p>Add datasource</p>
+}
+@Model.ViewModel.GeneralText
+

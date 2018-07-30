@@ -1,0 +1,12 @@
+﻿---
+Role: sitecore\Base Content Author
+MemberOf:
+  Role: sitecore\Sitecore Client Users
+  Role: sitecore\Author
+  Role: sitecore\Sitecore Client Authoring
+  Role: sitecore\Can Edit Pages
+  Role: sitecore\Sitecore Client Social Authoring
+  Role: sitecore\Sitecore Client Designing
+  Role: sitecore\Sitecore Client Translating
+  Role: sitecore\Can Edit Content Modules
+  Role: sitecore\Social Message Author

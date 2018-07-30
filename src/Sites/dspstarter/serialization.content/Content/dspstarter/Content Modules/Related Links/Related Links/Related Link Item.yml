@@ -1,0 +1,21 @@
+﻿---
+ID: "27af1a56-ea25-4e6d-91a3-c6e8df36e10d"
+Parent: "06f99fe1-2372-4f53-9f53-7c2635240224"
+Template: "14fa946a-f92a-4b3b-be90-c9540d91d233"
+Path: /sitecore/content/dspstarter/Content Modules/Related Links/Related Links/Related Link Item
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160429T062323Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"

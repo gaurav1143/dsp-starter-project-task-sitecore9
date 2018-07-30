@@ -1,0 +1,75 @@
+﻿@model DSP.Feature.Search.Modules.Search.Facets.FacetsRendering
+
+@if (Model.ViewModel.ShowMobileFilters || Model.ViewModel.ShowMobileSorting)
+{
+    <div class="cm cm-search-facets-modals">
+        @if (Model.ViewModel.ShowMobileFilters)
+        {
+            <button class="js-modal-open cta is-secondary is-small" data-modal-id="modal-search-facets">Filter results</button>
+        }
+        @if (Model.ViewModel.ShowMobileSorting)
+        {
+            <button class="js-modal-open cta is-secondary is-small" data-modal-id="modal-collection-header-sort">Sort results</button>
+        }
+    </div>
+}
+
+@if (Model.ViewModel.HasSelectedFacets)
+{
+    <section class="cm cm-current-search-facets">
+        <h1>Current filter</h1>
+        <ul class="search-facet-items">
+            @foreach (var f in Model.ViewModel.SelectedFacets)
+            {
+                <li>
+                    <a class="search-facet-item is-selected" href="?@f.Url">
+                        @f.Title<span class="vh"> Currently selected. Click to unselect</span>
+                    </a>
+                </li>
+            }
+        </ul>
+        <a href="?@Model.ViewModel.ClearAllFacetsLink" class="clear-facets">Clear filters</a>
+    </section>
+}
+
+@if (Model.ViewModel.HasAvailableFacets)
+{
+    <section class="cm cm-search-facets js-modal-dynamic" data-modal-id="modal-search-facets">
+        <h1>Filter results</h1>
+        @foreach (var facetCategory in Model.ViewModel.AvailableFacets)
+        {
+            <div class="search-facet">
+                <a href="#search-facet-section-@Html.AttributeEncode(facetCategory.GetHashCode())" class="js-ec-link expandcollapse">@facetCategory.Title</a>
+                <div id="search-facet-section-@Html.AttributeEncode(facetCategory.GetHashCode())" class="js-ec search-facet-content expandcollapse-content is-expanded">
+                    <ul class="search-facet-items">
+                        @foreach (var facet in facetCategory.Children)
+                        {
+                            @Html.Partial("~/Modules/Search/Facets/_FacetPartial.cshtml", facet)
+                        }
+                    </ul>
+                </div>
+            </div>
+        }
+
+        @if (Model.ViewModel.ShowKeywordFacet)
+        {
+            <div class="search-facet is-keyword">
+                <a href="#search-facet-keyword" class="js-ec-link expandcollapse">Keyword</a>
+                <div id="search-facet-keyword" class="js-ec search-facet-content expandcollapse-content is-expanded">
+                    <form method="GET" action="@Model.ViewModel.FormBaseUrl">
+                        <div class="ctrl-holder">
+                            <label class="vh" for="txt_search-facet-keyword">Keyword</label>
+                            <input name="@DSP.Business.Search.Constants.SearchContext.Keys.Query" id="txt_search-facet-keyword" 
+                                   class="text width-full" type="text" placeholder="Enter keyword" value="@Model.ViewModel.Query" />
+                            @foreach (var key in Model.ViewModel.HiddenFields.AllKeys)
+                            {
+                                <input type="hidden" name="@key" value="@Model.ViewModel.HiddenFields[key]" />
+                            }
+                        </div>
+                        <input type="submit" class="cta is-secondary is-small is-full" value="Filter" />
+                    </form>
+                </div>
+            </div>
+        }
+    </section>
+}

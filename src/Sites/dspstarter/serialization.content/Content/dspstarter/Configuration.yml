@@ -1,0 +1,78 @@
+﻿---
+ID: "ee17fffe-4288-4c28-977d-592696345bcb"
+Parent: "cb7cf159-4226-43d2-8543-50a89520437b"
+Template: "6eea1622-7f8a-42a8-a4b6-ec68ad966cc4"
+Path: /sitecore/content/dspstarter/Configuration
+DB: master
+SharedFields:
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: "ar|sitecore\Can Edit Site Configuration|pe|+item:write|pd|+item:rename|+item:write|+item:create|+item:delete|"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ae17325-334b-42d7-b176-a8ebe3a13f09"
+      Hint: SearchResultsPage
+      Value: "<link text=\"\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{F264AE67-A3B0-4BAA-AFE2-288FB18F42EE}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151125T034854Z
+    - ID: "372a08e7-a572-4a78-932b-ddabe93cbe8e"
+      Hint: SocialMediaLinks
+      Value: "{6D12AF28-3346-45B0-9CC6-2405EFC9322A}"
+    - ID: "39e217e5-423d-4bb3-95c6-2df38b1c05c5"
+      Hint: MapAPIKey
+      Value: AIzaSyAnA2qcQqMvaBAZaosLwtoFELFSWV004KM
+    - ID: "5b4183e4-95dd-4132-95d6-500e43a363e2"
+      Hint: LanguageConfiguration
+      Value: "{4D8FEC02-3D4E-4640-A530-A711A205F699}"
+    - ID: "760d7b3f-7c31-4e4a-823c-b124228d12d9"
+      Hint: SocialMediaTwitterAccount
+      Value: @DeloitteDIGI_AU
+    - ID: "8870220e-7aca-4bc9-a6cc-9635ee9bd65d"
+      Hint: FooterLinks
+      Value: "{BC4BD707-FEDE-44C5-BB28-9D99734CE111}"
+    - ID: "bb3c48ca-39b1-4fab-9454-946963a2cac5"
+      Hint: LogoImage
+      Value: "<image mediaid=\"{6447039A-899B-432F-8D97-3DE554CBD495}\" alt=\"Deloitte Digital Logo\" height=\"30\" width=\"30\" hspace=\"\" vspace=\"\" />"
+    - ID: "cd30a812-a9ea-44b5-80c3-ef48c30e8c46"
+      Hint: GlobalPageTitle
+      Value: Deloitte Sitecore Platform
+    - ID: "d28354c5-bd31-46e5-99f4-7c2c4b69d2dd"
+      Hint: FacebookAppID
+      Value: APP_ID_GOES_HERE
+    - ID: "ecee6a96-6ea1-41f8-9127-5d928f6aa82c"
+      Hint: Copyright
+      Value: © 2015 Deloitte Digital Australia
+- Language: "ms-MY"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160907T002721Z
+    - ID: "cd30a812-a9ea-44b5-80c3-ef48c30e8c46"
+      Hint: GlobalPageTitle
+      Value: Platform Sitecore Deloitte
+- Language: "th-TH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160907T002003Z
+    - ID: "cd30a812-a9ea-44b5-80c3-ef48c30e8c46"
+      Hint: GlobalPageTitle
+      Value: แพลตฟอร์มไซต์คอร์ของดีลอยท์
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160830T012745Z
+    - ID: "372a08e7-a572-4a78-932b-ddabe93cbe8e"
+      Hint: SocialMediaLinks
+      Value: "{201C2147-FC59-4524-A3E9-79D2C5C98157}"

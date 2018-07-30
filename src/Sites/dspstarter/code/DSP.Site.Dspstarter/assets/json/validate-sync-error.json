@@ -1,0 +1,22 @@
+{
+	"status": [
+		{
+			"type": "error",
+			"title": "There are some validation issues.",
+			"controls": [
+				{
+					"id": "ss-text-field",
+					"message": "Please enter a value."
+				},
+				{
+					"id": "ss-email",
+					"message": "Please ensure you&rsquo;ve entered a valid email."
+				},
+				{
+					"id": "ss-terms",
+					"message": "Click the Terms and Conditions, duh!"
+				}
+			]
+		}
+	]
+}

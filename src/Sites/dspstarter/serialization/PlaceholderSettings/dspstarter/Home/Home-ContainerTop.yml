@@ -1,0 +1,22 @@
+﻿---
+ID: "ee6c4d09-f39f-427c-97c4-7fbb41e2d36a"
+Parent: "f1dd1c76-a61d-413f-9626-b66f6b8e178e"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/dspstarter/Home/Home-ContainerTop"
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: 
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: "{9F4407A9-535D-4605-8E81-8174300DF660}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151125T051709Z

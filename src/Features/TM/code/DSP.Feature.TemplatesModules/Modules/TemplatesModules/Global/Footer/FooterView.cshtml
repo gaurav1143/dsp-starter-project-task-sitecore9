@@ -1,0 +1,45 @@
+﻿@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Global.Footer.FooterRendering
+
+<footer class="global-footer" role="contentinfo">
+    <div class="l-padding">
+        <nav>
+            <ul class="nav-footer @Model.RenderCssClass()">
+                @foreach (var item in Model.ViewModel.FooterLinks)
+                {
+                    <li>
+                        <h2>
+                            @item.GeneralLink
+                        </h2>
+                        @if (@item.LinkItems.Any())
+                        {
+                            <ul>
+                                @foreach (var footerLinkItem in item.LinkItems)
+                                {
+                                    <li>
+                                        @footerLinkItem.GeneralLink
+                                    </li>
+                                }
+                            </ul>
+                        }
+                    </li>
+                }
+
+                @if (Model.ViewModel.SocialMediaLinks.Any())
+                {
+                    <li class="nav-footer-social link-icons-disabled">
+                        <h2>Connect with us</h2>
+                        <ul>
+                            @foreach (var socialMediaLink in Model.ViewModel.SocialMediaLinks)
+                            {
+                                <li>
+                                    <a href="@socialMediaLink.GeneralLink.Url" target="_blank" title="@socialMediaLink.GeneralLink.Description"><span class="icon @socialMediaLink.IconCssClass" data-grunticon-embed></span></a>
+                                </li>
+                            }
+                        </ul>
+                    </li>
+                }
+            </ul>
+        </nav>
+        <p>@Model.ViewModel.Copyright</p>
+    </div>
+</footer>

@@ -1,0 +1,19 @@
+﻿---
+ID: "e42f6684-f6b9-40ff-99ab-44034887fdc2"
+Parent: "345cffb4-bf7c-4c60-8af3-efafb1970636"
+Template: "b27a9c77-2263-4fd6-8e0c-65d640414850"
+Path: /sitecore/content/dspstarter/Content Modules/Accordion/AccordionItems
+DB: master
+SharedFields:
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160517T110806Z

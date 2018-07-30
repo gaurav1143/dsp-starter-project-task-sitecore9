@@ -1,0 +1,19 @@
+﻿---
+ID: "f5afbff2-c352-4b17-9be4-d26bb6fb94a5"
+Parent: "a2d6999f-3696-4a38-9619-3a17b23e80ca"
+Template: "a2d6999f-3696-4a38-9619-3a17b23e80ca"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Footer/Footer Link Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{0E12E814-46F2-4E78-91A2-3782EB320C31}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160125T014128Z

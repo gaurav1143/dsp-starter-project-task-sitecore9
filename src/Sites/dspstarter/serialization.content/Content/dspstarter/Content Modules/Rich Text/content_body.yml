@@ -1,0 +1,42 @@
+﻿---
+ID: "fc35ae3e-ea57-49ae-a479-3d0db19b3a33"
+Parent: "dadcce3e-ec29-4d51-98b9-9b0c999b8f15"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/content/dspstarter/Content Modules/Rich Text/content_body
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: |
+        <div><strong>Perth</strong></div>
+        <div>240 St. Georges Terrace</div>
+        <div>Perth, WA 6000</div>
+        <div><a href="http://g.co/maps/np2bx">View map</a></div>
+        <div>Phone  +61 8 9635 7000</div>
+        <div><strong><br>
+        Brisbane</strong></div>
+        <div>123 Eagle Street</div>
+        <div>Brisbane, QLD 4000</div>
+        <div><a href="https://goo.gl/maps/S5JnM">View map</a></div>
+        <div>Phone  +61 7 3308 7000</div>
+        <div><strong><br>
+        Canberra</strong></div>
+        <div>Brindabella Business Park</div>
+        <div>8 Brindabella Circuit</div>
+        <div><span style="font-size: 1rem; line-height: 1.875;">Canberra, ACT 2600</span></div>
+        <div><a href="http://goo.gl/5cTYmp">View map</a></div>
+        <div>Phone  +61 2 6263 7000</div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160215T005912Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"

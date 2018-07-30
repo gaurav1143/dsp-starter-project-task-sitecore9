@@ -1,0 +1,17 @@
+﻿---
+ID: "ee740fa0-9aec-48f0-a077-282612a9c637"
+Parent: "7c69e05f-19cf-48d2-8382-c9a10255a825"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Content Tile/Content Tile/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160105T005125Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

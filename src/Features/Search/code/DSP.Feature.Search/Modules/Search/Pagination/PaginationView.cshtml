@@ -1,0 +1,67 @@
+﻿@model DSP.Feature.Search.Modules.Search.Pagination.PaginationRendering
+
+@if (Model.ViewModel.Pages.Any())
+{
+    <div class="collection-pagination">
+        @if (Model.ViewModel.HasPreviousPage)
+        {
+            <div class="pagination-prev">
+                <a href="@string.Concat(@Request.Url.AbsolutePath, "?", @Model.ViewModel.PreviousPageLink)">
+                    <div class="icon svg-caret-left-grey" data-grunticon-embed></div>
+                    <span class="vh">Previous Page</span>
+                </a>
+            </div>
+        }
+        else
+        {
+            <div class="pagination-prev is-disabled">
+                <span>
+                    <div class="icon svg-caret-left-grey" data-grunticon-embed></div>
+                    <span class="vh">Previous Page (disabled)</span>
+                </span>
+            </div>
+        }
+        <ol>
+            @foreach (var page in Model.ViewModel.Pages)
+            {
+                if (page.ShowMore)
+                {
+                    <li>
+                        <span class="more">...</span>
+                    </li>
+                }
+                else if (page.IsActive)
+                {
+                    <li class="is-active">
+                        <span class="vh">Page </span>@page.PageNumber
+                    </li>
+                }
+                else
+                {
+                    <li>
+                        <a href="@string.Concat(@Request.Url.AbsolutePath, "?", @page.Link)"><span class="vh">Page </span>@page.PageNumber</a>
+                    </li>
+                }
+            }
+        </ol>
+
+        @if (Model.ViewModel.HasNextPage)
+        {
+            <div class="pagination-next">
+                <a href="@string.Concat(@Request.Url.AbsolutePath, "?", @Model.ViewModel.NextPageLink)">
+                    <div class="icon svg-caret-right-grey" data-grunticon-embed></div>
+                    <span class="vh">Next Page</span>
+                </a>
+            </div>
+        }
+        else
+        {
+            <div class="pagination-next is-disabled">
+                <span>
+                    <div class="icon svg-caret-right-grey" data-grunticon-embed></div>
+                    <span class="vh">Next Page (disabled)</span>
+                </span>
+            </div>
+        }
+    </div>
+}

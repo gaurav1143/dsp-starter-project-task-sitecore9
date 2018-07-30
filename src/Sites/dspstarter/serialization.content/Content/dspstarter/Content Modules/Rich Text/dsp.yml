@@ -1,0 +1,73 @@
+﻿---
+ID: "c958aaea-261b-4f91-bb8d-f6a2c205331c"
+Parent: "dadcce3e-ec29-4d51-98b9-9b0c999b8f15"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/content/dspstarter/Content Modules/Rich Text/dsp
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: |
+        <p><strong>Flexible Content Management</strong></p>
+        <p>Our philosophy for delivering digital platforms is to put as much power and flexibility as possible into the hands of content authors, and the Deloitte Sitecore Platform delivers on this philosophy with a modular approach to page layouts.The platform offers a number of different modular components which can be used across one, two and three column page layouts, allowing content authors to add, remove and rearrange when creating compelling content for your visitors.</p>
+        <p>Modular components available in the platform include: rich text modules, carousels, call to action tiles, image tiles, download lists, related link lists, hero banners, social media feeds, child section listings, popular content listings and side-by-side module layouts.<br></p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160104T045754Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+- Language: "ms-MY"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: |
+        <p><strong>Pengurusan Kandungan Fleksibel</strong></p>
+        <p>Sejurus dengan falsafah kami untuk menyediakan platform digital, kami sebanyak mungkin ingin meletakkan kuasa dan fleksibiliti di tangan pengarang. Platform Sitecore Deloitte berpegang pada falsafah ini dengan pendekatan modular kepada susun atur halaman. Platform ini menawarkan beberapa komponen modular yang berbeza yang boleh digunakan pada satu, dua dan tiga susun atur halaman ruangan, membolehkan pengarang untuk menambah, membuang dan menyusun semula apabila mewujudkan kandungan yang menarik bagi pengunjung laman sesawang anda.<br>
+        Komponen Modular terdapat di platform termasuk: rich text module, karusel, komponen call to action, komponen imej, senarai muat turun, senarai pautan yang berkait, hero banner, suapan media sosial, penyenaraian halaman anak-anak, senarai kandungan popular dan modul susun atur sebelah-menyebelah</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160907T004004Z
+- Language: "th-TH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: |
+        <p><strong>การจัดการคอนเทนต์ที่ยืดหยุ่น</strong></p>
+        <p>ปรัชญาการให้บริการแพลตฟอร์มดิจิตอลของเรา คือ การส่งมอบทั้งอำนาจและความยืดหยุ่นไว้ในมือของผู้เขียนคอนเทนต์ และแพลตฟอร์มไซต์คอร์ของดีลอยท์ก็ยึดถือปรัชญานี้ผ่านวิธีการจัดการเพจเลย์เอาท์โดยใช้โมดูลาร์คอมโพเนนต์ ซึ่งแพลตฟอร์มของเรานั้นมีโมดูลาร์คอมโพเนนต์ให้เลือกใช้เป็นจำนวนมาก โดยแต่ละโมดูลสามารถใช้บนเพจเลย์เอาท์แบบหนึ่ง สอง หรือสามคอลัมน์ได้ตามต้องการ ซึ่งทำให้ผู้เขียนคอนเทนต์สามารถเพิ่ม ลบ หรือปรับเปลี่ยนรูปแบบให้น่าสนใจและเหมาะสมกับผู้เยี่ยมชมเว็บไซต์ได้</p>
+        <p>โมดูลาร์คอมโพเนนต์ที่มีให้เลือกใช้บนแพลตฟอร์ม ได้แก่ โมดูลข้อความที่ปรับแต่งได้ โมดูลแสดงภาพแบบวน กล่องเมนู(call-to-action) กล่องรูปภาพ รายการดาวน์โหลด รายการลิ้งค์ที่เกี่ยวข้อง ฮีโร่แบนเนอร์ ฟีดจากโซเชียลมีเดีย รายการที่อยู่ภายใต้กลุ่ม รายการคอนเทนต์ที่เป็นที่นิยม และ เลย์เอาท์โมดูลเรียงข้างกัน(side-by-side)</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160907T000448Z
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: |
+        <p><strong>灵活性的客户体验管理软件</strong></p>
+        <p>我们对数位平台的理念是为网站内容作者提供越多的能力与灵活性, 而Deloitte Sitecore Platform是将页面布局以模组化的方式来达成这个理念.Deloitte Sitecore Platform提供许多可以运用在一列,两列与三列页面布局的不同组件.网站内容作者在为您的网页制造内容过程中可随意加,移除跟更改这些组件.<br>
+        <br>
+        平台里的组件有: 富文字编辑(RTE)组件, 轮换转式多媒体, 号召性用语区域, 图片区域, 下载清单, 有关链接清单, 横幅广告, 社群媒体摘要, 子页区域清单, 热门话题清单与并排侧模组页面布局.</p>
+        <br>
+        <div class="telerik_paste_container" style="border-width: 0px; position: absolute; overflow: hidden; margin: 0px; padding: 0px; left: 3px; top: 31px; width: 1px; height: 1px;"><span style="line-height: 24px; white-space: pre-wrap; font-family: arial, sans-serif; font-size: 16px; color: #212121; background-color: #ffffff;">我们对数位平台的理念是为网站内容作者提供越多的能力与灵活性, 而Deloitte Sitecore Platform是将页面布局以模组化的方式来达成这个理念.Deloitte Sitecore Platform提供许多可以运用在一列,两列与三列页面布局的不同组件.网站内容作者在为您的网页制造内容过程中可随意加,移除跟更改这些组件.
+        平台里的组件有: 富文字编辑(RTE)组件, 轮换转式多媒体, 号召性用语区域, 图片区域, 下载清单, 有关链接清单, 横幅广告, 社群媒体摘要, 子页区域清单, 热门话题清单与并排侧模组页面布局.</span></div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160830T014801Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

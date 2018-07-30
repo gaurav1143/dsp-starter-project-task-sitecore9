@@ -1,0 +1,22 @@
+﻿---
+ID: "90c0031f-6425-489a-a130-e9e081627404"
+Parent: "2d153d22-a3ed-4475-888d-6e58dab17128"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Features/TemplatesModules/Containers/Homepage Container
+DB: master
+SharedFields:
+- ID: "308e88f5-cd6e-4f8f-bafe-95a47dedefdc"
+  Hint: Editable
+  Type: Checkbox
+  Value: 0
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /modules/templatesmodules/containers/homepagecontainer/homepagecontainerview.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151224T062711Z

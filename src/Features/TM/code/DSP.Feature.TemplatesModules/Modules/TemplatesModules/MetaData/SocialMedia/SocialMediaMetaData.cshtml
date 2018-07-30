@@ -1,0 +1,27 @@
+﻿@using DeloitteDigital.Atlas.Extensions
+@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.MetaData.SocialMedia.SocialMediaMetaDataRendering
+
+@if (!string.IsNullOrEmpty(@Model.ViewModel.Title))
+{
+    <meta property="og:title" content="@Model.ViewModel.Title">
+    <meta name="twitter:title" content="@Model.ViewModel.Title">
+}
+<meta property="og:type" content="website">
+@if (@Model.ViewModel.SocialMediaImage != null)
+{
+    <meta property="og:image" content="@Model.ViewModel.SocialMediaImage.UrlOnly()">
+}
+<meta property="og:url" content="@HttpContext.Current.Request.GetFullUrl()">
+@if (!string.IsNullOrEmpty(@Model.ViewModel.MetaDescription))
+{
+    <meta property="og:description" content="@Model.ViewModel.MetaDescription">
+}
+<meta name="twitter:card" content="summary">
+
+@if (!string.IsNullOrEmpty(@Model.ViewModel.TwitterSite))
+{
+    <meta name="twitter:site" content="@Model.ViewModel.TwitterSite">
+}
+
+
+

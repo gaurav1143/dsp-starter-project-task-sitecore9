@@ -1,0 +1,24 @@
+﻿---
+ID: "700e7ece-eff1-4d27-a63e-00443af633a5"
+Parent: "09fd94cd-ed8c-4b3b-a8d7-7d47af685e5e"
+Template: "f96a6cd1-d5b2-413c-a236-0c51d93b2da9"
+Path: /sitecore/content/dspstarter/Content Modules/Hero Links/Hero Links 1
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160505T064344Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Hero Links 1

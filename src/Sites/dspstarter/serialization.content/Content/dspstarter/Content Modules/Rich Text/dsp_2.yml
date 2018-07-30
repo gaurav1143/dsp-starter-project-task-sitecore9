@@ -1,0 +1,49 @@
+﻿---
+ID: "7d69168a-1710-436c-baa3-cd06b36ccc07"
+Parent: "dadcce3e-ec29-4d51-98b9-9b0c999b8f15"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/content/dspstarter/Content Modules/Rich Text/dsp_2
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: "<div><b>Small or big content</b></div><div><br></div><div>Deloitte Digital works with a wide range of clients; and projects, so we have designed our Sitecore Platform to handle many use cases, from small campaign sites with three or four pages all the way to enterprise scale information repositories with tens of thousands of pages and media items. </div><div><br></div><div>Our approach to scaling for large content hinges on our “content collection” concept which mixes traditional navigation with search and filter based navigation concepts to help your visitors find the information that they are looking for no matter how much content you have. We have augmented this with content managed queries which help you manage high content volume sites by automating home and landing pages as content pages are added and updated based on content tagging from a hierarchical taxonomy that you can maintain yourself. You can even personalise which queries are run for individual users using Sitecore’s built-in personalisation capabilities.</div>"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160215T040706Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+- Language: "ms-MY"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: |
+        <p><strong>Kandungan Pelbagai Skala</strong></p>
+        <p>Deloitte Digital merangkumi pelanggan dan projek yang berbeza. Disebabkan itu, Platform Sitecore kami direka untuk mengendalikan banyak kes penggunaan - dari laman web kempen kecil dengan tiga atau empat halaman hingga ke repositori maklumat bagi perusahaan besar dengan puluhan ribu muka surat dan aset media. Pendekatan kami bagi kandungan besar bergantung kepada konsep &ldquo;content collection&rdquo; yang menggabungkan navigasi yang tradisional dengan konsep pencarian dan pandu arah berasaskan penapis untuk membantu pengunjung anda mencari maklumat tidak mengira jumlah. Kami memperkukuhkan ini dengan content managed queries yang membantu anda menguruskan laman yang besar dengan mengautomasikan laman-laman utama apabila halaman kandungan ditambah &ndash; yang mampu anda kemaskini berdasarkan kandungan tag dari satu taksonomi berasaskan hierarki. Anda juga dapat memilih permintaan mana dijalankan untuk pengguna individu menggunakan keupayaan memperibadikan Sitecore yang sedia ada.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160907T004048Z
+- Language: "th-TH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: |
+        <p><strong>คอนเทนต์จำนวนน้อยหรือมาก</strong></p>
+        <p>บริษัทดีลอยท์ดิจิตอลได้ทำงานร่วมกับลูกค้าที่หลากหลายผ่านโปรเจ็คจำนวนมาก เราจึงได้ออกแบบแพลตฟอร์มไซต์คอร์ของเราให้สามารถรองรับการใช้งานได้หลายรูปแบบ ตั้งแต่เว็บไซต์แคมเปญขนาดเล็ก 3-4 เพจ ได้จนถึงคลังข้อมูลของบริษัทขนาดใหญ่ที่มีเพจและไอเทมต่างๆ เป็นหมื่นๆ ชิ้น</p>
+        <p>วิธีการที่เราใช้ในการสเกลระบบให้รองรับคอนเทนต์จำนวนมากได้ คือคอนเซปต์ “คอนเทนต์คอลเล็กชั่น” ที่ผสมผสานการเซิร์ชข้อมูลแบบดั้งเดิมเข้ากับการกรองข้อมูลด้วยฟิลเตอร์ ซึ่งจะช่วยให้ผู้เข้าชมเว็บไซต์ค้นหาข้อมูลที่ต้องการได้ไม่ว่าคอนเทนต์ทั้งหมดจะมีจำนวนมากเพียงใดก็ตาม นอกจากนี้เรายังเสริมความสามารถด้วยการสืบค้นคอนเทนต์แบบควบคุม ที่ช่วยให้คุณสามารถจัดการไซต์ที่มีคอนเทนต์จำนวนมากได้โดยการสร้างเพจหลักและหน้าแรกแบบอัตโนมัติ ที่จะทำการอัพเดตคอนเทนต์ที่ถูกเพิ่มหรือเปลี่ยนแปลงเข้าไปในหน้าดังกล่าวด้วยตัวเอง โดยที่คุณยังสามารถแท็กคอนเทนต์และกำหนดเงื่อนไขและลำดับขั้นการเพิ่มข้อมูลได้ คุณยังสามารถกำหนดการสืบค้นที่แตกต่างกันให้กับแต่ละบุคคลที่เข้ามาเยี่ยมชมเว็บไซต์ได้อีกด้วยผ่านความสามารถในตัวของแพลตฟอร์มไซต์คอร์ของเรา</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160907T000610Z

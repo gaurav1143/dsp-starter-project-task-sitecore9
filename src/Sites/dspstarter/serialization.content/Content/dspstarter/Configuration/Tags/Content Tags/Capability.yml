@@ -1,0 +1,21 @@
+﻿---
+ID: "0af9a757-1a6a-4dcc-9d93-a19aa8c8ec94"
+Parent: "8224a3d9-54cd-45d8-ae1c-4d0e387f0b4d"
+Template: "ccdcedcb-694e-495d-b78f-382d4edb3011"
+Path: /sitecore/content/dspstarter/Configuration/Tags/Content Tags/Capability
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 25
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160316T000209Z
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Capability

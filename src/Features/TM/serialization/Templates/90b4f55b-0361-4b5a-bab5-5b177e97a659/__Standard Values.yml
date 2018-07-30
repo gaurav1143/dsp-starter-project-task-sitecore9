@@ -1,0 +1,21 @@
+﻿---
+ID: "e44fe4bb-bf3a-4680-880e-437d68d330fd"
+Parent: "90b4f55b-0361-4b5a-bab5-5b177e97a659"
+Template: "90b4f55b-0361-4b5a-bab5-5b177e97a659"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Contact Bar/Contact Bar Rendering Options/__Standard Values
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: people/32x32/cube_yellow_preferences.png
+- ID: "3094d236-5985-4c4f-ae6a-e30740885532"
+  Hint: Caching
+  Value: 0|0|0|0|0|0|0|0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160608T091016Z

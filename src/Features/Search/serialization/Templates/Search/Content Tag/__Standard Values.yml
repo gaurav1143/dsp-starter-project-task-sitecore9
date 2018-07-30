@@ -1,0 +1,19 @@
+﻿---
+ID: "6ba3afa3-197f-4cca-88b1-c9ac5dd22d8d"
+Parent: "ccdcedcb-694e-495d-b78f-382d4edb3011"
+Template: "ccdcedcb-694e-495d-b78f-382d4edb3011"
+Path: /sitecore/templates/Deloitte/Features/Search/Content Tag/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{CCDCEDCB-694E-495D-B78F-382D4EDB3011}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151130T022919Z

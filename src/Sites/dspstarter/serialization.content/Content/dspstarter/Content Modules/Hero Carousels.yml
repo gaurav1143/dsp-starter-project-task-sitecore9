@@ -1,0 +1,18 @@
+﻿---
+ID: "0f02c70b-fc11-47a5-92e9-1aa2112f8cad"
+Parent: "b9f5a81a-64b6-495e-8d14-5f76eaa3c2b8"
+Template: "11e88564-66de-4a52-a175-38f7fd974236"
+Path: /sitecore/content/dspstarter/Content Modules/Hero Carousels
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160307T032144Z

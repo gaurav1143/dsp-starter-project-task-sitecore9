@@ -1,0 +1,24 @@
+﻿---
+ID: "0569a223-e81a-4498-9825-41561cf462d1"
+Parent: "dadcce3e-ec29-4d51-98b9-9b0c999b8f15"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/content/dspstarter/Content Modules/Rich Text/emerald8
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: "<strong>Design and development of a Salesforce front-end<br></strong><br>The process began with a creative design concept of key screens of the Grower Portal, aligning with the look and feel of the intranet.  After consultation with key stakeholders, the concepts were developed into production-ready creative assets and static HTML, CSS and presentational JavaScript files.  We supported the integration of the assets into Salesforce by Emerald Grain.<strong><br><br>Digitising the supply chain<br></strong><br>The grower portal allows growers to set pricing preferences, sell grain online, access contract and payment paperwork and more.  Growers in the south east of Australia who store their grain with Emerald can also manage their warehouse grain through the portal."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160520T012431Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"

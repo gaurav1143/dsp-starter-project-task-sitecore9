@@ -1,0 +1,47 @@
+﻿---
+ID: "9bb5b30a-1f9c-46ac-9605-73897ef76077"
+Parent: "dadcce3e-ec29-4d51-98b9-9b0c999b8f15"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/content/dspstarter/Content Modules/Rich Text/dsp_4
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: "<div><b>Proven best practice</b></div><div><br></div><div>The Deloitte Sitecore Platform is a result of proven best practice and experience from more than 20 Enterprise-grade Sitecore implementations for some of Australia’s largest organisations. </div><div><br></div><div>Our Platform is multi-site ready, fully mobile device responsive and built on the latest Sitecore and ASP. NET MVC technologies. It embodies our Sitecore philosophy of enabling the use of Sitecore’s differentiating capabilities around Experience Editor, Personalisation, Optimisation and Analytics. Our focus and experience in delivering systems aligned with the Sitecore product architecture reduces effort and cost of implementing additional Sitecore modules in future.Designed to grow with you</div>"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160215T042049Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+- Language: "ms-MY"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: |
+        <p><strong>Amalan Terbaik Yang Terbukti</strong></p>
+        <p>
+        Platform Deloitte Sitecore adalah hasil daripada amalan terbaik yang terbukti dan pengalaman dari lebih daripada 20 pelaksanaan Sitecore berskala usahawan besar untuk beberapa organisasi terbesar di Australia. Platform kami dibina di atas Sitecore dan ASP .NET MVC Technologies yang terbaru di mana ia membolehkan penggunaan multi-site dan mempunyai kemampuan responsif sepenuhnya bagi peranti mudah alih. Falsafah Sitecore jelas dilihat melalui penggunaan keupayaan Sitecore yang berbagai melalui Experience Editor, Personalisation, Optimisation dan Analytics. Melalui pengalaman kami dalam perlaksanaan sistem sejajar dengan struktur asas produk Sitecore, ia memudahkan dan lantas mengurangkan kos melaksanakan modul Sitecore tambahan.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160907T004156Z
+- Language: "th-TH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: <div><b>วิธีการที่เป็นเลิศที่ผ่านการพิสูจน์</b></div><div><br></div><div>แพลตฟอร์มไซต์คอร์ของดีลอยท์คือผลลัพธ์ของวิธีการที่เป็นเลิศที่ผ่านการพิสูจน์และประสบการณ์จากการอิมพลีเมนท์ไซต์คอร์ระดับเอ็นเตอร์ไพรส์มากกว่า 20 โปรเจ็คให้กับหลายบริษัทในกลุ่มระดับใหญ่ที่สุดของออสเตรเลีย </div><div><br></div><div>แพลตฟอร์มของเราพร้อมติดตั้งบนหลายไซต์งาน รองรับการปรับให้เข้ากับขนาดหน้าจอมือถือที่แตกต่างกันแบบเรสพอนซีฟ และสร้างบนเทคโนโลยีไซต์คอร์ ASP .NET MVC รุ่นล่าสุด โดยแสดงถึงปรัชญาไซต์คอร์ของเราคือการใช้ความสามารถที่เป็นจุดเด่นของไซต์คอร์ซึ่งได้แก่ Experience Editor, Personalisation, Optimisation, และ Analytics ซึ่งเรามุ่งเน้นที่จะให้บริการระบบที่สอดคล้องกับโครงสร้างของไซต์คอร์เพื่อจะลดความยุ่งยากและค่าใช้จ่ายในการอิมพลีเมนท์โมดูลอื่นๆ ของไซต์คอร์ในอนาคต </div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160907T000951Z

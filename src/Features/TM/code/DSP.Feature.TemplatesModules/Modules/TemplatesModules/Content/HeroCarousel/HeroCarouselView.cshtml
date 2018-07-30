@@ -1,0 +1,32 @@
+﻿@using DSP.Feature.TemplatesModules.Modules.TemplatesModules.Content.HeroCarousel
+@using Sitecore.Data
+@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Content.HeroCarousel.HeroCarouselRendering
+
+<header class="hero-carousel">
+    <div class="js-carousel" data-carousel-type="hero">
+
+        @foreach (var slide in Model.ViewModel.CarouselItems)
+        {
+            if (slide.TemplateId == ID.Parse(DSP.Feature.TemplatesModules.SitecoreTemplates.Hero_Carousel_Slide_Item.TemplateId))
+            {
+                Html.RenderPartial("~/Modules/TemplatesModules/Content/HeroCarousel/_HeroCarouselSlide.cshtml", slide as HeroCarouselSlide);
+            }
+
+            if (slide.TemplateId == ID.Parse(DSP.Feature.TemplatesModules.SitecoreTemplates.Hero_Carousel_Video_Item.TemplateId))
+            {
+                Html.RenderPartial("~/Modules/TemplatesModules/Content/HeroCarousel/_HeroCarouselVideoSlide.cshtml", slide as HeroCarouselVideoSlide);
+            }
+        }
+
+        @if (!Model.ViewModel.CarouselItems.Any())
+        {
+            <div class="hero-carousel-item">
+                <div class="l-padding">
+                    <div class="content">
+                        <p>Please select at least one slide.</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</header>

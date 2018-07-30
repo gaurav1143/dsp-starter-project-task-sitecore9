@@ -1,0 +1,17 @@
+﻿---
+ID: "566e246f-684d-4e22-8bb9-c7ddc416f986"
+Parent: "90b4f55b-0361-4b5a-bab5-5b177e97a659"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Contact Bar/Contact Bar Rendering Options/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160608T091720Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

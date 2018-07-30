@@ -1,0 +1,24 @@
+﻿---
+ID: "3e59a45d-81ae-442b-a845-150c73209b90"
+Parent: "dadcce3e-ec29-4d51-98b9-9b0c999b8f15"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/content/dspstarter/Content Modules/Rich Text/quu4
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: "<p><strong style=\"font-size: 1rem; line-height: 1.875;\">Successful delivery<br></strong><span style=\"font-size: 1rem; line-height: 1.875;\">Both the website redesign and content layout was well received by Queensland Urban Utilities stakeholders alike.The website was built on the Sitecore CMS platform with future personalisation opportunities in mind. Queensland Urban Utilities' goal is to track a customer’s journey through the website and use that insight to surface further opportunities for the customer to self service via online forms or information gathering</span></p><div> </div>"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160520T041810Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"

@@ -1,0 +1,16 @@
+﻿@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Content.Download.DownloadsRendering
+
+<section class="cm cm-links cm-links-downloads has-top-border">
+    <h1>@Model.ViewModel.Title</h1>
+    <ul>
+        @foreach (var downloadItem in @Model.ViewModel.Downloads)
+        {
+            <li>
+                <a href="@downloadItem.Url" class="link-item has-icon">
+                    <span class="icon svg-filetype-@downloadItem.DownloadMediaItem.Extension.ToLower()-black" data-grunticon-embed></span>
+                    <strong>@downloadItem.DownloadMediaItem.Title</strong> <span class="link-item-type">(@downloadItem.DownloadMediaItem.Extension, @downloadItem.FilesSize mb)</span>
+                </a>
+            </li>
+        }
+    </ul>
+</section>

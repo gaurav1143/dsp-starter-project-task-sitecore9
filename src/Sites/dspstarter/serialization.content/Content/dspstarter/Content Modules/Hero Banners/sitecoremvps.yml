@@ -1,0 +1,74 @@
+﻿---
+ID: "753dcada-a034-4f68-9510-c183291d9303"
+Parent: "6a3454fc-3689-4fa3-830d-e6b897cd842f"
+Template: "1884a27a-c22d-4bf2-8596-fc56e0512acb"
+Path: /sitecore/content/dspstarter/Content Modules/Hero Banners/sitecoremvps
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{05726C36-0855-4CE8-8037-7BD527BA12B3}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160107T031426Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Cameron Walker & Troy Outtram named Sitecore Most Valuable Professionals 
+    - ID: "7f66b395-ebfb-40d2-a452-fd480284d8be"
+      Hint: ShortDescription
+      Value: Deloitte Digital has been recognised as Australia’s leading digital agency with the recent announcement of two 2016 Sitecore Most Valuable Professional (MVP) awards. 
+    - ID: "e4791d22-a8e4-41f8-ae5f-57c4e0553884"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{E6603492-27A6-4A9A-8ACE-A9B9A96C2C97}\" />"
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{05726C36-0855-4CE8-8037-7BD527BA12B3}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160826T030140Z
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Cameron Walker及Troy Outtram为Sitecore最有价值专业人士
+    - ID: "7f66b395-ebfb-40d2-a452-fd480284d8be"
+      Hint: ShortDescription
+      Value: 随着最近宣布的两个2016年度Sitecore最有价值专业人士奖,Deloitte Digital已被大众所认定为澳大利亚digital agency中的领导者
+    - ID: "e4791d22-a8e4-41f8-ae5f-57c4e0553884"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{E6603492-27A6-4A9A-8ACE-A9B9A96C2C97}\" />"
+- Language: "zh-TW"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{05726C36-0855-4CE8-8037-7BD527BA12B3}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160826T023439Z
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Cameron Walker及Troy Outtram為Sitecore最有價值專業人士
+    - ID: "7f66b395-ebfb-40d2-a452-fd480284d8be"
+      Hint: ShortDescription
+      Value: 隨著最近宣布的兩個2016年度Sitecore最有價值專業人士獎,Deloitte Digital已被大眾所認定為澳洲digital agency中的領導者 
+    - ID: "e4791d22-a8e4-41f8-ae5f-57c4e0553884"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{E6603492-27A6-4A9A-8ACE-A9B9A96C2C97}\" />"

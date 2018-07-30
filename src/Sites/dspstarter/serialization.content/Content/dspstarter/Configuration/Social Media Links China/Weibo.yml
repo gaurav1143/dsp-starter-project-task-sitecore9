@@ -1,0 +1,20 @@
+﻿---
+ID: "5a0b546f-c998-4212-b269-206540f09366"
+Parent: "201c2147-fc59-4524-a3e9-79d2c5c98157"
+Template: "3600300a-fd37-496d-b852-1129193e52ad"
+Path: /sitecore/content/dspstarter/Configuration/Social Media Links China/Weibo
+DB: master
+Languages:
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"跟随我们\" linktype=\"external\" url=\"http://e.weibo.com/chinadeloitte\" anchor=\"\" target=\"\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160830T012937Z
+    - ID: "b720b647-5da4-4070-a9dd-9b97937ad4e7"
+      Hint: IconCssClass
+      Value: "svg-social-weibo-grey"

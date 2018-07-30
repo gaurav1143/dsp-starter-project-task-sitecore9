@@ -1,0 +1,19 @@
+﻿---
+ID: "5f90e321-31da-4747-902f-139d88510af1"
+Parent: "c5ea862d-db64-492c-97b8-108472041f13"
+Template: "4a2cefc3-510f-4a6a-94eb-d0108915fcea"
+Path: /sitecore/content/dspstarter/Configuration/Rendering Options/Text Position Options
+DB: master
+SharedFields:
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160226T030850Z

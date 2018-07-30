@@ -1,0 +1,14 @@
+﻿---
+ID: "54afa83f-d913-47f3-9da8-d635eeb019a2"
+Parent: "f96a6cd1-d5b2-413c-a236-0c51d93b2da9"
+Template: "f96a6cd1-d5b2-413c-a236-0c51d93b2da9"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Links/Hero Links Item/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160107T023151Z

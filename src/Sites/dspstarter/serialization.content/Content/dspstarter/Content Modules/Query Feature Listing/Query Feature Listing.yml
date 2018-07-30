@@ -1,0 +1,36 @@
+﻿---
+ID: "91daa1dd-12cb-404d-8f2a-84dd9496b0ac"
+Parent: "104616b7-20c6-4967-9874-f32e89f6ec52"
+Template: "b6d20aa5-0e5f-432c-b0a5-e0283f7a7752"
+Path: /sitecore/content/dspstarter/Content Modules/Query Feature Listing/Query Feature Listing
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160615T011556Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "4ceca17f-bee6-49e4-a4fc-5865e9dcb4fe"
+      Hint: IsDark
+      Type: Checkbox
+      Value: 1
+    - ID: "d135c26d-52ef-4544-b5dd-fec18832f38c"
+      Hint: QueryPath
+      Type: Treelist
+      Value: "{31AF4E76-33B8-4701-8188-C167764169ED}"
+    - ID: "e059e8c5-ed45-4c87-b526-7cdb8c2fc2b2"
+      Hint: QueryTagsExcluded
+      Type: Treelist
+      Value: "{C63AD36C-3CA4-4385-9A1B-234246D4A61C}"
+    - ID: "f7f92772-48f1-49de-8a65-d8055f7488bf"
+      Hint: Title
+      Value: Query Feature Listing

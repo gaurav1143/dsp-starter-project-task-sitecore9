@@ -1,0 +1,20 @@
+﻿---
+ID: "7fffbb46-4a7f-49fd-a608-ead7304552b1"
+Parent: "7564fb4f-21d5-4533-8b2c-bf307f341ede"
+Template: "7564fb4f-21d5-4533-8b2c-bf307f341ede"
+Path: /sitecore/templates/Deloitte/Foundation/Settings/Simple Setting/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20141223T182414
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "f51115a8-58df-4e93-bf63-4befac265fcf"
+      Hint: Help
+      Value: Help text on what the setting is and how to use it goes here

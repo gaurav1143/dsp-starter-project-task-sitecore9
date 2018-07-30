@@ -1,0 +1,17 @@
+﻿@using DSP.Foundation.Navigation
+@model Tuple<NavigationItem, int>
+
+@foreach (var page in Model.Item1.Children)
+{
+    <li class="@(page.Children.Any() ? "has-children" : "")">
+
+        <a href="@page.ItemUrl" class="@string.Concat("nav-lvl", Model.Item2) link-caret-block">@page.NavigationTitle</a>
+
+        @if (page.Children.Any())
+        {
+            <ul>
+                @Html.Partial("~/Modules/TemplatesModules/Navigation/Sitemap/_SitemapLevelPartial.cshtml", new Tuple<NavigationItem, int>(page, Model.Item2 + 1))
+            </ul>
+        }
+    </li>
+}

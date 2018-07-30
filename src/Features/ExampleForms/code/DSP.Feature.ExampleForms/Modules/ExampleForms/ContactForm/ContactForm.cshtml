@@ -1,0 +1,27 @@
+﻿@using DSP.Foundation.Forms
+@using DSP.Foundation.Forms.Controls
+@using DeloitteDigital.Atlas.Mvc.Forms
+
+@model DSP.Feature.ExampleForms.Modules.ExampleForms.ContactForm.ContactForm
+
+@using (Html.Foundation().BeginRouteForm(formId: "form-contact"))
+{
+    @Html.Sitecore().RenderingToken()
+    @Html.AntiForgeryToken()
+    @Html.Foundation().ValidationSummary()
+
+    <div class="well">
+        <fieldset>
+            <legend>Your details</legend>
+            @Html.Foundation().TextBox(x => x.Name).AddClass("width-l")
+            @Html.Foundation().Email(x => x.Email).AddClass("width-l")
+            @Html.Foundation().Phone(x => x.BusinessPhoneNumber).AddClass("width-l")
+            @Html.Foundation().Phone(x => x.AfterHoursPhoneNumber).AddClass("width-l")
+        </fieldset>
+        <hr />
+        @Html.Foundation().SubmitButton()
+        <div class="denote-required-msg">
+            <em>*</em> Denotes required field
+        </div>
+    </div>
+}

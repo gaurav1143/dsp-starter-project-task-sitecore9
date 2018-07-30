@@ -1,0 +1,13 @@
+﻿@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Containers.DynamicContainer.DynamicContainerRendering
+@using DeloitteDigital.Atlas.DynamicPlaceholders
+
+<div class="sl @Model.ViewModel.BorderOption">
+    <div class="sl-list has-2-items" data-heights-type="sl-list-has-2-items">
+        <div class="sl-item">
+           @Html.Sitecore().DynamicPlaceholder("column1")
+        </div>
+        <div class="sl-item">
+            @Html.Sitecore().DynamicPlaceholder("column2")
+        </div>
+    </div>
+</div>

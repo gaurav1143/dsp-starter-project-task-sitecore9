@@ -1,0 +1,29 @@
+﻿---
+ID: "ba9ce09a-baad-4e0b-b418-cc2c30d13dfe"
+Parent: "62b6945d-aec6-42c9-b91b-c56908580cc6"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Map/Map Item
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Business/16x16/paperclip.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {D5C8BFBC-C281-4118-991A-B8A2DE5C5561}
+    {6C8A8A14-21E9-4512-A34B-3C973B84C25D}
+    {4597ABF0-8B18-454E-ADCD-6A3256CCF2DE}
+    {BBE612BC-30E9-47FB-A556-E799DB6DA56D}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160609T121158Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

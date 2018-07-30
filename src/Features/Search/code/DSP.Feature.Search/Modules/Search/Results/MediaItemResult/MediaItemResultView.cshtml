@@ -1,0 +1,23 @@
+﻿@model DSP.Feature.Search.Modules.Search.Results.MediaItemResult.MediaItemResultModel
+
+<li>
+    <div class="collection-item has-icon">
+        <div class="content">
+            <a class="icon" href="@Model.Url">
+                <div class="@Model.IconClass" data-grunticon-embed></div>
+            </a>
+            <h2><a href="@Model.Url">@Model.Title</a></h2>
+            @if (Model.Date != DateTime.MinValue)
+            {
+                <time datetime="@Model.Date.ToString("u")">@Model.Date.ToString("d MMM yyyy")</time>
+            }
+            <p>@Model.Summary</p>
+            <div class="collection-item-meta">
+                <ul>
+                    <li><strong>File type</strong>: @Model.FileType</li>
+                    <li><strong>Size</strong>: @Model.Size</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</li>

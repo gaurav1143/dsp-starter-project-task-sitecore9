@@ -1,0 +1,17 @@
+﻿---
+ID: "cb7cf159-4226-43d2-8543-50a89520437b"
+Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Template: "4f8c8e74-0218-4fc1-ae43-507bb81d40e2"
+Path: /sitecore/content/dspstarter
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150902T055510Z
+    - ID: "6e8b1104-c89d-409f-a40e-c4b31f8a1e14"
+      Hint: SiteSettingItem
+      Value: "{EE17FFFE-4288-4C28-977D-592696345BCB}"

@@ -1,0 +1,31 @@
+﻿---
+ID: "a433ed38-7d03-4d29-bc2b-1471bbb1d2c4"
+Parent: "7d3ba5b3-db76-4fb0-a4c6-4643c8047f9b"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Image/Image Item
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: imaging/32x32/drop_shadow.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {D5C8BFBC-C281-4118-991A-B8A2DE5C5561}
+    {27A590EA-0A9E-45A7-A1E5-8B7205031FBC}
+    {C82475DB-CD2B-4C75-8F35-7B5E2CC599EE}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{DE0A0B2C-CD88-433C-8FEA-745C52B7E53D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160106T061719Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

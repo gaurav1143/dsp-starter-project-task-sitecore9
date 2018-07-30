@@ -1,0 +1,31 @@
+﻿---
+ID: "93e1eb53-e25c-460e-a812-ad6f9bbc4853"
+Parent: "291a78e0-ed28-4c75-b41c-53b9a42ff78c"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/dspstarter/Dynamic/column2
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: column2
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {312057EA-CC1E-474B-B5CB-F8208969B280}
+    {6ADB977C-B0AF-4BA4-8FCE-E6C7AB6973B7}
+    {EF145C5C-8874-42A4-9C34-0E3BF70D9E46}
+    {6F43647E-A53C-411B-BDC7-0AF6AC17D370}
+    {55CA3141-2782-4A5E-B0E7-9753CAF37B3C}
+    {B8EA0BC7-C09A-40F6-B2BE-480EC20BF626}
+    {032BFC78-9019-40C9-9E51-07C36B4D7510}
+    {DC809DB2-95D7-4B0A-8CF2-B29821976B9F}
+    {EB2E4FFD-2761-4653-B052-26A64D385227}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160107T021458Z

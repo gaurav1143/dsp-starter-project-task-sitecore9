@@ -1,0 +1,45 @@
+﻿---
+ID: "bb3238da-a49c-428e-84bf-d1cf0d608316"
+Parent: "4acd4323-9fc8-4b18-a515-1ae2bb9fe32f"
+Template: "3b95e19c-9274-4d28-ae8d-e12f216182ac"
+Path: "/sitecore/content/dspstarter/Content Modules/Contact Bar/We are here to help - dark"
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160623T093535Z
+    - ID: "323e9b64-4042-4a34-a89b-1e8f43d8a22b"
+      Hint: EmailLink
+      Value: "<link text='Deloitte Digital Australia' linktype='mailto' style='' url='mailto:deloittedigitalaustralia@deloitte.com.au'  title='' />"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "5f6d9dd0-0922-4a55-a28f-0ff5f0d7f737"
+      Hint: EmailIcon
+      Value: "<image mediaid=\"{B00AD0D8-7AD4-4CF9-9734-C12BFC98986F}\" alt=\"Email\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" />"
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: We're here to help
+    - ID: "81ebb2d8-4158-4a75-bb64-be8813172cb6"
+      Hint: PhoneIcon
+      Value: "<image mediaid=\"{AF242850-7A1F-4544-80C4-0D8377314337}\" alt=\"Phone\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" />"
+    - ID: "889bb039-e636-4f97-8d9e-7f2e3ecb020b"
+      Hint: PhoneLink
+      Value: "<link text=\"9999999999\" linktype=\"anchor\" url=\"Call:9999999999\" anchor=\"Call:9999999999\" title=\"Phone\" class=\"\" />"
+    - ID: "b4f81bcc-eceb-4382-9d7a-1277f60057fc"
+      Hint: LocationIcon
+      Value: "<image mediaid=\"{5572A4FE-2009-4862-BFF7-2A85F31F46C0}\" alt=\"Location\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" />"
+    - ID: "e4791d22-a8e4-41f8-ae5f-57c4e0553884"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{7C83FCF3-D294-4494-A0EF-F356688EA2FF}\" />"
+    - ID: "eeb3184f-74fd-4fb5-a2ae-db52514cb482"
+      Hint: LocationLink
+      Value: "<link text=\"http://www.deloittedigital.com\" linktype=\"external\" url=\"http://www.deloittedigital.com\" anchor=\"\" title=\"Location\" target=\"\" />"

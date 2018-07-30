@@ -1,0 +1,95 @@
+﻿---
+ID: "1f50c6f4-8779-4b2b-804f-41d554806e70"
+Parent: "57ed0a05-ef04-4ec1-9a83-0e6f986a6123"
+Template: "57ed0a05-ef04-4ec1-9a83-0e6f986a6123"
+Path: /sitecore/templates/Deloitte/Sites/dspstarter/Pages/1 Column Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {57ED0A05-EF04-4EC1-9A83-0E6F986A6123}
+    {1E8966BF-97D7-449B-AC14-3421C16A5E78}
+    {46BAE768-310D-4314-AEF2-AE247E5C4850}
+    {24368A0B-C05D-470C-B544-9BE20BE3FFF7}
+    {0FD3B54B-502E-40AF-B663-7C1980013476}
+    {65D9E71B-455E-4F79-8015-9D4D2F72EB1B}
+- ID: "c9283d9e-7c29-4419-9c28-5a5c8ff53e84"
+  Hint: __Bucketable
+  Type: Checkbox
+  Value: 1
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{CBA6F985-745D-4220-984C-152D2E12CF98}">
+        <p
+          uid="{99689C51-0E38-459A-9C1B-9D4C6224AF9D}"
+          key="/layout/main"
+          md="/sitecore/layout/Placeholder Settings/dspstarter/1 Column/1Column-main" />
+        <r
+          id="{DD16E34E-977A-44A4-9856-E3D1E43DA0A5}"
+          ph="/layout"
+          uid="{798BD976-1137-45B7-89AA-8DA2B13BCC8A}" />
+        <r
+          id="{2FBCFF96-E945-4486-B3DC-E5A745A567B5}"
+          ph="/metadata"
+          uid="{B750FF53-6E23-4F6F-8F6F-56D6D0EBDA34}" />
+        <r
+          id="{3CB61F58-19A8-45F1-884B-D241E657F0CC}"
+          ph="/metadata"
+          uid="{FC8010A0-5219-4100-9FBC-2BA4AD2F39B9}" />
+        <r
+          id="{D6114104-F799-4323-BC51-EB6367FDD917}"
+          ph="/metadata"
+          uid="{F2DBB4ED-0507-4FF3-A8AB-BA115954EBC0}" />
+        <r
+          id="{BEE91FA9-957B-4341-BB2E-B917AA4B7A0A}"
+          ph="/header"
+          uid="{C2E4ECBF-4905-4E06-B8A4-FFF29F645004}" />
+        <r
+          id="{96289EFC-0113-47B0-A08C-66BCC7AD3D65}"
+          ph="/mobile-nav"
+          uid="{C90E43B0-830D-476F-B530-76AA52185F1E}" />
+        <r
+          id="{17E34F5C-5A0F-4203-BD44-930E459C128A}"
+          ph="/header/primary-nav"
+          uid="{B81C3D02-C365-45E9-851E-B3C93DDC0BE6}" />
+        <r
+          id="{AE747F3E-508D-40C5-B3FF-CE3C7E6A53B5}"
+          ph="/header/search"
+          uid="{41C52C12-BF3D-4E18-B096-397380CF0093}" />
+        <r
+          id="{B2BFF110-8565-4E43-965E-C765E2807E7B}"
+          ph="/layout/breadcrumb"
+          uid="{FB34010F-C8D2-411F-A8DB-220E9EBA773C}" />
+        <r
+          id="{A686704F-5FED-460A-9038-DF03FB898F3E}"
+          ph="/layout/container-top"
+          uid="{CC3A74E2-161E-471E-B7EB-EE71CDFA3743}" />
+        <r
+          id="{32F2D80A-BD2F-43B4-8BA6-7ADFF7FA6251}"
+          ph="/layout/main"
+          uid="{C7760888-84E1-4B4D-BFC4-80512256134E}" />
+        <r
+          id="{A26AEE6F-B80F-40F9-9282-43BC0F6EBF22}"
+          ph="/footer"
+          uid="{C6D0D32D-B490-4575-B599-8B9D5D7E304A}" />
+        <r
+          id="{E2408BCE-BA63-4069-81A9-917AF694B0F7}"
+          ph="/header/language"
+          uid="{496FD666-43BF-4944-AEB5-7A7755499777}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150103T230952Z

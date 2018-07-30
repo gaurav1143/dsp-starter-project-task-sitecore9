@@ -1,0 +1,14 @@
+﻿---
+ID: "38bc2e9f-b384-4a58-b923-c46a0dda103c"
+Parent: "dee2e526-d030-490f-9b7e-8421a6c36910"
+Template: "b0666cfe-8c7b-4cc1-8e32-8253742ebfa9"
+Path: /sitecore/content/Applications/WebEdit/Edit Frame Buttons/DSP/Features/Search
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160307T054720Z

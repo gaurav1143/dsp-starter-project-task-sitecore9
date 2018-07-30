@@ -1,0 +1,17 @@
+﻿---
+ID: "c8a220ef-7edd-4760-a1a2-f1b46d939931"
+Parent: "f93bdd4a-451e-4757-a00a-c97fa0d5d715"
+Template: "ccdcedcb-694e-495d-b78f-382d4edb3011"
+Path: /sitecore/content/dspstarter/Configuration/Tags/Content Tags/Industry/Public Sector
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160315T235905Z
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Public Sector

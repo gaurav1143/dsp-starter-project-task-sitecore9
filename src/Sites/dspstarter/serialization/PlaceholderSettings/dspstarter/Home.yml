@@ -1,0 +1,14 @@
+﻿---
+ID: "f1dd1c76-a61d-413f-9626-b66f6b8e178e"
+Parent: "0ff29767-7c35-4d30-a3d9-587c28abc45e"
+Template: "c3b037a0-46e5-4b67-ac7a-a144b962a56f"
+Path: /sitecore/layout/Placeholder Settings/dspstarter/Home
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151125T051345Z

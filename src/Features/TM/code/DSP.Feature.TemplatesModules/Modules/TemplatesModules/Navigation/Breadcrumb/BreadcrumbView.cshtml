@@ -1,0 +1,29 @@
+﻿@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Navigation.Breadcrumb.BreadcrumbRendering
+
+<div class="breadcrumbs">
+    <div class="l-padding">        
+        @if (Model.ViewModel.Any(x => !x.IsActive))
+        {
+            <a href="@Model.ViewModel.Last(x => !x.IsActive).Url" class="back-to-parent">Back to @Model.ViewModel.Last(x => !x.IsActive).NavigationTitle</a>
+        }
+        <ul itemprop="breadcrumb">
+            @foreach (var item in Model.ViewModel)
+            {
+                if (item.IsActive)
+                {
+                    <li class="is-active">
+                        @item.NavigationTitle
+                    </li>
+                }
+                else
+                {
+                    <li class="@item.CssClass">
+                        <a href="@item.Url">
+                            @item.NavigationTitle
+                        </a>
+                    </li>
+                }
+            }            
+        </ul>
+    </div>
+</div>

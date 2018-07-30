@@ -1,0 +1,32 @@
+﻿@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Content.HeroBanner.HeroBannerRendering
+
+<section class="cm cm-image-block-link cm-hero-banner @Model.ViewModel.BannerSizeOption @Model.ViewModel.ImageSizeOption @Model.ViewModel.TextBackgroundOption @Model.ViewModel.TextPositionOption">
+    @using (Html.BeginLink(Model.ViewModel.GeneralLink, alternateTag: "div", skipInPageEditor: true))
+    {
+        <div>
+            <div class="image intrinsic">
+                <div class="intrinsic-wrap intrinsic-16x9">
+                    <div class="intrinsic-el img" style="background-image: url(@Model.ViewModel.GeneralImage.UrlOnly())">&nbsp;</div>
+                </div>
+            </div>
+            <div class="content">
+                @if (Model.HasValueOrIsPageEditor(Model.ViewModel.Title))
+                {
+                    <h1>@Model.ViewModel.Title</h1>
+                }
+                @if (Model.HasValueOrIsPageEditor(Model.ViewModel.ShortDescription))
+                {
+                    <p>@Model.ViewModel.ShortDescription</p>
+                }
+                @if (Model.IsPageEditor())
+                {
+                    @Model.ViewModel.GeneralLink
+                }
+                else if (Model.HasValue(Model.ViewModel.GeneralLink))
+                {
+                    <span class="faux-link">@Model.ViewModel.GeneralLink.Text</span>
+                }
+            </div>
+        </div>
+    }
+</section>

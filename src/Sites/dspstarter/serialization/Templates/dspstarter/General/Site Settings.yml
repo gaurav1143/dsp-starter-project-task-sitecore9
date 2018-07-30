@@ -1,0 +1,35 @@
+﻿---
+ID: "6eea1622-7f8a-42a8-a4b6-ec68ad966cc4"
+Parent: "22ba61da-0b80-43eb-a99b-c54e9b940206"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Deloitte/Sites/dspstarter/General/Site Settings
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/16x16/gears.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+    {4F71BE78-6473-4A4B-8F17-3D2AD30C8B81}
+    {7D55DDA4-3C63-4753-979C-2071BC9630CE}
+    {7F4A28BC-65DF-4F60-BA6D-3F914F202353}
+    {AFCDC15B-F826-43B4-BDF7-C2B3B0212C53}
+    {CA5982B8-52C4-4C40-8B23-078E2DE6C035}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{6D8CE444-4580-4180-A1B8-B3FC72F4633D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20141223T071821Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

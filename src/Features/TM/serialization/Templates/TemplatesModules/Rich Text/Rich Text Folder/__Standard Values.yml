@@ -1,0 +1,24 @@
+﻿---
+ID: "272a8725-4514-472a-90fe-c6c0ac0847ab"
+Parent: "c3b8857a-80fa-4fc4-be82-60ac134d2151"
+Template: "c3b8857a-80fa-4fc4-be82-60ac134d2151"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Rich Text/Rich Text Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {C3B8857A-80FA-4FC4-BE82-60AC134D2151}
+    {B26F97C5-EBFB-4AB6-BC03-6FCF7991D36B}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160104T040400Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

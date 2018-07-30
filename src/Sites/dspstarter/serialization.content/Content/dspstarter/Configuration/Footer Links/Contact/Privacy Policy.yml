@@ -1,0 +1,37 @@
+﻿---
+ID: "8ebebc3d-5afb-4baf-9f0a-f5d5f615af26"
+Parent: "d7d21637-a7c0-4a8e-99a6-e753b4c06276"
+Template: "0e12e814-46f2-4e78-91a2-3782eb320c31"
+Path: /sitecore/content/dspstarter/Configuration/Footer Links/Contact/Privacy Policy
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link linktype=\"external\" text=\"Privacy Policy\" url=\"http://www2.deloitte.com/au/en/legal/privacy.html?_ga=1.169893859.235220908.1457843917\" anchor=\"\" target=\"_blank\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160316T032436Z
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"隐私权政策\" linktype=\"external\" url=\"http://www2.deloitte.com/au/en/legal/privacy.html?_ga=1.169893859.235220908.1457843917\" anchor=\"\" target=\"\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160826T003754Z
+- Language: "zh-TW"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"隱私權政策\" linktype=\"external\" url=\"http://www2.deloitte.com/au/en/legal/privacy.html?_ga=1.169893859.235220908.1457843917\" anchor=\"\" target=\"\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160826T003719Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "3889a8a1-8317-40a8-8d98-6ec2d36e1826"
+Parent: "0f02c70b-fc11-47a5-92e9-1aa2112f8cad"
+Template: "11e88564-66de-4a52-a175-38f7fd974236"
+Path: /sitecore/content/dspstarter/Content Modules/Hero Carousels/Slides
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160307T032225Z

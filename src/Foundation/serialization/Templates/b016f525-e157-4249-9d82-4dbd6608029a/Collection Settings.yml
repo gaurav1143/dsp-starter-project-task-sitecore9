@@ -1,0 +1,17 @@
+﻿---
+ID: "e148291e-3eca-48f6-a6a7-3a2035ddabd4"
+Parent: "b016f525-e157-4249-9d82-4dbd6608029a"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Deloitte/Foundation/Common/Field Sections/Has Sort Order Default Setting/Collection Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160227T111807Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

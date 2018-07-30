@@ -1,0 +1,17 @@
+﻿---
+ID: "0282794a-ef1d-4156-b4ad-429be89ed411"
+Parent: "feab8e7f-36a6-467c-b41c-48c15fcca0bd"
+Template: "c6bfb493-0511-473c-9ad4-2e50fd845c2e"
+Path: /sitecore/content/dspstarter/Configuration/Tags/Automated Tags/Content Type
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151202T052221Z
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Content Type

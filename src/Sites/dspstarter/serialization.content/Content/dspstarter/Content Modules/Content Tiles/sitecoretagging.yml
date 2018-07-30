@@ -1,0 +1,25 @@
+﻿---
+ID: "fd4a3517-2fee-4157-aad3-638980dca050"
+Parent: "446405a9-4b40-408b-8015-76c9b44ef702"
+Template: "7c69e05f-19cf-48d2-8382-c9a10255a825"
+Path: /sitecore/content/dspstarter/Content Modules/Content Tiles/sitecoretagging
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00df211e-7ca3-4adf-93b5-ce636d2d9898"
+      Hint: Description
+      Value: |
+        Tagging is coming up more and more as a way to structure content in Sitecore. It comes from users' need to navigate a website simply, web content managers need to categorise their content and then for content to just appear where the user is looking for it.
+        
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link id=\"{0467C160-AF97-49C4-AA63-C310DDC89EE9}\" querystring=\"\" text=\"\" title=\"\" class=\"\" linktype=\"internal\" url=\"/dspstarter/Home/insights/blog_ss_tagging\" target=\"\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160222T225313Z
+    - ID: "f7f92772-48f1-49de-8a65-d8055f7488bf"
+      Hint: Title
+      Value: "Sitecore Strategist - Tagging & IA"

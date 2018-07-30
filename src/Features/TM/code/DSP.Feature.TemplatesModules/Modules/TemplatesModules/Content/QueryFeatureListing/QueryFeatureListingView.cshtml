@@ -1,0 +1,69 @@
+﻿@using DSP.Foundation.Extensions
+@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Content.QueryFeatureListing.QueryFeatureListingRendering
+
+@using (Html.BeginEditFrame(Model.Item, "/sitecore/content/Applications/WebEdit/Edit Frame Buttons/DSP/Features/TemplatesModules/Query Feature Listing"))
+{
+    if (Model.ViewModel.FirstOrDefaultItem != null)
+    {
+<!-- START .hm-feature-listing -->
+<section class="hm hm-feature-listing @Model.ViewModel.IsDarkClass @Model.ViewModel.HasItemsClass ">
+
+    <a href="@Model.ViewModel.FirstOrDefaultItem.Link" class="feature-listing-hero @Model.ViewModel.FirstOrDefaultItem.HasFeatureImageClass">
+
+        @if (Model.ViewModel.FirstOrDefaultItem.HasFeatureImage)
+        {
+        <div class="image">
+            <div class="img" style="background-image: url(@Model.ViewModel.FirstOrDefaultItem.FeatureImage.GetMediaUrl())"></div>
+            <span class="vh">@Model.ViewModel.FirstOrDefaultItem.FeatureImage.Description</span>
+        </div>
+        }
+        <div class="content">
+            <h1>@Model.ViewModel.FirstOrDefaultItem.Title</h1>
+            @if (@Model.ViewModel.FirstOrDefaultItem.Time.HasValue)
+            {
+            <time datetime="@Model.ViewModel.FirstOrDefaultItem.Time.Value.ToString("o")">@Model.ViewModel.FirstOrDefaultItem.NiceTime</time>
+            }
+            <p>@Model.ViewModel.FirstOrDefaultItem.Description</p>
+            <span class="faux-link">Read more<span class="vh"> about @Model.ViewModel.FirstOrDefaultItem.Title</span></span>
+
+            @if (Model.ViewModel.FirstOrDefaultItem.HasTags)
+            {
+            <div class="collection-item-tags">
+                <strong>Tagged in:</strong>
+                <ul>
+                    @foreach (var tag in Model.ViewModel.FirstOrDefaultItem.Tags)
+                    {
+                    <li><span>@tag.Title</span></li>
+                    }
+                </ul>
+            </div>
+            }
+        </div>
+    </a>
+
+    @if (Model.ViewModel.HasChildItems)
+    {
+    <div class="feature-listing-links @Model.ViewModel.HasChildItemsClass">
+        <ul>
+            @foreach (var item in Model.ViewModel.ChildItems)
+            {
+            <li>
+                <a href="@item.Link" class="feature-listing-link">
+                    <strong>@item.Title</strong>
+                    <p>@item.Description</p>
+                </a>
+            </li>
+            }
+        </ul>
+    </div>
+    }
+</section>
+    }
+    else if (Model.IsPageEditor())
+    {
+<section class="hm hm-feature-listing">
+    <div>No items to display</div>
+</section>
+    }
+}
+<!-- END .hm-feature-listing -->

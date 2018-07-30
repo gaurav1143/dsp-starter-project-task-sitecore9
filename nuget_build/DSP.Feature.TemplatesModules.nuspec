@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>DSP.Feature.TemplatesModules</id>
+    <version>$version$</version>
+    <title>DSP TemplatesModules</title>
+    <authors>Deloitte Digital</authors>
+    <owners>Deloitte Digital</owners>
+    <projectUrl>https://hub.deloittedigital.com.au/wiki/display/DSP/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/DeloitteDigitalAPAC/Atlas/master/lib/logos/dd-logo-square.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Deloitte Sitecore Platform - TemplatesModules</description>
+    <copyright>Copyright 2016</copyright>
+    <tags>DSP Sitecore TemplatesModules</tags>
+    <dependencies>
+<!--         <dependency id="Microsoft.AspNet.Mvc" version="5.2.3"  />
+        <dependency id="Microsoft.AspNet.WebApi" version="5.2.3" /> 
+        <dependency id="Newtonsoft.Json" version="9.0.1" />        --> 
+<!--         <dependency id="DeloitteDigital.Atlas" version="1.0.0" /> -->
+		<dependency id="DSP.Foundation" version="0.0.7" />
+		<dependency id="DSP.Feature.Search" version="0.0.5" />
+
+        <!-- TODO: Update to latest version for each of these? --> 
+<!--         <dependency id="Unicorn" version="3.2.0" />
+        <dependency id="Unicorn.Roles" version="3.2.0" /> -->
+        
+        <!-- TODO: Switch away from Unity? Review against WFFM in 8.2 as well -->
+<!--         <dependency id="Unity" version="4.0.1" /> 
+        <dependency id="Unity.Interception" version="4.0.1" />
+        <dependency id="Unity.Mvc" version="4.0.1" />
+        <dependency id="Unity.WebAPI" version="5.2.3"  />
+        <dependency id="WebActivatorEx" version="2.1.0"  /> -->
+
+        <!-- NOTE - this is using the Sitecore official feed packages -->
+<!--         <dependency id="Sitecore.Client.NoReferences" version="8.2.160729"  />
+        <dependency id="Sitecore.ContentSearch.NoReferences" version="8.2.160729" />
+        <dependency id="Sitecore.ContentSearch.Linq.NoReferences" version="8.2.160729" />
+        <dependency id="Sitecore.Kernel.NoReferences" version="8.2.160729" />
+        <dependency id="Sitecore.Mvc.NoReferences" version="8.2.160729" />   -->  
+    </dependencies>
+  </metadata>
+  <files>    
+    <file src="..\src\Features\TM\code\DSP.Feature.TemplatesModules\bin\DSP.Feature.TemplatesModules.dll" target="lib" />
+
+    <!-- TODO: what about environment specific transforms for unicorn, BaseConfig and Connection strings? Web.config + transforms?? -->
+    <file src="..\src\Features\TM\code\DSP.Feature.TemplatesModules\App_Config\Include\Feature\DSP.TemplatesModules.config" target="content\App_Config\Include\Feature" />
+    <!-- note: the Serialization.Nuget.config file gets created during the NuGet build process and deleted again afterwards -->
+    <file src="..\src\Features\TM\code\DSP.Feature.TemplatesModules\App_Config\Include\Feature\DSP.TemplatesModules.Serialization.NuGet.config" target="content\App_Config\Include\Feature" />
+    
+    <file src="..\src\Features\TM\code\DSP.Feature.TemplatesModules\Modules\**\*.cshtml" target="content\Modules" />
+	<file src="..\src\Features\TM\code\DSP.Feature.TemplatesModules\Modules\**\*.config" target="content\Modules" />
+	<file src="..\src\Features\TM\code\DSP.Feature.TemplatesModules\Layouts\**\*.cshtml" target="content\Layouts" />
+	<file src="..\src\Features\TM\code\DSP.Feature.TemplatesModules\Layouts\**\*.config" target="content\Layouts" />
+	<file src="..\src\Features\TM\code\DSP.Feature.TemplatesModules\Layouts\**\*.aspx" target="content\Layouts" />
+    
+    <!-- Serialisation -->
+    <file src="..\src\Features\TM\serialization\**\*.*" target="serialization" />
+  </files>
+</package>

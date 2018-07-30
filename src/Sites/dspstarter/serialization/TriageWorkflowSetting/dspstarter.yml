@@ -1,0 +1,23 @@
+﻿---
+ID: "9147ce93-4758-4154-8d39-e42b9671daee"
+Parent: "d412158c-6690-46e9-8209-4b9ea942f041"
+Template: "c1bca92b-dcaf-4422-8dca-de7bb9b8102e"
+Path: /sitecore/content/Configuration/Triage Workflow Settings/dspstarter
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160704T010117Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "b30c9104-91af-490e-819b-3ee1466975ef"
+      Hint: StartPath
+      Value: /sitecore/Content/dspstarter
+    - ID: "d8aee85d-1949-4477-8ba6-1e9af3cad3c8"
+      Hint: Workflow
+      Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"

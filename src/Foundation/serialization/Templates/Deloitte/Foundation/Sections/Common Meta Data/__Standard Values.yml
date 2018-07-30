@@ -1,0 +1,20 @@
+﻿---
+ID: "e3f7a687-4e19-43cf-bb3a-7886111e001f"
+Parent: "34cb17e0-220c-4135-8223-2bc6c5a8f9d2"
+Template: "34cb17e0-220c-4135-8223-2bc6c5a8f9d2"
+Path: /sitecore/templates/Deloitte/Foundation/Sections/Common Meta Data/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20141222T204303
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "72691cae-f39c-44e8-bf26-c8d65e384d89"
+      Hint: MetaBrowserTitle
+      Value: $name

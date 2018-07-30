@@ -1,0 +1,24 @@
+﻿---
+ID: "b1762e55-3d9d-49e2-a5d6-4ee3991da910"
+Parent: "ccdfc49a-4c15-4325-971c-076f21001728"
+Template: "ccdfc49a-4c15-4325-971c-076f21001728"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Banner/Hero Banner Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {CCDFC49A-4C15-4325-971C-076F21001728}
+    {1884A27A-C22D-4BF2-8596-FC56E0512ACB}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160107T023246Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

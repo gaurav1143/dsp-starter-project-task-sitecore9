@@ -1,0 +1,31 @@
+﻿---
+ID: "0c6b6d9b-f703-4acb-8f3c-b848959f48c6"
+Parent: "d56bc45a-924a-441d-a369-5712956a028c"
+Template: "40dd6c8e-7553-4b29-a3c0-f6401b040a4b"
+Path: /sitecore/content/dspstarter/Content Modules/Map Module/Map
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160609T122237Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "851bd8f3-51e3-47bf-85b2-5e1196adbb4b"
+      Hint: MapItems
+      Type: Treelist
+      Value: |
+        {D13194A3-A0A9-4905-A346-F020FC90096D}
+        {A4082726-A256-4BE2-9D34-73A175ECA993}
+        {12075C90-1691-4BFB-B532-D698F16236F9}
+        {03F033AF-92DD-4BC2-93CE-81533F54D263}
+        {8705A21C-DA9A-4C46-B095-4AD040F7BC30}
+        {4734D394-D473-4551-956C-0DF13553CE08}

@@ -1,0 +1,18 @@
+﻿---
+ID: "84111942-02cc-4436-8dfb-8956ee8fce22"
+Parent: "b9f5a81a-64b6-495e-8d14-5f76eaa3c2b8"
+Template: "eddec721-0744-46f3-bae7-b258138b666f"
+Path: /sitecore/content/dspstarter/Content Modules/Download Links
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160104T032606Z

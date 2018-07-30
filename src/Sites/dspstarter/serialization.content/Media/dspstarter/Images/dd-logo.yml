@@ -1,0 +1,43 @@
+﻿---
+ID: "6447039a-899b-432f-8d97-3de554cbd495"
+Parent: "bc918008-f2c0-42e6-90e0-e9c2393f5c4c"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/dspstarter/Images/dd-logo"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/6447039a899b432f8d973de554cbd495.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 36
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "a9f007ee-d702-471f-9295-73b5e85aea08"
+  Value: iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAMAAABNTyq8AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFdQTFRFv7+/QEBAf39/YGBg39/fn5+fEBAQMDAw7+/v+PzvcHBwrd9AICAgp9wwr6+v8frfyOl/j4+P1u+fz+yPu+Rgz8/P6vfPUFBQmdcQ5PS/ktQAAAAA////nG1IHAAAAB10Uk5T/////////////////////////////////////wBZhudqAAAAyklEQVR42rzUSRKDIBAFUEYFROOQUfr+5wymCGIYZJW/03olTdOIoCIIEBqIC0csg8whmvJzZNMQcY4sGyqQMaoGGZpELca4DRRPIbQ9MdL4ulgOWdYmFvxFILwSeQSsiaqKEahovQS6uTe4hHznigj/F+kKJL6nWUK8pk+6ouOk4ux4OAXzOM4xYo9gnmS/2vRyR9TeOxWM5gTQrZ9cSzN+WV1yaCvodYKmrb7yl6i7A/matPLX5P70u8N7FBkOvxW5dN0iAd4CDABqiXAckJVuIAAAAABJRU5ErkJggg==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 436
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 36 x 32
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 32
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160106T064816Z
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: Deloitte Digital Logo

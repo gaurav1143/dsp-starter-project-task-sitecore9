@@ -1,0 +1,31 @@
+﻿---
+ID: "289c6604-ab36-4ae3-987a-4e0d84220515"
+Parent: "eecf8a8a-5533-4eb8-9f52-7ec48057ea80"
+Template: "d7a87f5c-2168-4209-817f-d626c3ad78c6"
+Path: /sitecore/content/dspstarter/Content Modules/Accordion/Accordion Sets/FAQs
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160517T105533Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "8e46fdf6-21a4-4e4d-a176-e00071c77dd9"
+      Hint: AccordionItems
+      Type: Treelist
+      Value: |
+        {FEE55D4F-F03A-4A51-B27F-65917949C05A}
+        {724EEBA8-93B2-4535-8B66-F71B84B4C001}
+        {0EE30252-4A9A-46E2-A1CC-24CEDFFA3ECD}

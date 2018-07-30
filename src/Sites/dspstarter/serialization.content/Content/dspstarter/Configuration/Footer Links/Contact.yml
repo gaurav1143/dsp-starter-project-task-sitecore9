@@ -1,0 +1,44 @@
+﻿---
+ID: "d7d21637-a7c0-4a8e-99a6-e753b4c06276"
+Parent: "bc4bd707-fede-44c5-bb28-9d99734ce111"
+Template: "a2d6999f-3696-4a38-9619-3a17b23e80ca"
+Path: /sitecore/content/dspstarter/Configuration/Footer Links/Contact
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link id=\"{B2CD9D75-43B4-458C-9743-4163A4185FE7}\" querystring=\"\" text=\"Contact\" title=\"\" class=\"\" linktype=\"internal\" url=\"/dspstarter/Home/contact\" target=\"\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160125T041735Z
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"联络\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{B2CD9D75-43B4-458C-9743-4163A4185FE7}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160829T052019Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: "zh-TW"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"聯絡\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{B2CD9D75-43B4-458C-9743-4163A4185FE7}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160826T002549Z

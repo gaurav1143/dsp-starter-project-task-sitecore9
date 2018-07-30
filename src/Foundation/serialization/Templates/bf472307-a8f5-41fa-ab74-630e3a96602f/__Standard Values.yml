@@ -1,0 +1,20 @@
+﻿---
+ID: "16044c0e-b1e8-4619-bb2a-543ba4b38314"
+Parent: "bf472307-a8f5-41fa-ab74-630e3a96602f"
+Template: "bf472307-a8f5-41fa-ab74-630e3a96602f"
+Path: /sitecore/templates/Deloitte/Foundation/Common/Field Sections/Query Tags Operator/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160608T235735Z
+    - ID: "5081eef1-3c8e-4c38-a49f-dbc85a64c76f"
+      Hint: QueryTagsOperator
+      Value: Or
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

@@ -1,0 +1,34 @@
+﻿@using DSP.Foundation.Extensions
+@model DSP.Feature.Search.Modules.Search.Results.ContentItemResult.ContentItemResultModel
+<li>
+    <div class="collection-item @(Model.FeatureImage != null ? "has-image" : "")">
+        <div class="content">
+            <h2>
+                <a href="@Model.Url">@Model.Title</a>
+            </h2>
+            @if (Model.Date != DateTime.MinValue)
+            {
+                <time datetime="@Model.Date.ToString("u")">@Model.Date.ToString("d MMM yyyy")</time>
+            }
+            <p>@Model.Summary</p>
+            @if (Model.Tags.Any())
+            {
+                <div class="collection-item-tags">
+                    <strong>Tagged in:</strong>
+                    <ul>
+                        @foreach (var tag in Model.Tags)
+                        {
+                            <li><a href="@tag.GetUrl()">@tag.Title</a></li>
+                        }
+                    </ul>
+                </div>
+            }
+        </div>
+        @if (Model.FeatureImage != null)
+        {
+            <a href="@Model.Url" class="image">
+                <img src="@Model.FeatureImage.GetMediaUrl()" alt="@Model.FeatureImage.Alt" />
+            </a>
+        }
+    </div>    
+</li>

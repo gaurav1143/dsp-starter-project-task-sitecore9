@@ -1,0 +1,43 @@
+﻿---
+ID: "4ce46db5-fd01-40c9-a1fe-7e106d72d6a4"
+Parent: "a0263b64-b001-43dd-879a-582af7d9d71c"
+Template: "65d9e71b-455e-4f79-8015-9d4d2f72eb1b"
+Path: /sitecore/content/dspstarter/Home/insights/Collection List
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160523T051112Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "49bba881-03e1-4cb6-808b-b858928c95fa"
+      Hint: SortOrderDefault
+      Value: "{6A892CA9-43E8-40FA-BBB8-4898EACA0DE1}"
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Collection List
+    - ID: "72691cae-f39c-44e8-bf26-c8d65e384d89"
+      Hint: MetaBrowserTitle
+      Value: Collection List
+    - ID: "8357be37-6e13-4bdd-9b01-2fbbf0b763b2"
+      Hint: HideFromNavigation
+      Type: Checkbox
+      Value: 1
+    - ID: "85c9ceb0-0c18-4e15-b045-dc4f6d7d67c1"
+      Hint: CollectionSource
+      Value: "{A0263B64-B001-43DD-879A-582AF7D9D71C}"
+    - ID: "f4f81abf-4b1e-44ab-a640-d4b383f51c9c"
+      Hint: NavigationTitle
+      Value: Collection List

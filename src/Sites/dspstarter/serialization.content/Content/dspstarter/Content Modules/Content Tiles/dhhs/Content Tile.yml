@@ -1,0 +1,17 @@
+﻿---
+ID: "88c8305e-64f4-486f-8bf2-a78d56643b95"
+Parent: "e773a9b7-17e0-43ec-9b2a-3d93b91d0382"
+Template: "7c69e05f-19cf-48d2-8382-c9a10255a825"
+Path: /sitecore/content/dspstarter/Content Modules/Content Tiles/dhhs/Content Tile
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160530T020811Z
+    - ID: "f7f92772-48f1-49de-8a65-d8055f7488bf"
+      Hint: Title
+      Value: Content Tile

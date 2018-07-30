@@ -1,0 +1,26 @@
+﻿---
+ID: "69399351-fb89-43d0-913e-3902b29a0be4"
+Parent: "11e88564-66de-4a52-a175-38f7fd974236"
+Template: "11e88564-66de-4a52-a175-38f7fd974236"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Carousel/Hero Carousel Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {11E88564-66DE-4A52-A175-38F7FD974236}
+    {4712801F-1D3F-4384-86B2-89BB8410A2CB}
+    {336689DB-56F1-40B5-9174-AA1D2A9ABCB9}
+    {FE21E247-308E-46F4-88F6-2CFFE783AC54}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160107T023246Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

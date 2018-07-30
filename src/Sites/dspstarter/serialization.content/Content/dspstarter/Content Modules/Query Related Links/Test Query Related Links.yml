@@ -1,0 +1,30 @@
+﻿---
+ID: "0b72408a-1378-41fd-9739-93834157a157"
+Parent: "df4a17a4-bdca-43ed-8154-f6250a7aff95"
+Template: "377e9118-3b26-43d0-a311-2af08171ac29"
+Path: /sitecore/content/dspstarter/Content Modules/Query Related Links/Test Query Related Links
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160608T233911Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "5081eef1-3c8e-4c38-a49f-dbc85a64c76f"
+      Hint: QueryTagsOperator
+      Value: And
+    - ID: "6a364769-0070-451a-ab43-a6e0de8adb36"
+      Hint: QueryRelatedLinksViewMoreLink
+      Value: "<link text=\"See more information about the things\" linktype=\"internal\" class=\"\" title=\"View more\" target=\"\" querystring=\"\" id=\"{F264AE67-A3B0-4BAA-AFE2-288FB18F42EE}\" />"
+    - ID: "f7f92772-48f1-49de-8a65-d8055f7488bf"
+      Hint: Title
+      Value: Test Query Related Links

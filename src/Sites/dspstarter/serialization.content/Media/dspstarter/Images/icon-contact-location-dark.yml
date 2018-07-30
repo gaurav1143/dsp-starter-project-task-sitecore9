@@ -1,0 +1,31 @@
+﻿---
+ID: "16f81550-7b7f-4905-a9d7-82aae730c7c8"
+Parent: "bc918008-f2c0-42e6-90e0-e9c2393f5c4c"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/dspstarter/Images/icon-contact-location-dark"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/16f815507b7f4905a9d782aae730c7c8.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "7e6d5cdd-056c-4b1b-a69e-02ed5b563836"
+  Value: PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjIuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0MCA0NSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDAgNDU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNMjAsNDFjLTAuMiwwLTAuMywwLTAuNC0wLjFDMTksNDAuNSw2LDMwLjgsNiwyMGMwLTguNiw2LTE1LDE0LTE1czE0LDYuNCwxNCwxNWMwLDEwLjgtMTMsMjAuNS0xMy42LDIwLjkKCQlDMjAuMyw0MSwyMC4yLDQxLDIwLDQxeiBNMjAsNi41QzEyLjksNi41LDcuNSwxMi4zLDcuNSwyMGMwLDguOSwxMC4zLDE3LjUsMTIuNSwxOS4zYzIuMy0xLjgsMTIuNS0xMC40LDEyLjUtMTkuMwoJCUMzMi41LDEyLjMsMjcuMSw2LjUsMjAsNi41eiIvPgoJPHBhdGggZD0iTTIwLDI3LjVjLTQuNSwwLTguMS0zLjctOC4xLTguMlMxNS41LDExLDIwLDExczguMSwzLjcsOC4xLDguM0MyOC4xLDIzLjgsMjQuNSwyNy41LDIwLDI3LjV6IE0yMCwxMi41CgkJYy0zLjcsMC02LjYsMy02LjYsNi43czMsNi44LDYuNiw2LjhzNi42LTMsNi42LTYuOEMyNi42LDE1LjUsMjMuNywxMi41LDIwLDEyLjV6Ii8+CjwvZz4KPC9zdmc+Cg==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 814
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160623T083238Z

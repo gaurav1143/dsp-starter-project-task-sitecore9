@@ -1,0 +1,119 @@
+﻿---
+ID: "041b01f6-3065-4838-a373-fd7dbcb90027"
+Parent: "422f39d9-e106-4fa5-9ace-cb2702f5c86b"
+Template: "1e8966bf-97d7-449b-ac14-3421c16a5e78"
+Path: /sitecore/content/dspstarter/Home/work/free2go
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{67DB3577-096E-4021-9015-09DE9D5AE64E}"
+              p:after="p[@uid='{4EB003C1-205C-4D0D-881B-FC2EB5B757D1}']"
+              s:ds="{00C17592-5D9C-424C-AFAD-A191AE31D5CB}"
+              s:id="{DC809DB2-95D7-4B0A-8CF2-B29821976B9F}"
+              s:ph="/layout/main/column2_dph_c371b562-1ec3-4447-bdb2-b718f6dbfc1c" />
+            <r
+              uid="{3C323FC3-BEEE-4B7D-8447-944952B8B2C1}"
+              p:after="r[@uid='{67DB3577-096E-4021-9015-09DE9D5AE64E}']"
+              s:ds="{C458F8BD-9680-469C-9C68-2E95A2BA2DDE}"
+              s:id="{DC809DB2-95D7-4B0A-8CF2-B29821976B9F}"
+              s:ph="/layout/main/column1_dph_fe8d857c-e039-4f44-ad7f-894388ab175b" />
+            <r
+              uid="{79EC5C47-3AF1-4AE8-B07D-FBDE9850393A}"
+              p:after="r[@uid='{3C323FC3-BEEE-4B7D-8447-944952B8B2C1}']"
+              s:ds="{102B2B36-036D-4AFD-AB6B-5FEFF417C178}"
+              s:id="{DC809DB2-95D7-4B0A-8CF2-B29821976B9F}"
+              s:ph="/layout/main/column2_dph_7dee23d1-c40d-40f3-88c3-0df76cf31ed5" />
+            <r
+              uid="{30047E89-F78F-4F32-84BD-9F1EC023DF62}"
+              p:after="r[@uid='{79EC5C47-3AF1-4AE8-B07D-FBDE9850393A}']"
+              s:ds="{A4E4BBCA-B56B-4757-A3DE-B794A1305533}"
+              s:id="{032BFC78-9019-40C9-9E51-07C36B4D7510}"
+              s:ph="/layout/main/column2_dph_dae0931e-340d-4bfb-836a-d4e9b3a8ddb1" />
+            <r
+              uid="{82B21C9F-E981-4E21-9C48-D24E0A9574D3}"
+              p:after="r[@uid='{30047E89-F78F-4F32-84BD-9F1EC023DF62}']"
+              s:ds="{B9201C1C-EB4D-4EF4-8FD9-5E6B5671945F}"
+              s:id="{032BFC78-9019-40C9-9E51-07C36B4D7510}"
+              s:ph="/layout/main/column1_dph_c371b562-1ec3-4447-bdb2-b718f6dbfc1c" />
+            <r
+              uid="{000DF5B3-8BC3-4054-A76D-103A84834A05}"
+              p:after="r[@uid='{82B21C9F-E981-4E21-9C48-D24E0A9574D3}']"
+              s:ds="{A193C933-FD43-489B-A1A1-FBD7296FDD9C}"
+              s:id="{032BFC78-9019-40C9-9E51-07C36B4D7510}"
+              s:ph="/layout/main/column2_dph_fe8d857c-e039-4f44-ad7f-894388ab175b" />
+            <r
+              uid="{8F01C425-1C49-40FD-90A3-1125AEFCC5D3}"
+              p:after="r[@uid='{000DF5B3-8BC3-4054-A76D-103A84834A05}']"
+              s:ds="{1CA5A566-E850-41A4-8930-CE9CC6BE6524}"
+              s:id="{032BFC78-9019-40C9-9E51-07C36B4D7510}"
+              s:ph="/layout/main/column1_dph_7dee23d1-c40d-40f3-88c3-0df76cf31ed5" />
+            <r
+              uid="{7DEE23D1-C40D-40F3-88C3-0DF76CF31ED5}"
+              p:after="r[@uid='{8F01C425-1C49-40FD-90A3-1125AEFCC5D3}']"
+              s:id="{1750089B-5429-4DFC-AC58-B29ED26CD364}"
+              s:ph="/layout/main" />
+            <r
+              uid="{FE8D857C-E039-4F44-AD7F-894388AB175B}"
+              p:after="r[@uid='{7DEE23D1-C40D-40F3-88C3-0DF76CF31ED5}']"
+              s:id="{1750089B-5429-4DFC-AC58-B29ED26CD364}"
+              s:ph="/layout/main" />
+            <r
+              uid="{C371B562-1EC3-4447-BDB2-B718F6DBFC1C}"
+              p:after="r[@uid='{FE8D857C-E039-4F44-AD7F-894388AB175B}']"
+              s:id="{1750089B-5429-4DFC-AC58-B29ED26CD364}"
+              s:ph="/layout/main" />
+            <r
+              uid="{DAE0931E-340D-4BFB-836A-D4E9B3A8DDB1}"
+              p:after="r[@uid='{C371B562-1EC3-4447-BDB2-B718F6DBFC1C}']"
+              s:id="{1750089B-5429-4DFC-AC58-B29ED26CD364}"
+              s:ph="/layout/main" />
+            <r
+              uid="{E14CEECC-27AC-49AC-870D-59BCBBA9609D}">
+              <p:d />
+            </r>
+            <r
+              uid="{B4244C67-C151-49D6-95EB-94B19537B725}"
+              p:after="*[1=2]" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160403T233501Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: RACQ free2go
+    - ID: "72691cae-f39c-44e8-bf26-c8d65e384d89"
+      Hint: MetaBrowserTitle
+      Value: RACQ free2go
+    - ID: "80f4be26-f0a5-4024-9231-2ae6dcf2ec2b"
+      Hint: ContentTags
+      Type: Treelist
+      Value: |
+        {8F416E0A-EFE7-4934-AB81-5291F64573AA}
+        {835D9E2D-002E-45E7-89F9-179924A73602}
+    - ID: "8357be37-6e13-4bdd-9b01-2fbbf0b763b2"
+      Hint: HideFromNavigation
+      Type: Checkbox
+      Value: 1
+    - ID: "f4f81abf-4b1e-44ab-a640-d4b383f51c9c"
+      Hint: NavigationTitle
+      Value: RACQ free2go

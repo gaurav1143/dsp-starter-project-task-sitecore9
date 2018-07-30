@@ -1,0 +1,23 @@
+﻿@using DeloitteDigital.Atlas.Mvc
+@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Content.Tabs.TabsRendering
+
+<div class="js-tabs tabs-container">
+    <div class="tabs">
+        @foreach (var item in Model.ViewModel.TabItems)
+            {
+            using (Html.BeginEditFrame(item.ItemId, "/sitecore/content/Applications/WebEdit/Edit Frame Buttons/DSP/Features/TemplatesModules/Tab Item"))
+                {
+                    var i = Guid.NewGuid();
+                    <div id="tab-@i" class="tab">
+                        <h3>@item.Title.DisableWebEdit()</h3>
+                        @item.GeneralText
+                    </div>
+                    i = Guid.NewGuid();
+                }
+            }
+    </div>
+    @if (!Model.ViewModel.TabItems.Any())
+    {
+        <p>Please select at least one item.</p>
+    }
+</div>

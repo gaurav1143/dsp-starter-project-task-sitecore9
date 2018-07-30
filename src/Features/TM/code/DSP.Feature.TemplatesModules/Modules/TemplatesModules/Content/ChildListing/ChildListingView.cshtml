@@ -1,0 +1,33 @@
+﻿@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Content.ChildListing.ChildListingRendering
+
+<!-- START .sl (landing) -->
+<div class="sl">
+    <ul class="sl-list sl-list-landing has-2-items" data-heights-type="sl-list-landing">
+        @foreach (var child in Model.ViewModel.Children)
+        {
+            <li class="sl-item">
+                <!-- START .cm-child-listing -->
+                <div class="cm cm-child-listing">
+                    <div class="title">
+                        <h2>
+                            <a href="@child.ItemUrl">@child.NavigationTitle</a>
+                        </h2>
+                        <p>@child.Description</p>
+                    </div>
+                    @if (child.Children.Any())
+                    {
+                        <ul>
+                            @foreach (var nextLevel in child.Children)
+                            {
+                                <li>
+                                    <a href="@nextLevel.ItemUrl" class="link-caret-block">@nextLevel.NavigationTitle</a>
+                                </li>
+                            }
+                        </ul>
+                    }
+                </div>
+                <!-- END .cm-child-listing -->
+            </li>
+        }
+    </ul>
+</div>

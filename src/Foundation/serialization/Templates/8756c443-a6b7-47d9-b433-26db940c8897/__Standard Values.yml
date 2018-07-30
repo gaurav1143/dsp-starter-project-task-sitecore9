@@ -1,0 +1,17 @@
+﻿---
+ID: "a2e1bbf4-798b-4f78-b299-21604e87a812"
+Parent: "8756c443-a6b7-47d9-b433-26db940c8897"
+Template: "8756c443-a6b7-47d9-b433-26db940c8897"
+Path: /sitecore/templates/Deloitte/Foundation/Common/Field Sections/Query Pinned Results/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160609T001803Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

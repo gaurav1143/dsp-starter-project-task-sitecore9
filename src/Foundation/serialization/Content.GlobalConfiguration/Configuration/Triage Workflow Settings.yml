@@ -1,0 +1,22 @@
+﻿---
+ID: "d412158c-6690-46e9-8209-4b9ea942f041"
+Parent: "b7291b38-3459-4595-b7b4-4816d68f24e2"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Configuration/Triage Workflow Settings
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{C1BCA92B-DCAF-4422-8DCA-DE7BB9B8102E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160704T010017Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

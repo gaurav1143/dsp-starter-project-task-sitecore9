@@ -1,0 +1,62 @@
+﻿---
+ID: "c209146d-47c4-4b2c-88a3-284197e9c646"
+Parent: "dadcce3e-ec29-4d51-98b9-9b0c999b8f15"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/content/dspstarter/Content Modules/Rich Text/dsp_3
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: <div><b>Advanced search capabilities</b></div><div><br></div><div>The Deloitte Sitecore Platform delivers advanced searching features out of the box built up on Sitecore’s native content search capabilities. Our advanced searching capabilities include predictive search with autocomplete, content authored “best bet” search results, suggested search terms and filtering of results using facets. Search faceting and suggested terms are implemented based on the hierarchical tagging system that you can maintain yourself. Content authors are given the flexibility to manage which sets of tags are presented as suggestions and facets for search.</div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160215T040855Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+- Language: "ms-MY"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: |
+        <p><strong>Keupayaan Carian Lanjutan</strong></p>
+        <p>Platform Deloitte Sitecore mempunyai ciri-ciri pencarian lanjutan terbina di atas keupayaan pencarian yang sedia ada. Keupayaan pencarian lanjutan kami termasuk carian ramalan dengan autocomplete, kandungan pencarian &ldquo;best bet&rdquo; yang boleh disesuaikan, pencadang istilah pencarian dan penapisan keputusan. Penapisan dan pencadang istilah adalah dilaksanakan berdasarkan sistem tagging secara hierarki yang mampu anda kemaskini. Pengarang kandungan diberikan fleksibiliti bagi menetapkan tag yang digunakan sebagai istilah-istilah cadangan dan penapisan untuk carian.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160907T004127Z
+- Language: "th-TH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: |
+        <div><strong>การค้นหาขั้นสูง</strong></div>
+        <div> </div>
+        <div>แพลตฟอร์มไซต์คอร์ของดีลอยท์มาพร้อมกับความสามารถในการค้นหาขั้นสูงซึ่งสร้างเพิ่มเติมขึ้นจากความสามารถการค้นหามาตรฐานของไซต์คอร์ โดยเราเพิ่มความสามารถในการช่วยเติมคำให้สมบูรณ์ขณะพิมพ์ข้อความเพื่อค้นหาโดยใช้ระบบคาดคะเน การแสดงผลลัพธารค้นหาคอนเทนต์โดยใช้คำใกล้เคียงที่เรียกว่า “เบสท์เบ็ท” การแนะนำข้อความค้นหา และการกรองผลลัพธ์ด้วยฟาเซ็ทที่สามารถเลือกกรองด้วยฟิลเตอร์หลายตัวได้พร้อมๆ กัน ซึ่งคุณสามารถกำหนดฟาเซ็ทและข้อความแนะนำในการค้นหาผ่านระบบแท็กแบบลำดับขั้นได้ด้วยตัวเอง ด้วยความสามารถเหล่านี้ผู้เขียนคอนเทนต์จะสามารถจัดการกลุ่มแท็กที่ต้องการให้แสดงผลในแต่ละการค้นหาได้อย่างยืดหยุ่น</div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160907T000908Z
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: |
+        <div><strong>进阶检索功能</strong></div>
+        <div> </div>
+        <div>The Deloitte Sitecore Platform delivers advanced searching features out of the box built up on Sitecore’s native content search capabilities. Our advanced searching capabilities include predictive search with autocomplete, content authored “best bet” search results, suggested search terms and filtering of results using facets. Search faceting and suggested terms are implemented based on the hierarchical tagging system that you can maintain yourself. Content authors are given the flexibility to manage which sets of tags are presented as suggestions and facets for search.</div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160831T005323Z

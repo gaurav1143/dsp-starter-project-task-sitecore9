@@ -1,0 +1,25 @@
+﻿---
+ID: "45d3b4d1-14ae-4541-94cb-0540ebe0bbb8"
+Parent: "446405a9-4b40-408b-8015-76c9b44ef702"
+Template: "7c69e05f-19cf-48d2-8382-c9a10255a825"
+Path: /sitecore/content/dspstarter/Content Modules/Content Tiles/sitecore_multiinstance
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00df211e-7ca3-4adf-93b5-ce636d2d9898"
+      Hint: Description
+      Value: |
+        As is usually the case, the answer is "it depends", but there are some key conditions that can lead to a clear choice between one over the other.
+        
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link id=\"{0D66CDE7-2636-44C2-A592-29D5386EA729}\" querystring=\"\" text=\"\" title=\"\" class=\"\" linktype=\"internal\" url=\"/dspstarter/Home/insights/blog_multi_instance\" target=\"\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160316T005554Z
+    - ID: "f7f92772-48f1-49de-8a65-d8055f7488bf"
+      Hint: Title
+      Value: "Multi-site or multi-instance?"

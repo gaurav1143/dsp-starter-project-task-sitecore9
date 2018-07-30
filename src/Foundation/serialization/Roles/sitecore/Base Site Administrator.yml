@@ -1,0 +1,7 @@
+﻿---
+Role: sitecore\Base Site Administrator
+MemberOf:
+  Role: sitecore\Can Access User Manager
+  Role: sitecore\Can Manage Tags
+  Role: sitecore\Can Edit Site Configuration
+  Role: sitecore\Base Content Publisher

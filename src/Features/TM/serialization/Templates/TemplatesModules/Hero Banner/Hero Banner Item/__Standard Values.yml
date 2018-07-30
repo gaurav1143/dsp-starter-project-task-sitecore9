@@ -1,0 +1,14 @@
+﻿---
+ID: "fa703177-6dc5-4066-bed2-4b8d4bf88df6"
+Parent: "1884a27a-c22d-4bf2-8596-fc56e0512acb"
+Template: "1884a27a-c22d-4bf2-8596-fc56e0512acb"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Banner/Hero Banner Item/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160107T023151Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "2a6ee757-57a5-4935-aa8a-c34e01fddb7d"
+Parent: "d7a87f5c-2168-4209-817f-d626c3ad78c6"
+Template: "d7a87f5c-2168-4209-817f-d626c3ad78c6"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Accordion/Accordion Set/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160517T225602Z

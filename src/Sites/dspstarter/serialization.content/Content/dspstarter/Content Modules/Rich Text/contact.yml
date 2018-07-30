@@ -1,0 +1,41 @@
+﻿---
+ID: "cf28897f-f697-4683-bce4-1d7146a40ce7"
+Parent: "dadcce3e-ec29-4d51-98b9-9b0c999b8f15"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/content/dspstarter/Content Modules/Rich Text/contact
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: |
+        <div><strong>Melbourne</strong></div>
+        <div>550 Bourke Street</div>
+        <div>Melbourne, VIC 3000</div>
+        <div><a href="http://g.co/maps/mrp6j">View map</a></div>
+        <div>Phone  +61 3 9671 7000</div>
+        <div><strong> </strong></div>
+        <div><strong>Sydney</strong></div>
+        <div>225 George Street</div>
+        <div>Sydney, NSW 2000</div>
+        <div><a href="http://g.co/maps/b3rbx">View map</a></div>
+        <div>Phone  +61 2 9322 7000</div>
+        <div><strong> </strong></div>
+        <div><strong>Adelaide</strong></div>
+        <div>11 Waymouth Street</div>
+        <div>Adelaide, SA 5000</div>
+        <div><a href="http://g.co/maps/szsgq">View map</a></div>
+        <div>Phone  +61 8 8407 7000</div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160215T003151Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"

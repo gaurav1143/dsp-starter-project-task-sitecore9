@@ -1,0 +1,14 @@
+﻿---
+ID: "4acd4323-9fc8-4b18-a515-1ae2bb9fe32f"
+Parent: "b9f5a81a-64b6-495e-8d14-5f76eaa3c2b8"
+Template: "b7af64e7-82e9-4a29-82cf-ea4e44434f19"
+Path: /sitecore/content/dspstarter/Content Modules/Contact Bar
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160607T061830Z

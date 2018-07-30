@@ -1,0 +1,18 @@
+﻿@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Content.HeroCarousel.HeroCarouselSlide
+
+<section class="hero-carousel-item @Model.TextBackgroundOption">
+    @using (Html.BeginEditFrame(Model.ItemId, "/sitecore/content/Applications/WebEdit/Edit Frame Buttons/DSP/Features/TemplatesModules/Hero Carousel Item"))
+    {
+        <div class="l-padding">
+            <div class="content">
+                <h1>@Model.Title</h1>
+                <p>@Model.ShortDescription</p>
+                <a href="@Model.GeneralLink.Url" class="cta">Find out more<span class="vh"> about @Model.Title</span></a>
+            </div>
+
+            <div class="image" style="background-image: url(@Model.GeneralImage.UrlOnly())">
+                <span class="vh">Image: </span>
+            </div>
+        </div>
+    }
+</section>

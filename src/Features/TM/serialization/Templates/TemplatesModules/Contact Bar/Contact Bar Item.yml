@@ -1,0 +1,31 @@
+﻿---
+ID: "3b95e19c-9274-4d28-ae8d-e12f216182ac"
+Parent: "2a5b68f2-d28a-4e14-87a7-44eac2b10c4d"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Contact Bar/Contact Bar Item
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: People/16x16/user1.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {D5C8BFBC-C281-4118-991A-B8A2DE5C5561}
+    {6C8A8A14-21E9-4512-A34B-3C973B84C25D}
+    {C82475DB-CD2B-4C75-8F35-7B5E2CC599EE}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{36533222-7317-4C63-AC93-12856F868BE7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160606T133633Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

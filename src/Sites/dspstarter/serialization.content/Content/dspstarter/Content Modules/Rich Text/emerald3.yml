@@ -1,0 +1,24 @@
+﻿---
+ID: "0c424811-0096-48cb-9723-a1868f338c2b"
+Parent: "dadcce3e-ec29-4d51-98b9-9b0c999b8f15"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/content/dspstarter/Content Modules/Rich Text/emerald3
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: "<strong>Staff directory<br></strong><br>A key problem area was the lack of a centralised, accessible and secure staff directory. We integrated Active Directory into the Intranet, incorporating location, contact details, user photos, business function title and bio into an intuitive search and user profile feature making finding someone within the company easy and fast.<br><br><strong>Grower Portal<br></strong><br>Emerald Grain wanted growers to have a single online system to make doing business with Emerald simple and easy, any time of the day on any device you choose.  The solution chosen was based on Salesforce, and Emerald Grain engaged Deloitte to design the creative and build the front-end components."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160520T012017Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"

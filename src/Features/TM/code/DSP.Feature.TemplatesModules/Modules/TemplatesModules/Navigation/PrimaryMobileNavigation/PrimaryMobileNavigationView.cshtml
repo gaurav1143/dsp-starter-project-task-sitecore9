@@ -1,0 +1,55 @@
+﻿@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Navigation.NavigationRendering
+
+<!-- START .nav-offscreen -->
+<nav id="nav" class="offscreen-panel js-offscreen" role="navigation" tabindex="-1" data-offscreen-at="0,m">
+    <div class="offscreen-content">
+        <h2 class="vh">Navigation</h2>
+        <div class="nav-header">   
+            @Html.Partial("~/Modules/TemplatesModules/Partials/LogoPartial.cshtml", Model.ViewModel.Item2)
+            <button class="link-icon nav-close js-offscreen-close">
+                <span class="icon svg-close-grey" data-grunticon-embed></span>
+                <span class="vh">Close navigation</span>
+            </button>
+        </div>
+
+        <ul>
+            @foreach (var navigationItem in Model.ViewModel.Item1.Children)
+            {
+                <li class="@(navigationItem.Children.Any() ? "has-children" : "") @Model.BuildActiveClass(navigationItem)">
+                    <a href="@navigationItem.ItemUrl" class="nav-lvl1">@navigationItem.NavigationTitle</a>
+
+                    @if (navigationItem.Children.Any())
+                    {
+                        <a href="#nav-main-@navigationItem.ItemId" class="js-ec-link expandcollapse @Model.BuildActiveClass(navigationItem, string.Empty, "is-expanded")"><span class="vh"></span></a>
+
+                        <div id="nav-main-@navigationItem.ItemId" class="js-ec expandcollapse-content @Model.BuildActiveClass(navigationItem, string.Empty, "is-expanded")">
+                            <ul>
+                                @foreach (var childItem in navigationItem.Children)
+                                {
+                                    <li class="@(childItem.Children.Any() ? "has-children" : "") @Model.BuildActiveClass(childItem)">
+                                        <a href="@childItem.ItemUrl" class="nav-lvl2">@childItem.NavigationTitle</a>
+                                        @if (childItem.Children.Any())
+                                        {
+                                            <a href="#nav-main-@childItem.ItemId" class="js-ec-link expandcollapse @Model.BuildActiveClass(childItem, string.Empty, "is-expanded")"><span class="vh"></span></a>
+                                            <div id="nav-main-@childItem.ItemId" class="js-ec expandcollapse-content @Model.BuildActiveClass(childItem, string.Empty, "is-expanded")">
+                                                <ul>
+                                                    @foreach (var item in childItem.Children)
+                                                    {
+                                                        <li class="@Model.BuildActiveClass(item)">
+                                                            <a href="@item.ItemUrl" class="nav-lvl3 link-caret-block">@item.NavigationTitle</a>
+                                                        </li>
+                                                    }
+                                                </ul>
+                                            </div>
+                                        }
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    }
+                </li>
+            }
+        </ul>
+    </div>
+</nav>
+<!-- END .nav-offscreen -->

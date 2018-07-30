@@ -1,0 +1,52 @@
+﻿---
+ID: "4866a8d0-3968-4480-9980-c2a5196486ac"
+Parent: "422f39d9-e106-4fa5-9ace-cb2702f5c86b"
+Template: "1e8966bf-97d7-449b-ac14-3421c16a5e78"
+Path: /sitecore/content/dspstarter/Home/work/queensland_urban
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160106T001030Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Queensland Urban Utilities
+    - ID: "72691cae-f39c-44e8-bf26-c8d65e384d89"
+      Hint: MetaBrowserTitle
+      Value: Queensland Urban Utilities
+    - ID: "8357be37-6e13-4bdd-9b01-2fbbf0b763b2"
+      Hint: HideFromNavigation
+      Type: Checkbox
+      Value: 1
+    - ID: "9b35b0c9-3bfc-4de7-b932-a7ee4c774cd7"
+      Hint: GeneralText
+      Value: |
+        Queensland Urban Utilities engaged Deloitte to redesign their existing website in order to better service their customers. A responsive website built on a new content management system vastly improved the experience of users and provided Queensland Urban Utilities customers with a range of self service functionality.<br>
+        <br>
+        <strong>Transforming an aging website to better serve customers<br>
+        </strong><br>
+        Queensland Urban Utilities wanted to provide their customers with a better online experience through the development of a responsive website that would allow users to achieve key tasks across a range of devices as well as provide an extensive range of self service functionality.<br>
+        <br>
+        <strong>Making it easier for the customer<br>
+        </strong><br>
+        The website is now much more intuitive and easier to navigate. A key feature of the website is the &ldquo;Report a leak&rdquo; online form where customers can report a burst water main or leak in their area quickly and easily. The responsive website ensures this task can be completed with ease across any device which has eliminated the need for a stand-alone mobile app.<br>
+        Successful delivery<br>
+        <br>
+        <strong>Both the website redesign and content layout was well received by Queensland Urban Utilities stakeholders alike. <br>
+        </strong><br>
+        The website was built on the Sitecore CMS platform with future personalisation opportunities in mind. Queensland Urban Utilities' goal is to track a customer&rsquo;s journey through the website and use that insight to surface further opportunities for the customer to self service via online forms or information gathering<br>
+        <div>&nbsp;</div>
+    - ID: "f4f81abf-4b1e-44ab-a640-d4b383f51c9c"
+      Hint: NavigationTitle
+      Value: Queensland Urban Utilities

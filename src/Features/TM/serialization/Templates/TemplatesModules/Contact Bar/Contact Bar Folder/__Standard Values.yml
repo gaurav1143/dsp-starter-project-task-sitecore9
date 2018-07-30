@@ -1,0 +1,24 @@
+﻿---
+ID: "3cd6097a-8e2a-4388-9817-84c1c0d70a6a"
+Parent: "b7af64e7-82e9-4a29-82cf-ea4e44434f19"
+Template: "b7af64e7-82e9-4a29-82cf-ea4e44434f19"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Contact Bar/Contact Bar Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {B7AF64E7-82E9-4A29-82CF-EA4E44434F19}
+    {3B95E19C-9274-4D28-AE8D-E12F216182AC}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160606T140929Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

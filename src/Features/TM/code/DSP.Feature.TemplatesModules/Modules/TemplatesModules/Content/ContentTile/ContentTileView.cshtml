@@ -1,0 +1,35 @@
+﻿@using DSP.Foundation.Extensions
+@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Content.ContentTile.ContentTileRendering
+
+<section class="cm cm-image-block-link cm-content-tile">
+    @using (Html.BeginLink(Model.ViewModel.GeneralLink, alternateTag: "div", skipInPageEditor: true))
+    {
+        if (Model.HasValueOrIsPageEditor(Model.ViewModel.GeneralImage))
+        {
+            <div class="image">
+                @Model.ViewModel.GeneralImage.AsResponsiveImage()
+            </div>
+        }
+        if (Model.HasValueOrIsPageEditor(Model.ViewModel.Title) || Model.HasValueOrIsPageEditor(Model.ViewModel.Description) || Model.HasValueOrIsPageEditor(Model.ViewModel.GeneralLink))
+        {
+            <div class="content">
+                @if (Model.HasValueOrIsPageEditor(Model.ViewModel.Title))
+                {
+                    <h1>@Model.ViewModel.Title</h1>
+                }
+                @if (Model.HasValueOrIsPageEditor(Model.ViewModel.Description))
+                {
+                    <p>@Model.ViewModel.Description</p>
+                }
+                @if (Model.IsPageEditor())
+                {
+                @Model.ViewModel.GeneralLink
+                }
+                else if (Model.HasValue(Model.ViewModel.GeneralLink))
+                {
+                    <span class="faux-link">@Model.ViewModel.GeneralLink.Text</span>
+                }
+            </div>
+        }
+    }
+</section>

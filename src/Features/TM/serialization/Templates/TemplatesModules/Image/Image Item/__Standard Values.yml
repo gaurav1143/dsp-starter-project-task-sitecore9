@@ -1,0 +1,14 @@
+﻿---
+ID: "de0a0b2c-cd88-433c-8fea-745c52b7e53d"
+Parent: "a433ed38-7d03-4d29-bc2b-1471bbb1d2c4"
+Template: "a433ed38-7d03-4d29-bc2b-1471bbb1d2c4"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Image/Image Item/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160107T000622Z

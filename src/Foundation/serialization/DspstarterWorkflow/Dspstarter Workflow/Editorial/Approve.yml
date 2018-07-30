@@ -1,0 +1,21 @@
+﻿---
+ID: "883624ef-dbec-43ee-bd03-105201e53e9c"
+Parent: "ab4dde9d-95f6-4ec3-b7e2-f8a54923c954"
+Template: "cb01f9fc-c187-46b3-ab0b-97a8468d8303"
+Path: /sitecore/system/Workflows/Dspstarter Workflow/Editorial/Approve
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/16x16/check.png
+- ID: "dcbebc58-6124-4100-a248-fc717d6c78d5"
+  Hint: Next state
+  Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161214T002336Z

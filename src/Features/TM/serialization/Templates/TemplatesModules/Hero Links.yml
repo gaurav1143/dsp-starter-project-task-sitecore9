@@ -1,0 +1,17 @@
+﻿---
+ID: "2ed9aa3a-f4b5-4d03-a0c9-4008d41fc56a"
+Parent: "f3faced7-db19-4fc1-816c-ed5f8990ff16"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Links
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160307T040721Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

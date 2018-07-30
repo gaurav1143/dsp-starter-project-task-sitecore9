@@ -1,0 +1,17 @@
+﻿---
+ID: "b73de19a-8a4d-48e5-a537-45237b0d28be"
+Parent: "f94167ce-f663-4dca-a706-cd3f3b030134"
+Template: "ccdcedcb-694e-495d-b78f-382d4edb3011"
+Path: /sitecore/content/dspstarter/Configuration/Tags/Content Tags/Cars/Toyota/Prius
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151130T023049Z
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Prius

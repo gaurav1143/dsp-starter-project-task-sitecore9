@@ -1,0 +1,14 @@
+﻿---
+ID: "c7a58b12-c480-483e-b3fb-2b72a33539b0"
+Parent: "3efa2153-e2d9-4988-94da-3f3373265e1c"
+Template: "b0666cfe-8c7b-4cc1-8e32-8253742ebfa9"
+Path: /sitecore/content/Applications/WebEdit/Edit Frame Buttons/DSP/Features/TemplatesModules/Hero Carousel Item
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160307T054720Z

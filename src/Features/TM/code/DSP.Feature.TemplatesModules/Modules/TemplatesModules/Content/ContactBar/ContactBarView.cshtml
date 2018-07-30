@@ -1,0 +1,40 @@
+﻿@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Content.ContactBar.ContactBarRendering
+
+<section class="cm cm-contact-bar @Model.ViewModel.TextBackgroundOption">
+    <div class="feature-image" style="background-image:url(@Model.ViewModel.GeneralImage.UrlOnly())">
+        <div class="feature-image-overlay">
+        </div>
+    </div>
+    <div class="l-padding">
+        <div class="content cf">
+
+            <h1>@Model.ViewModel.Title</h1>
+            <ul class="cf">
+                <li>
+                    <a href="@Model.ViewModel.EmailLink.Url" class="cf">
+                        <!-- Alt text intentionally exists in blank state -->
+                        <img src="@Model.ViewModel.EmailIcon.UrlOnly()" alt="" />
+                        <span class="title">Email</span>
+                        <span class="link">@Model.ViewModel.EmailLink.Text</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Model.ViewModel.LocationLink.Url" class="cf">
+                        <!-- Alt text intentionally exists in blank state -->
+                        <img src="@Model.ViewModel.LocationIcon.UrlOnly()" alt="" />
+                        <span class="title">Location</span>
+                        <span class="link">@Model.ViewModel.LocationLink.Text</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Model.ViewModel.PhoneLink.Url" class="cf">
+                        <!-- Alt text intentionally exists in blank state -->
+                        <img src="@Model.ViewModel.PhoneIcon.UrlOnly()" alt="" />
+                        <span class="title">Phone</span>
+                        <span class="link">@Model.ViewModel.PhoneLink.Text</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>

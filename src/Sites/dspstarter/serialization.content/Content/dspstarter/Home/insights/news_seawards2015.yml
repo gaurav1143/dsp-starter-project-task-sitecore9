@@ -1,0 +1,104 @@
+﻿---
+ID: "7365d31c-6065-4539-913d-9d2ecb28f45c"
+Parent: "a0263b64-b001-43dd-879a-582af7d9d71c"
+Template: "46bae768-310d-4314-aef2-ae247e5c4850"
+Path: /sitecore/content/dspstarter/Home/insights/news_seawards2015
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160320T232629Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Deloitte Digital and Clients win big at Sitecore 2015 Experience Awards
+    - ID: "72691cae-f39c-44e8-bf26-c8d65e384d89"
+      Hint: MetaBrowserTitle
+      Value: Deloitte Digital and Clients win big at Sitecore 2015 Experience Awards
+    - ID: "80f4be26-f0a5-4024-9231-2ae6dcf2ec2b"
+      Hint: ContentTags
+      Type: Treelist
+      Value: |
+        {F2FF7A72-5907-4784-BA6A-89DE786D9E81}
+        {4E285EEF-19F8-452D-B511-46D3F5B18F07}
+    - ID: "8357be37-6e13-4bdd-9b01-2fbbf0b763b2"
+      Hint: HideFromNavigation
+      Type: Checkbox
+      Value: 1
+    - ID: "9b35b0c9-3bfc-4de7-b932-a7ee4c774cd7"
+      Hint: GeneralText
+      Value: |
+        <p>Deloitte Digital and their clients won five of the Sitecore Australia and New Zealand 2015 Experience Awards, which were announced on Thursday.<br>
+        <br>
+        Now, in its eighth year, the Sitecore Experience Awards are awarded to Sitecore solutions delivering an outstanding experience for both their customers and their own organisation. &nbsp;The Sitecore judges consider creativity in the use of Sitecore&rsquo;s capabilities to deliver outstanding and transformative business results, integration with applications, and multichannel engagement.<br>
+        <br>
+        Deloitte Digital clients won a total of five awards for Sitecore solutions delivered together over the last year, representing the largest haul from any digital agency:</p>
+        <p>&nbsp;</p>
+        <ul>
+            <li><strong>CPA Australia</strong>&nbsp;was recognised in the Business and Professional Services category for the INTHEBLACK website&nbsp;<a href="EditorPage.aspx?da=core&amp;id=%7BD793B6F3-66BF-4485-9CE8-D65B2B6EC593%7D&amp;ed=FIELD3612597926&amp;vs&amp;la=en&amp;fld=%7B9B35B0C9-3BFC-4DE7-B932-A7EE4C774CD7%7D&amp;so=%2Fsitecore%2Fsystem%2FSettings%2FHtml%20Editor%20Profiles%2Fdspstarter%2FRich%20Text%20Medium&amp;di=0&amp;hdl=H3612597958&amp;mo&amp;pe=0&amp;fbd=1">(http://intheblack.com</a>)</li>
+            <li><strong>The Department of Health (Victoria)&nbsp;</strong>was recognised in the Healthcare and Medical category for their new digital platform which includes the new Department &nbsp;<a href="EditorPage.aspx?da=core&amp;id=%7BD793B6F3-66BF-4485-9CE8-D65B2B6EC593%7D&amp;ed=FIELD3612597926&amp;vs&amp;la=en&amp;fld=%7B9B35B0C9-3BFC-4DE7-B932-A7EE4C774CD7%7D&amp;so=%2Fsitecore%2Fsystem%2FSettings%2FHtml%20Editor%20Profiles%2Fdspstarter%2FRich%20Text%20Medium&amp;di=0&amp;hdl=H3612597958&amp;mo&amp;pe=0&amp;fbd=1">(http://www.health.vic.gov.au</a>),<strong>Better Health Channel</strong>&nbsp;(<a href="EditorPage.aspx?da=core&amp;id=%7BD793B6F3-66BF-4485-9CE8-D65B2B6EC593%7D&amp;ed=FIELD3612597926&amp;vs&amp;la=en&amp;fld=%7B9B35B0C9-3BFC-4DE7-B932-A7EE4C774CD7%7D&amp;so=%2Fsitecore%2Fsystem%2FSettings%2FHtml%20Editor%20Profiles%2Fdspstarter%2FRich%20Text%20Medium&amp;di=0&amp;hdl=H3612597958&amp;mo&amp;pe=0&amp;fbd=1">https://www.betterhealth.vic.gov.au/</a>) and Seniors Online websites&nbsp;<a href="EditorPage.aspx?da=core&amp;id=%7BD793B6F3-66BF-4485-9CE8-D65B2B6EC593%7D&amp;ed=FIELD3612597926&amp;vs&amp;la=en&amp;fld=%7B9B35B0C9-3BFC-4DE7-B932-A7EE4C774CD7%7D&amp;so=%2Fsitecore%2Fsystem%2FSettings%2FHtml%20Editor%20Profiles%2Fdspstarter%2FRich%20Text%20Medium&amp;di=0&amp;hdl=H3612597958&amp;mo&amp;pe=0&amp;fbd=1">(https://www.seniorsonline.vic.gov.au/</a>). &nbsp;The Department of Health platform was also recognised with with the award for Best Use of Web Personalisation.</li>
+            <li><strong>Finsia&nbsp;</strong>was recognised in the Not For Profit category for their new members portal&nbsp;</li>
+            <li><strong>VicRoads&nbsp;</strong>was recognised as winners in the Systems Integration category&nbsp;<a href="EditorPage.aspx?da=core&amp;id=%7BD793B6F3-66BF-4485-9CE8-D65B2B6EC593%7D&amp;ed=FIELD3612597926&amp;vs&amp;la=en&amp;fld=%7B9B35B0C9-3BFC-4DE7-B932-A7EE4C774CD7%7D&amp;so=%2Fsitecore%2Fsystem%2FSettings%2FHtml%20Editor%20Profiles%2Fdspstarter%2FRich%20Text%20Medium&amp;di=0&amp;hdl=H3612597958&amp;mo&amp;pe=0&amp;fbd=1">(http://www.vicroads.vic.gov.au/</a>)</li>
+        </ul>
+        <p>&nbsp;</p>
+        <p>&ldquo;These awards recognise the strategic investments of our clients in digital business transformation and as a result have reaped a very positive return in consumer engagement. We are delighted to see so many of our clients win these awards, a testament to Sitecore&rsquo;s flexibility to drive rapid personalisation and market acceptance. Deloitte Digital is very proud of our partnership with Sitecore, as these awards also serve as a great recognition of the talent, passion and deep experience of our Sitecore team.&rdquo; said Joel Lipman, Sitecore MVP and Partner, Deloitte Digital&rdquo;</p>
+        <p>&nbsp;</p>
+        <p><img alt="" height="232" width="146" src="-/media/abaa87fb1c054c0eae52eae0973af9a6.ashx">&nbsp;&nbsp;<img alt="" height="232" width="146" src="-/media/8753ef3ef3f64fa5a7ee281bd0125436.ashx?h=232&amp;w=146" style="height: 232px; width: 146px;">&nbsp;&nbsp;<img alt="" height="232" width="146" src="-/media/f1d7097d6cdc4ad0b90e75827c5048bf.ashx">&nbsp;&nbsp;<img alt="" height="232" width="146" src="-/media/0b296ef67f73432b9d73bb58535d5bc1.ashx">&nbsp;&nbsp;<img alt="" height="232" width="146" src="-/media/8fc3786f33324a92b17e51c68be17345.ashx"></p>
+        <div>&nbsp;</div>
+    - ID: "f4f81abf-4b1e-44ab-a640-d4b383f51c9c"
+      Hint: NavigationTitle
+      Value: Deloitte Digital and Clients win big at Sitecore 2015 Experience Awards
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160826T023103Z
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Deloitte Digital与客户们在2015年Sitecore 体验大奖中为最大赢家
+    - ID: "72691cae-f39c-44e8-bf26-c8d65e384d89"
+      Hint: MetaBrowserTitle
+      Value: Deloitte Digital与客户们在2015年Sitecore 体验大奖中为最大赢家
+    - ID: "80f4be26-f0a5-4024-9231-2ae6dcf2ec2b"
+      Hint: ContentTags
+      Type: Treelist
+      Value: |
+        {F2FF7A72-5907-4784-BA6A-89DE786D9E81}
+        {4E285EEF-19F8-452D-B511-46D3F5B18F07}
+    - ID: "f4f81abf-4b1e-44ab-a640-d4b383f51c9c"
+      Hint: NavigationTitle
+      Value: Deloitte Digital与客户们在2015年Sitecore 体验大奖中为最大赢家
+- Language: "zh-TW"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160826T023214Z
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Deloitte Digital與客戶們在2015年Sitecore 體驗大獎中為最大贏家
+    - ID: "72691cae-f39c-44e8-bf26-c8d65e384d89"
+      Hint: MetaBrowserTitle
+      Value: Deloitte Digital與客戶們在2015年Sitecore 體驗大獎中為最大贏家
+    - ID: "80f4be26-f0a5-4024-9231-2ae6dcf2ec2b"
+      Hint: ContentTags
+      Type: Treelist
+      Value: |
+        {F2FF7A72-5907-4784-BA6A-89DE786D9E81}
+        {4E285EEF-19F8-452D-B511-46D3F5B18F07}
+    - ID: "f4f81abf-4b1e-44ab-a640-d4b383f51c9c"
+      Hint: NavigationTitle
+      Value: Deloitte Digital與客戶們在2015年Sitecore 體驗大獎中為最大贏家

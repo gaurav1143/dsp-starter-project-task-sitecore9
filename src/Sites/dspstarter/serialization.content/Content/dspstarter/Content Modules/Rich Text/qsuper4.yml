@@ -1,0 +1,24 @@
+﻿---
+ID: "c876a348-0d65-4b20-a882-bf2bf37f69c7"
+Parent: "dadcce3e-ec29-4d51-98b9-9b0c999b8f15"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/content/dspstarter/Content Modules/Rich Text/qsuper4
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: "<p><strong style=\"font-size: 1rem; line-height: 1.875;\">Delivering a personalised portal for members</strong><br></p><p><strong></strong><span style=\"font-weight: lighter;\">Overall member satisfaction of the channel remains very positive across those registered. The Member Online solution offers a personalised user experience that is easy to use. Single Sign On capability allows members to seamlessly navigate through to external platforms without having to remember multiple passwords. QSuper has matured in the digital space and our goal is to be the leader in the Superannuation industry. The objective was to streamline content, simplify a self-guided experience, and incorporate the Public Site and Member Online into a single site setting QSuper up for a future of highly personalised content delivery and a fully integrated experience. QSuper’s determination to become the digital leaders of the superannuation industry, will not see their efforts diminish, with a suite of large-scale enhancements already in the pipeline, focused on connecting with users across their superannuation portfolios and beyond.</span></p>"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160520T042455Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"

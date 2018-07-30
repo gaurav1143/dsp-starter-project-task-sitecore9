@@ -1,0 +1,27 @@
+﻿---
+ID: "9f997ea6-a75b-484e-83e5-b35ad1037c66"
+Parent: "fe64fc33-5c8c-4c2c-822d-ad266d373685"
+Template: "586670c7-b065-4c3e-8cc9-ab1bf6d0f562"
+Path: /sitecore/content/dspstarter/Content Modules/Tabs Module/Tabs
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160705T110329Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "a12a77ed-3402-4c4e-aa18-6754c2ea7b89"
+      Hint: TabItems
+      Type: Treelist
+      Value: |
+        {C3B54919-CB80-4B3B-ACD9-715BE5B9ED7B}
+        {64F44E7F-625F-4490-A5D5-5972802311BB}

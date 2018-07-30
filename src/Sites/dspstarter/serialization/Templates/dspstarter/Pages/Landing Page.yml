@@ -1,0 +1,32 @@
+﻿---
+ID: "f75a3cbd-233f-4390-9ef1-2f74f445d320"
+Parent: "44836393-3888-47f3-9be0-b3565fc53c4c"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Deloitte/Sites/dspstarter/Pages/Landing Page
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: People/32x32/airplane.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {D60651A3-2B3D-4001-A779-549BE7273C96}
+    {4597ABF0-8B18-454E-ADCD-6A3256CCF2DE}
+    {5E53F5C8-7F25-4CB1-B706-59C5331FBFCC}
+    {E3D4AF5C-4F21-4BEC-8328-5971F33680C2}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{D45F9756-D3F2-4D16-9088-58D3CD27444C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150103T230900Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

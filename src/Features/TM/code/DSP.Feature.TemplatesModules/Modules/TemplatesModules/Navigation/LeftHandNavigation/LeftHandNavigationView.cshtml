@@ -1,0 +1,41 @@
+﻿@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Navigation.NavigationRendering
+
+<!-- START .nav-aside -->
+@foreach (var activeLevel1 in Model.ViewModel.Item1.Children.Where(c => Model.IsInActivePath(c) && c.Children.Any()))
+{
+    <nav class="nav-aside" role="navigation">
+        <ul>
+            @foreach (var itemLevel2 in activeLevel1.Children)
+            {
+                <li class="@(itemLevel2.Children.Any() ? "has-children" : string.Empty) @(Model.BuildActiveClass(itemLevel2, activeParentClass: string.Empty))">
+                    <a href="@itemLevel2.ItemUrl" class="nav-lvl1 @(itemLevel2.Children.Any() ? "link-caret-block" : string.Empty)">@itemLevel2.NavigationTitle</a>
+
+                    @if (itemLevel2.Children.Any() && (Model.IsActiveItem(itemLevel2) || Model.IsInActivePath(itemLevel2)))
+                    {
+                        <ul>
+                            @foreach (var itemLevel3 in itemLevel2.Children)
+                            {
+                                <li class="@(itemLevel3.Children.Any() ? "has-children" : string.Empty) @(Model.BuildActiveClass(itemLevel3, activeParentClass: string.Empty))">
+                                    <a href="@itemLevel3.ItemUrl" class="nav-lvl2 @(itemLevel3.Children.Any() ? "link-caret-block" : string.Empty)">@itemLevel3.NavigationTitle</a>
+
+                                    @if (itemLevel3.Children.Any() && (Model.IsActiveItem(itemLevel3) || Model.IsInActivePath(itemLevel3)))
+                                    {
+                                        <ul>
+                                            @foreach (var itemLevel4 in itemLevel3.Children)
+                                            {
+                                                <li class="@(Model.BuildActiveClass(itemLevel4, activeParentClass: string.Empty))">
+                                                    <a href="@itemLevel4.ItemUrl" class="nav-lvl3">@itemLevel4.NavigationTitle</a>
+                                                </li>
+                                            }
+                                        </ul>
+                                    }
+                                </li>
+                            }
+                        </ul>
+                    }
+                </li>
+            }
+        </ul>
+    </nav>
+}
+<!-- END .nav-aside -->

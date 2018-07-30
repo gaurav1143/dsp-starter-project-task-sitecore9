@@ -1,0 +1,20 @@
+﻿---
+ID: "2e9b0dc8-b8ac-4729-8184-36a994cd6a07"
+Parent: "28106c1a-f13c-43bd-8b6f-bdf6e741c314"
+Template: "28106c1a-f13c-43bd-8b6f-bdf6e741c314"
+Path: /sitecore/templates/Deloitte/Foundation/Common/Field Sections/Query Sort Order/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160609T002644Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "7d1631bb-c326-4d22-85e2-77e5c4c164b8"
+      Hint: QuerySortOption
+      Value: Relevance

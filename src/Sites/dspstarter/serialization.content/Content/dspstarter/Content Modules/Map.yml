@@ -1,0 +1,14 @@
+﻿---
+ID: "d56bc45a-924a-441d-a369-5712956a028c"
+Parent: "b9f5a81a-64b6-495e-8d14-5f76eaa3c2b8"
+Template: "9c05eda2-d626-479a-aa45-31b1221a6506"
+Path: /sitecore/content/dspstarter/Content Modules/Map
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160609T122136Z

@@ -1,0 +1,54 @@
+﻿---
+ID: "de09d9a9-1305-46b9-872d-82c569d731d2"
+Parent: "422f39d9-e106-4fa5-9ace-cb2702f5c86b"
+Template: "1e8966bf-97d7-449b-ac14-3421c16a5e78"
+Path: /sitecore/content/dspstarter/Home/work/finsia
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151224T064627Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Finsia
+    - ID: "72691cae-f39c-44e8-bf26-c8d65e384d89"
+      Hint: MetaBrowserTitle
+      Value: Finsia
+    - ID: "8357be37-6e13-4bdd-9b01-2fbbf0b763b2"
+      Hint: HideFromNavigation
+      Type: Checkbox
+      Value: 1
+    - ID: "9b35b0c9-3bfc-4de7-b932-a7ee4c774cd7"
+      Hint: GeneralText
+      Value: |
+        Finsia, The Financial Institute of Australasia is a leading professional association servicing members across the Financial industry in the Asia Pacific region. With an increasingly digitally empowered member base, Finsia was looking to create a premium digital experience via the launch of a member&rsquo;s portal, whilst improving the business processes and operations with Salesforce.<br>
+        <br>
+        <strong>New Member&rsquo;s Portal helps members with their careers<br>
+        </strong><br>
+        In-depth member interviews revealed that most members are driven by a desire to seek advice about their careers and to network with other members. The Member&rsquo;s Portal addresses these needs with an interactive Member profile and career plan tool, a smart &lsquo;Career diagnostics&rsquo; tool and a wealth of information on financial industry sectors through member profiling and interviews. A new creative design reinforce the premium branding of the organisation.<br>
+        <br>
+        Whilst Deloitte Digital&rsquo;s CMS team was busy designing and implementing the Member&rsquo;s Portal, another Deloitte Digital team, the CRM team were faced with the challenge of transforming Finsia&rsquo;s back-office business process. Finsia&rsquo;s payment processing system and member relationship management system were re-architected with leading solutions from Salesforce.com, Sitecore and cloud hosting services. The new member-centric platform allowed the membership team to streamline core business processes and focus on delivering member value.<br>
+        <br>
+        <strong>Digital at the core<br>
+        </strong><br>
+        To truly transform the organisation in a short timeframe, we recognised the need to change the way we worked as a client and engagement team. To achieve this, we guided Finsia through a journey of embedding more agile ways of working into their culture, reinforcing the message of working together as one team. This created a culture of collaboration and transparency, allowing the team to rapidly co-design solutions unique to Finsia.<br>
+        <br>
+        <strong>Transformation, enabled by technology<br>
+        </strong><br>
+        We helped Finsia to architect their technology with leading solutions from Salesforce.com, Sitecore and a leading cloud hosting provider. This interconnected implementation was possible by working in an agile manner with Finsia to distil their needs then customise the platforms accordingly.<br>
+        <br>
+        The organisation has revamped its member offering, and transformed its core business processes allowing for streamlined business processes, real time payment processing, personalised digital experience for members, tailored diagnostic tool based on skills, qualifications, career stage and objectives and the ability to quickly scale up and manage portal content.
+    - ID: "f4f81abf-4b1e-44ab-a640-d4b383f51c9c"
+      Hint: NavigationTitle
+      Value: Finsia

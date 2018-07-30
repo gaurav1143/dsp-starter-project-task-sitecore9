@@ -1,0 +1,41 @@
+﻿---
+ID: "377e9118-3b26-43d0-a311-2af08171ac29"
+Parent: "e2645b0e-3ffe-49ac-a200-2cda60ff0477"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Query Related Links/Query Related Links
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/bookmarks.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {D5C8BFBC-C281-4118-991A-B8A2DE5C5561}
+    {27A590EA-0A9E-45A7-A1E5-8B7205031FBC}
+    {25D8C624-C99D-45F2-96EB-522D1101F20F}
+    {BF472307-A8F5-41FA-AB74-630E3A96602F}
+    {D622A26D-4F31-4A80-AB86-4F59E21FABD3}
+    {42E1FB2F-41D8-43A6-BED4-0152F1A6844E}
+    {7E79D03C-ED1B-4DB2-8889-C97BBECE0F19}
+    {B6B76F21-3643-40C6-AC59-FAC42344FF27}
+    {B762278D-3D87-4462-B933-0682A3292C18}
+    {8756C443-A6B7-47D9-B433-26DB940C8897}
+    {21A696D3-A787-4EDC-B1FB-76373A5CAE2D}
+    {28106C1A-F13C-43BD-8B6F-BDF6E741C314}
+    {F631B1B5-5058-4C74-9B5D-53A2D9D5AA29}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{09144FAD-8A36-4DBC-8B8D-6956951B7307}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150510T025750Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

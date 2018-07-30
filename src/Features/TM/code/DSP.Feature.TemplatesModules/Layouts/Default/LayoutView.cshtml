@@ -1,0 +1,86 @@
+﻿@model DSP.Feature.TemplatesModules.Layouts.Default.LayoutRendering
+@using Sitecore.Mvc.Analytics.Extensions
+<!DOCTYPE html>
+<html class="supports-no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-TileColor" content="#000">
+    <meta name="msapplication-TileImage" content="/assets/img/icons/metro-tile.png" />
+    <link rel="apple-touch-icon-precomposed" href="/assets/img/icons/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="/assets/img/icons/favicon.ico" />
+    <title>@Model.ViewModel.MetaBrowserTitle | dspstarter</title>
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" href="/assets/css/style.static.ie.css" />
+    <![endif]-->
+    <!--[if IE 9]>
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link rel="stylesheet" href="/assets/css/style.ie.css" />
+    <![endif]-->
+    <!--[if gt IE 9]><!-->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <!--<![endif]-->
+    <script src="/assets/js/head.js"></script>
+    @Html.Sitecore().Placeholder("metadata")
+    @Html.Sitecore().VisitorIdentification()
+</head>
+<body>
+    <noscript>
+        <div class="page-warning">
+            <div class="l-padding">Please enable JavaScript in order to get the best experience when using this site.</div>
+        </div>
+    </noscript>
+    <!--[if lte IE 7]>
+        <div class="page-warning"><div class="l-padding">We've noticed that you're using an unsupported version of Internet Explorer.
+            For the best experience please <a href="http://windows.microsoft.com/en-au/internet-explorer/download-ie" target="_blank" rel="nofollow">upgrade</a>
+            or <a href="http://browsehappy.com/" target="_blank" rel="nofollow">use another browser</a>.</div></div>
+    <![endif]-->
+    <!-- START Accessibility Links -->
+    <ul id="top" class="accessibility-links" tabindex="-1">
+        <li><a href="#nav">Jump to main navigation</a></li>
+        <li><a href="#main">Jump to main content</a></li>
+    </ul>
+    <!-- END Accessibility Links -->
+    <div class="page-wrap-out">
+        <div class="page-wrap">
+            @Html.Sitecore().Placeholder("header")
+            <!-- START Nav -->
+            @Html.Sitecore().Placeholder("mobile-nav")
+            <!-- END Nav -->
+            <!-- START .l-layout -->
+            @Html.Sitecore().Placeholder("layout")
+            <!-- END .l-layout -->
+            @Html.Sitecore().Placeholder("footer")
+        </div>
+    </div>
+    <div class="modal-container js-modal-container">
+        <div class="modal-bg"></div>
+    </div>
+    <!--[if lt IE 9]>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/assets/js/libs/jquery-1.11.3.min.js"><\/script>')</script>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="/assets/js/libs/jquery-2.1.4.min.js"><\/script>')
+    </script>
+    <!--<![endif]-->
+    @if (Model.IsPageEditor())
+    {
+        <script>DDIGITAL.IS_EDIT = true</script>
+    }
+    <script src="/assets/js/plugins.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <link href="/assets/img/svgs/svgs.css" rel="stylesheet">
+    <script>
+        grunticon.method = 'svg';
+        grunticon.href = '/assets/img/svgs/svgs.css';
+        grunticon.ready(function () {
+            grunticon.embedIcons(grunticon.getIcons(grunticon.getCSS(grunticon.href)));
+        });
+    </script>
+</body>
+</html>

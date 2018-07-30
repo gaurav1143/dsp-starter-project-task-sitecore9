@@ -1,0 +1,18 @@
+﻿---
+ID: "a3b58273-caf6-46d8-88a9-15cef4e54f8a"
+Parent: "39390d06-402d-4a6a-a32a-ac8b2baf03a4"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Features/TemplatesModules/Content/Social Share
+DB: master
+SharedFields:
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Modules/TemplatesModules/Content/SocialShare/SocialShareView.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160628T095008Z

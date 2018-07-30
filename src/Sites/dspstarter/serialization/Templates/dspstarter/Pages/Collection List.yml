@@ -1,0 +1,35 @@
+﻿---
+ID: "0fd3b54b-502e-40af-b663-7c1980013476"
+Parent: "44836393-3888-47f3-9be0-b3565fc53c4c"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Deloitte/Sites/dspstarter/Pages/Collection List
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: People/32x32/box_view.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {D60651A3-2B3D-4001-A779-549BE7273C96}
+    {EEEC0925-8A48-48ED-BF84-CD9F5B93C1BB}
+    {C80C4BA5-CE45-4E44-B03C-C44BD2C479ED}
+    {51900D98-7869-46FA-9549-8943D78B5D57}
+    {1F5AAF97-0817-456E-B445-870861F3375B}
+    {C48157FC-CF79-40CA-93A4-153907512726}
+    {B016F525-E157-4249-9D82-4DBD6608029A}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{46D53B06-4DA1-42DF-890C-F20C1C802010}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160227T103410Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

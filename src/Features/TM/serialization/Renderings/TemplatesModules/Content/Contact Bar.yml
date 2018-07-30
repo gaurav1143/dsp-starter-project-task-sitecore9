@@ -1,0 +1,33 @@
+﻿---
+ID: "10ca0aab-db72-404e-bdca-30d8a38b4873"
+Parent: "39390d06-402d-4a6a-a32a-ac8b2baf03a4"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Features/TemplatesModules/Content/Contact Bar
+DB: master
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Deloitte/Features/TemplatesModules/Contact Bar/Contact Bar Item
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Modules/TemplatesModules/Content/ContactBar/ContactBarView.cshtml
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{90B4F55B-0361-4B5A-BAB5-5B177E97A659}"
+- ID: "a2f5d9df-8cba-4a1d-99eb-51acb94cb057"
+  Hint: Page Editor Buttons
+  Type: Treelist
+  Value: |
+    {6E8F1C1A-3408-4D92-9083-C97A67159D34}
+    {1FB95B7B-57BB-42F9-9742-FB540A164A51}
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "convention:Contact Bar"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160607T095628Z

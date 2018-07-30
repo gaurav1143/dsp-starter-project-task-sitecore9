@@ -1,0 +1,14 @@
+﻿---
+ID: "5bcbaf93-9cda-4730-b0c5-f225b8c207c4"
+Parent: "c5ea862d-db64-492c-97b8-108472041f13"
+Template: "4a2cefc3-510f-4a6a-94eb-d0108915fcea"
+Path: /sitecore/content/dspstarter/Configuration/Rendering Options/Border Options
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160307T070426Z

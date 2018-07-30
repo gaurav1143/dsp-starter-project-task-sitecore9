@@ -1,0 +1,24 @@
+﻿---
+ID: "490ea9da-5371-4cfb-9282-2734967dd59e"
+Parent: "ae7bb6ee-fa38-4f96-9bd8-a98dc676d5ac"
+Template: "591c56ca-ba5f-4f96-a0c1-74f0ce4a1de6"
+Path: /sitecore/system/Workflows/Triage Workflow/Item Created/Apply Workflow Action
+DB: master
+SharedFields:
+- ID: "a291a22b-99e2-46bb-a27b-8ec744275396"
+  Hint: Type
+  Value: DeloitteDigital.Atlas.Multisite.Workflow.ApplyWorkflowAction, DeloitteDigital.Atlas
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160704T005418Z
+    - ID: "282de50b-ef37-43bb-83fd-05a79a20dbaa"
+      Hint: TriageWorkflowConfigItems
+      Value: "{D412158C-6690-46E9-8209-4B9EA942F041}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

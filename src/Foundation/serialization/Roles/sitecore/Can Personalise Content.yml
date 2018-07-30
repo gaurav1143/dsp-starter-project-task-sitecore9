@@ -1,0 +1,4 @@
+﻿---
+Role: sitecore\Can Personalise Content
+MemberOf:
+  Role: sitecore\Analytics Personalization

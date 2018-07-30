@@ -1,0 +1,42 @@
+﻿@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Content.RelatedLinks.RelatedLinksRendering
+
+<!-- START .cm-links-related -->
+<section class="cm cm-links cm-links-related has-top-border">
+    <h1>@Model.ViewModel.Title</h1>
+
+    <ul>
+        @foreach (var item in Model.ViewModel.Links)
+        {
+            <li>
+                @if (Model.IsPageEditor())
+                {
+                    using (Html.BeginEditFrame(item.ItemId, "/sitecore/content/Applications/WebEdit/Edit Frame Buttons/DSP/Features/TemplatesModules/Related Links Item"))
+                    {
+                        @item.GeneralLink
+                        <p>@item.ShortDescription</p>
+                    }
+                }
+                else
+                {
+                    <a href="@item.GeneralLink.Url" class="link-item">
+                        <strong>@item.GeneralLink.Description</strong>
+                        <p>@item.ShortDescription</p>
+                    </a>
+                }
+            </li>
+        }
+        @if (Model.IsPageEditor())
+            {
+            <li>
+                @using (Html.BeginEditFrame(Model.Item, "/sitecore/content/Applications/WebEdit/Edit Frame Buttons/dspstarter/Features/TemplatesModules/Related Links"))
+                {
+                    <a href="#" class="link-item">
+                        <strong>[Add new item]</strong>
+                        <p>[Add new item]</p>
+                    </a>
+                }
+            </li>
+        }
+    </ul>
+</section>
+<!-- END .cm-links-related -->

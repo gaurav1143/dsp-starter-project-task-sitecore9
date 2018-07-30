@@ -1,0 +1,18 @@
+﻿---
+ID: "ae7bb6ee-fa38-4f96-9bd8-a98dc676d5ac"
+Parent: "bf8104e9-729b-438b-836c-4da0ae01c95d"
+Template: "4b7e2da9-de43-4c83-88c3-02f042031d04"
+Path: /sitecore/system/Workflows/Triage Workflow/Item Created
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/document_new.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160704T005312Z

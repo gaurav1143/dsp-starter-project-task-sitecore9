@@ -1,0 +1,21 @@
+﻿@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Content.HeroCarousel.HeroCarouselVideoSlide
+
+<section class="hero-carousel-item @Model.TextBackgroundOption">
+    @using (Html.BeginEditFrame(Model.ItemId, "/sitecore/content/Applications/WebEdit/Edit Frame Buttons/DSP/Features/TemplatesModules/Hero Carousel Item"))
+    {
+        <div class="l-padding">
+            <div class="content">
+                <h1>@Model.Title</h1>
+                <p>@Model.ShortDescription</p>
+                <a href="@Model.GeneralLink.Url" class="cta">Find out more<span class="vh"> about @Model.Title</span></a>
+            </div>
+
+            <div class="video js-bg-video"
+                 data-mp4-video-src="@Model.VideoMp4.Url"
+                 data-webm-video-src="@Model.VideoWebm.Url"
+                 data-poster-src="@Model.GeneralImage.UrlOnly()">
+                <span class="vh">A video featuring x y and z.</span>
+            </div>
+        </div>
+    }
+</section>

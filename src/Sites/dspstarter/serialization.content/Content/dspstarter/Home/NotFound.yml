@@ -1,0 +1,66 @@
+﻿---
+ID: "249ecedb-d1be-407f-b72c-1118acd84672"
+Parent: "e3d0aeaf-c4c6-49a6-9856-a8f3a06e688b"
+Template: "57ed0a05-ef04-4ec1-9a83-0e6f986a6123"
+Path: /sitecore/content/dspstarter/Home/NotFound
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{5E386A40-DDA1-49C0-A803-25DF64817686}"
+          p:after="r[@uid='{C7760888-84E1-4B4D-BFC4-80512256134E}']"
+          s:id="{CF797363-E02D-4503-A572-6837C7C7CE58}"
+          s:ph="/layout/main" />
+        <r
+          uid="{C6D0D32D-B490-4575-B599-8B9D5D7E304A}"
+          p:after="*[1=2]" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160127T003137Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Page Not Found
+    - ID: "72691cae-f39c-44e8-bf26-c8d65e384d89"
+      Hint: MetaBrowserTitle
+      Value: Page Not Found
+    - ID: "7eca4adf-b820-4dd9-bf0f-6d15e38b5bb2"
+      Hint: HideFromSearch
+      Type: Checkbox
+      Value: 1
+    - ID: "8357be37-6e13-4bdd-9b01-2fbbf0b763b2"
+      Hint: HideFromNavigation
+      Type: Checkbox
+      Value: 1
+    - ID: "9b35b0c9-3bfc-4de7-b932-a7ee4c774cd7"
+      Hint: GeneralText
+      Value: <p>We could not find the page you requested.</p>
+    - ID: "cdc45432-bd3e-4943-84d9-fb856879e4fd"
+      Hint: HideFromSitemap
+      Type: Checkbox
+      Value: 1
+    - ID: "f4f81abf-4b1e-44ab-a640-d4b383f51c9c"
+      Hint: NavigationTitle
+      Value: Page Not Found

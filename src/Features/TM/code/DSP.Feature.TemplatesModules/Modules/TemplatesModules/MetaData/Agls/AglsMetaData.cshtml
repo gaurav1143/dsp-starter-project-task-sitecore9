@@ -1,0 +1,27 @@
+﻿@using DeloitteDigital.Atlas.Extensions
+@model ContextRenderingModel<DSP.Feature.TemplatesModules.Modules.TemplatesModules.MetaData.Agls.AglsMetaData>
+
+@if (!string.IsNullOrEmpty(@Model.ViewModel.AglsCreator))
+{
+    <meta name="DCTERMS.creator" content="@Model.ViewModel.AglsCreator">
+    <meta name="DCTERMS.publisher" CONTENT="@Model.ViewModel.AglsCreator">
+}
+@if (!string.IsNullOrEmpty(@Model.ViewModel.MetaBrowserTitle))
+{
+    <meta name="DCTERMS.title" content="@Model.ViewModel.MetaBrowserTitle">
+}
+<meta name="DCTERMS.modified" scheme="DCTERMS.ISO8601" content="@Model.Item.Statistics.Updated.ToString("yyyy-MM-dd")">
+<meta name="DCTERMS.created" scheme="DCTERMS.ISO8601" content="@Model.Item.Statistics.Created.ToString("yyyy-MM-dd")">
+
+@if (!string.IsNullOrEmpty(@Model.ViewModel.MetaDescription))
+{
+    <meta name="DCTERMS.description" content="@Model.ViewModel.MetaDescription">
+}
+<meta name="dcterms.type" content="Text" />
+@if (!string.IsNullOrEmpty(@Model.ViewModel.AglsSubject))
+{
+    <meta name="DCTERMS.subject" content="@Model.ViewModel.AglsSubject">
+}
+<meta name="DCTERMS.identifier" scheme="DCTERMS.URI" content="@HttpContext.Current.Request.GetFullUrl()">
+
+

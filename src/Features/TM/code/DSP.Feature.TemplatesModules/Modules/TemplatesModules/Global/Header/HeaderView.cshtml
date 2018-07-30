@@ -1,0 +1,44 @@
+﻿@model DSP.Feature.TemplatesModules.Modules.TemplatesModules.Global.Header.HeaderRendering
+
+@using (Html.BeginEditFrame(Model.Item, "/sitecore/content/Applications/WebEdit/Edit Frame Buttons/DSP/Features/TemplatesModules/Meta Data"))
+{
+    <header class="global-header" id="top">
+        <div class="l-padding">
+            <button class="nav-toggle js-offscreen-toggle" type="button" role="button" aria-label="Toggle navigation" data-offscreen-id="nav">
+                <span class="lines"></span>
+                <span class="vh">Toggle navigation</span>
+            </button>
+
+            @Html.Partial("~/Modules/TemplatesModules/Partials/LogoPartial.cshtml", Model.ViewModel)
+
+            @if (Model.ViewModel.GlobalPageTitle != null)
+            {
+                <h1>@Model.ViewModel.GlobalPageTitle</h1>
+            }
+
+            <!-- START Header nav -->
+            @Html.Sitecore().Placeholder("primary-nav")
+            <!-- END Header nav -->
+            @Html.Sitecore().Placeholder("search")
+        </div>
+    </header>
+    <!-- START .global-search -->
+    <div class="global-search" role="search" id="global-search">
+        <div class="l-padding">
+            <form method="GET" action="@Model.ViewModel.SearchResultsPage.Url">
+                <div class="ctrl-holder">
+                    <label class="vh" for="q">Search</label>
+                    <p class="vh">Type a minimum of three characters then press UP or DOWN on the keyboard to navigate the autocompleted search results</p>
+                    <div class="js-autocomplete text autocomplete has-button" data-autocomplete-url="/api/autocomplete/search" data-autocomplete-type="links">
+                        <input name="q" id="q" class="text js-autocomplete-input width-full" type="search" autocomplete="off" />
+                        <button class="link-icon search-submit" type="submit" role="button" aria-label="Search button">
+                            <span class="vh">Search button</span>
+                            <span class="icon svg-search-white" data-grunticon-embed></span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- END .global-search -->
+}

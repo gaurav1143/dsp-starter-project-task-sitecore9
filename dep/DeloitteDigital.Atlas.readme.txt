@@ -1,0 +1,2 @@
+This version of Atlas has been built from https://github.com/DeloitteDigitalAPAC/Atlas/commit/c854f22b0ae3b96e5998eb7afe0c2f227d6f4b10
+It is not currently published via NuGet, once it has been, this library should be removed.

@@ -1,0 +1,113 @@
+﻿---
+ID: "0d66cde7-2636-44c2-a592-29d5386ea729"
+Parent: "a0263b64-b001-43dd-879a-582af7d9d71c"
+Template: "46bae768-310d-4314-aef2-ae247e5c4850"
+Path: /sitecore/content/dspstarter/Home/insights/blog_multi_instance
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160320T231740Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: "Multi-site or multi-instance?"
+    - ID: "72691cae-f39c-44e8-bf26-c8d65e384d89"
+      Hint: MetaBrowserTitle
+      Value: "Multi-site or multi-instance?"
+    - ID: "80f4be26-f0a5-4024-9231-2ae6dcf2ec2b"
+      Hint: ContentTags
+      Type: Treelist
+      Value: |
+        {52D68E5D-6D6D-4541-86CA-14507A674D12}
+        {2FFA86D0-D242-4687-8DA9-D6AE4798316B}
+    - ID: "8357be37-6e13-4bdd-9b01-2fbbf0b763b2"
+      Hint: HideFromNavigation
+      Type: Checkbox
+      Value: 1
+    - ID: "9b35b0c9-3bfc-4de7-b932-a7ee4c774cd7"
+      Hint: GeneralText
+      Value: |
+        <p><span>I have been asked by a number of different people recently about when it is appropriate to maintain a number of different websites on a single Sitecore instance, versus deploying multiple Sitecore instances (on the same or separate hardware) to keep sites separate.</span><br>
+        <br>
+        <span>As is usually the case, the answer is "it depends", but there are some key conditions that can lead to a clear choice between one over the other.</span><br>
+        <br>
+        <strong>Single Instance<br>
+        </strong><span>In the single instance approach, there is a single installation of Sitecore that hosts all of an organisations sites. This means that there is one IIS website hosting Sitecore per server all sharing the same Sitecore configuration and content.</span><br>
+        <br>
+        <strong>Pros</strong><br>
+        <strong></strong></p>
+        <p><strong>Single set of user access credentials for access to all sites<br>
+        </strong><span>If you are not using LDAP integration for login to your Sitecore instance (or using some other customisation such as federated security through something like ADFS), having a single instance lets you use the same set of Sitecore managed users to access all of your sites. &nbsp;If the logins live inside Sitecore then they will be different per Sitecore instance.</span><br>
+        <br>
+        <strong>Easier to share content between sites<br>
+        </strong><span>Having a single Sitecore instance means that all content is directly accessible and addressable through Sitecore. You can &nbsp;share content items as data sources in renderings across sites, or even address them in item buckets as I outlined in a previous post on sharing item bucket pages between websites. &nbsp; Furthermore Sitecore functionality like clearing HTML caches on publish work natively as expected.&nbsp;</span><br>
+        <br>
+        <span>If instances are separated, then content on the other instance is treated more like content on any external sites, and you would need to consider approaches such as RSS feeds, Item Web API or even Data Providers if you want a more Sitecore integrated approach.</span><br>
+        <br>
+        <span>Easier tracking of visitors</span><br>
+        <span>All websites in a Sitecore instance share a single xDB database, so it is easy to capture web analytics information across the different sites and see it in a consolidated view. &nbsp;</span><br>
+        <br>
+        <strong>Cons</strong><br>
+        <br>
+        <strong>Deployments</strong><br>
+        <br>
+        <span>The major drawback to having all your websites in a single Sitecore instance comes with making changes to your site. &nbsp; Any time you make a code change you are effectively making a change that could impact all the sites running on the instance.</span><br>
+        <br>
+        <span>There are a number of ways that you can mitigate this risk:</span><br>
+        <span>Firstly you need to do some more planning of your architecture upfront, to reduce the coupling between code of multiple sites, and to allow sites to be taken offline independently. &nbsp;I outlined this approach in a previous blog about maintainable multi-site Sitecore instances.</span><br>
+        <br>
+        <span>Even with these mitigations , deployments &nbsp;to multi site instances will always have a higher risk of regression across sites, particularly as there will inevitably sometimes need to be or changes to the underlying platform effecting all sites at once (such as upgrades).</span><br>
+        <br>
+        <strong>Multiple Instances<br>
+        </strong><span>In a multi-instance configuration, websites are implemented in separate IIS websites, with separate installations of Sitecore, separate code bases and separate underlying content.</span><br>
+        <br>
+        <strong>Pros</strong><br>
+        <br>
+        <strong>Complete separation of websites<br>
+        </strong><br>
+        <span>This approach gives you complete separation of the websites. &nbsp;There are two completely separate code bases that can be deployed absolutely independently. &nbsp;If the sites are hosted on different hardware, this also gives separation down to that level so rebooting a server in one environment won't impact other sites. &nbsp;This allows you to absolutely confirm that there is no cross-effect on other websites when you do a deployment.</span><br>
+        <br>
+        <br>
+        <strong>Cons</strong><br>
+        <br>
+        <strong>xDB and Analytics<br>
+        </strong><br>
+        <span>As of v8.1 Sitecore doesn't support sharing a single xDB between more than one Sitecore instance. &nbsp;If you need to get a shared view of analytics information between sites in this architecture, you need to export the data fro the individual xDB instances and use a BI tool or data warehouse to get a shared view. &nbsp;Sitecore does provide some tools to address this, notably the Experience Extractor, and in some enterprise environments there is a need to do this sort of extraction and raw data manipulation anyway, &nbsp;but it does mean that the analyics story is more complicated.</span><br>
+        <br>
+        <strong>Sharing content or navigation<br>
+        </strong><br>
+        <span>As noted above, sharing content is more difficult when sites are separated onto multiple instances, with approaches like RSS feeds, Item Web API or even Data Providers needed. &nbsp;One thing which is often difficult is where there is a shared navigation across the multiple sites (for example, when there are two sites owned by different business units, but the organisation wants &nbsp;to present the illlusion of them being a single site to end users. &nbsp;In these scenarios building a unified navigation is much more complex, as site structure information needs to be obtained from both sites (RSS, Xml sitemap etc) and then merged.</span><br>
+        <br>
+        <strong>Sharing search<br>
+        </strong><br>
+        <span>Most of our clients are currently either using Lucene.NET or Solr for their website search, however Sitecore doesn't currently support indexing of sites from multiple instances into a single index on either of these products. &nbsp;This means that search cannot scan across the multiple sites in a single query.&nbsp;</span><br>
+        <br>
+        <span>This can be addressed by providing Web API endpoints for search on each instance, calling these and combining results (although this often makes logic like calculating paging and sorting difficult). &nbsp;Alternaticely an external search approach like Funnelback or GSA which crawls websites rather than integrating into Sitecore directly can be used.</span><br>
+        <br>
+        <strong>Licensing</strong><br>
+        <br>
+        <span>Always the elephant in the room, Sitecore licensing has long been a significant restriction on the multiple instance approach for organisation who do not already have an all-you-can-eat enterprise Sitecore license.&nbsp;</span><br>
+        <br>
+        <span>Traditionally Sitecore licenses based on the number of instances installed - this means that even having two separate IIS websites with separate Sitecore installs and databases on a single delivery server counts as two. &nbsp;Sitecore 8.1 has introduced some new licensing models that give an options more heavily weighted to usage (contacts/interactions), however the number of instances still has some impact on licensing even in this model.</span><br>
+        <br>
+        <strong>In conclusion...<br>
+        </strong><br>
+        <span>The correct choice of architecture is really going to be a matter of how significant you feel the risk is for deployments, against the number of trade-offs that you need to make to move to a separate instance architecture.</span><br>
+        <br>
+        <span>We generally find that the risks of a multi-site setup on a single Sitecore instance are far out-weighed by the benefits of easier sharing of content, search and analytics information (and of course lower licensing). &nbsp;That said there are definitely instances where separation of instances is clearly warranted. &nbsp;These are usually the cases where an organisation has a main, mission critical website that is very self contained, and a number of smaller websites which are less important overall.&nbsp;</span></p>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+    - ID: "f4f81abf-4b1e-44ab-a640-d4b383f51c9c"
+      Hint: NavigationTitle
+      Value: "Multi-site or multi-instance?"

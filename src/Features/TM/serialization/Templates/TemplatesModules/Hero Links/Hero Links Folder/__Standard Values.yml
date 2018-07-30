@@ -1,0 +1,24 @@
+﻿---
+ID: "1bff56d0-d9b7-4ef0-ad5f-6f49c6f47a92"
+Parent: "1006d287-47b9-4257-977c-e9e6c79658a8"
+Template: "1006d287-47b9-4257-977c-e9e6c79658a8"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Links/Hero Links Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {1006D287-47B9-4257-977C-E9E6C79658A8}
+    {F96A6CD1-D5B2-413C-A236-0C51D93B2DA9}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160107T023246Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

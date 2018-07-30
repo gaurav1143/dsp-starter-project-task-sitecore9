@@ -1,0 +1,22 @@
+﻿---
+ID: "122aa114-0daa-47a9-b4a8-969b93d02cc0"
+Parent: "5aef06c3-a88e-440d-b170-10444c43552a"
+Template: "7564fb4f-21d5-4533-8b2c-bf307f341ede"
+Path: "/sitecore/content/dspstarter/Configuration/Rendering Options/Text Background Options/is-dark"
+DB: master
+SharedFields:
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160226T031056Z
+    - ID: "f51115a8-58df-4e93-bf63-4befac265fcf"
+      Hint: Help
+      Value: Sets the background of the text area to a darker colour, and the text to a lighter colour

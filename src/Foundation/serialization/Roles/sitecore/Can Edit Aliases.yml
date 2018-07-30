@@ -1,0 +1,4 @@
+﻿---
+Role: sitecore\Can Edit Aliases
+MemberOf:
+  Role: sitecore\Analytics Maintaining

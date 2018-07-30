@@ -1,0 +1,48 @@
+﻿---
+ID: "9bd9388e-8529-4baa-b406-85ca22a4ee4d"
+Parent: "422f39d9-e106-4fa5-9ace-cb2702f5c86b"
+Template: "1e8966bf-97d7-449b-ac14-3421c16a5e78"
+Path: /sitecore/content/dspstarter/Home/work/qsuper
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160106T001030Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: QSuper
+    - ID: "72691cae-f39c-44e8-bf26-c8d65e384d89"
+      Hint: MetaBrowserTitle
+      Value: QSuper
+    - ID: "8357be37-6e13-4bdd-9b01-2fbbf0b763b2"
+      Hint: HideFromNavigation
+      Type: Checkbox
+      Value: 1
+    - ID: "9b35b0c9-3bfc-4de7-b932-a7ee4c774cd7"
+      Hint: GeneralText
+      Value: |
+        <p><strong>Transforming the online channel</strong></p>
+        <p>As Queensland’s largest super fund, QSuper wanted to adapt industry learnings and innovate to better serve their members and keep ahead of the evolving Australian superannuation market. Deloitte Digital focused this vision by designing, building and delivering a fully integrated online experience that aimed to reinvent individual member journeys personalised to their stage of life.<br>
+        <br>
+        <strong>Rebuilding the online experience</strong></p>
+        <p>To ensure that the redesigned website served QSuper’s members more effectively, Deloitte conducted user testing and utilised valuable member feedback to validate the design and architecture. Opportunities were identified to execute a content strategy designed to increase the efficiency of navigation. By enhancing the consumption of the content and consolidating pages, a sustainable website structure with minimal maintenance was re-platformed.<br>
+        <br>
+        <strong>Reinventing the member journey</strong></p>
+        <p>The vision was to build the foundation for the ultimate personalisation experience, a site that tailors its content based off visitor behaviours and patterns, a strength made possible through the Sitecore CMS platform. User research validated the design direction, using their contextual feedback as a guide for content coupling and visual hierarchy. The proposed solution provides greater choice and flexibility for members to obtain information and advice through their preferred communication channel. The online experience is simple and easy to use, no matter the device.<br>
+        <br>
+        <strong>Delivering a personalised portal for members</strong></p>
+        <p><strong></strong><span style="font-weight: lighter;">Overall member satisfaction of the channel remains very positive across those registered. The Member Online solution offers a personalised user experience that is easy to use. Single Sign On capability allows members to seamlessly navigate through to external platforms without having to remember multiple passwords. QSuper has matured in the digital space and our goal is to be the leader in the Superannuation industry. The objective was to streamline content, simplify a self-guided experience, and incorporate the Public Site and Member Online into a single site setting QSuper up for a future of highly personalised content delivery and a fully integrated experience. QSuper’s determination to become the digital leaders of the superannuation industry, will not see their efforts diminish, with a suite of large-scale enhancements already in the pipeline, focused on connecting with users across their superannuation portfolios and beyond.</span></p>
+    - ID: "f4f81abf-4b1e-44ab-a640-d4b383f51c9c"
+      Hint: NavigationTitle
+      Value: QSuper

@@ -1,0 +1,106 @@
+﻿---
+ID: "19da1398-4dfc-4070-a773-685599561c5e"
+Parent: "d1aeba47-5ab8-4445-ad2c-84dca3c1a451"
+Template: "24368a0b-c05d-470c-b544-9be20be3fff7"
+Path: /sitecore/content/dspstarter/Home/about_us/meet_our_team
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{2595D3A5-1A42-43EF-9E08-6B8B85CCC9E5}"
+              p:after="p[@uid='{47B649D2-6FFD-46AA-BC81-B50BC75B1355}']" />
+            <r
+              uid="{669968EB-B5DC-42D6-864B-BF5E49A974DA}"
+              p:after="r[@uid='{2595D3A5-1A42-43EF-9E08-6B8B85CCC9E5}']"
+              s:ds="{86A45A84-20B4-4ABA-9072-A84220104DF1}"
+              s:id="{032BFC78-9019-40C9-9E51-07C36B4D7510}"
+              s:ph="/layout/main/column2_dph_7b51749f-7ecb-4f31-af1c-9ce38316f0b7" />
+            <r
+              uid="{0702F4DF-4EC8-45B2-B442-0C4CCB83E0B7}"
+              p:after="r[@uid='{669968EB-B5DC-42D6-864B-BF5E49A974DA}']"
+              s:ds="{0E6BC446-518B-4606-BA37-3AEB30DAAB99}"
+              s:id="{DC809DB2-95D7-4B0A-8CF2-B29821976B9F}"
+              s:ph="/layout/main/column1_dph_7b51749f-7ecb-4f31-af1c-9ce38316f0b7" />
+            <r
+              uid="{A477DB94-D7EE-452B-A31E-B28257D99A3F}"
+              p:after="r[@uid='{0702F4DF-4EC8-45B2-B442-0C4CCB83E0B7}']"
+              s:ds="{36A49B43-A876-4611-9288-2F692403D35C}"
+              s:id="{032BFC78-9019-40C9-9E51-07C36B4D7510}"
+              s:ph="/layout/main/column2_dph_ae8bc6ba-237e-423b-9745-d415275e010d" />
+            <r
+              uid="{0C5D7135-D738-4E93-9427-F02C04B154F9}"
+              p:after="r[@uid='{A477DB94-D7EE-452B-A31E-B28257D99A3F}']"
+              s:ds="{A3345EFB-4D04-446C-AFFB-94E27ECD11A3}"
+              s:id="{DC809DB2-95D7-4B0A-8CF2-B29821976B9F}"
+              s:ph="/layout/main/column1_dph_ae8bc6ba-237e-423b-9745-d415275e010d" />
+            <r
+              uid="{AF1C86A7-113D-4E26-A613-DAA38F8B1AAE}"
+              p:after="r[@uid='{0C5D7135-D738-4E93-9427-F02C04B154F9}']"
+              s:ds="{C306EA7E-518B-47A4-AFBA-E37F10F3FED8}"
+              s:id="{DC809DB2-95D7-4B0A-8CF2-B29821976B9F}"
+              s:ph="/layout/main/column1_dph_760bb194-78f1-4ff7-bf4f-7a16ab588946" />
+            <r
+              uid="{294FAEB5-5729-4A9B-A20C-03639EC70EED}"
+              p:after="r[@uid='{AF1C86A7-113D-4E26-A613-DAA38F8B1AAE}']"
+              s:ds="{50F44797-0DFE-4194-B6B6-36D7AA098363}"
+              s:id="{032BFC78-9019-40C9-9E51-07C36B4D7510}"
+              s:ph="/layout/main/column2_dph_760bb194-78f1-4ff7-bf4f-7a16ab588946" />
+            <r
+              uid="{760BB194-78F1-4FF7-BF4F-7A16AB588946}"
+              p:after="r[@uid='{294FAEB5-5729-4A9B-A20C-03639EC70EED}']"
+              s:id="{1750089B-5429-4DFC-AC58-B29ED26CD364}"
+              s:ph="/layout/main" />
+            <r
+              uid="{AE8BC6BA-237E-423B-9745-D415275E010D}"
+              p:after="r[@uid='{760BB194-78F1-4FF7-BF4F-7A16AB588946}']"
+              s:id="{1750089B-5429-4DFC-AC58-B29ED26CD364}"
+              s:ph="/layout/main" />
+            <r
+              uid="{7B51749F-7ECB-4F31-AF1C-9CE38316F0B7}"
+              p:after="r[@uid='{AE8BC6BA-237E-423B-9745-D415275E010D}']"
+              s:id="{1750089B-5429-4DFC-AC58-B29ED26CD364}"
+              s:ph="/layout/main" />
+            <r
+              uid="{C2C97F47-7753-4FBD-8C08-B17800D799CA}"
+              p:after="r[@uid='{190A7DFB-A5B2-4D5D-83A7-E71C61C2ED85}']"
+              s:ds="{3987362C-010C-4433-8A4B-CE4D6607DAA0}"
+              s:id="{6ADB977C-B0AF-4BA4-8FCE-E6C7AB6973B7}"
+              s:ph="/layout/aside" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160106T001030Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Meet our Team
+    - ID: "72691cae-f39c-44e8-bf26-c8d65e384d89"
+      Hint: MetaBrowserTitle
+      Value: Meet our Team
+    - ID: "9b35b0c9-3bfc-4de7-b932-a7ee4c774cd7"
+      Hint: GeneralText
+      Value: <div>We have a team of over 60 experienced Sitecore developers including two Sitecore MVP (Most Valuable Professionals) in Digital Strategy and Technology. </div>
+    - ID: "f4f81abf-4b1e-44ab-a640-d4b383f51c9c"
+      Hint: NavigationTitle
+      Value: Meet our Team

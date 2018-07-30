@@ -1,0 +1,89 @@
+﻿---
+ID: "1d46849d-fb55-42e2-bf63-c8b6a878ee15"
+Parent: "3889a8a1-8317-40a8-8d98-6ec2d36e1826"
+Template: "4712801f-1d3f-4384-86b2-89bb8410a2cb"
+Path: /sitecore/content/dspstarter/Content Modules/Hero Carousels/Slides/First class experience
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link id=\"{E8BB6F63-99A8-46FA-9D9F-D2417628E57F}\" querystring=\"\" text=\"\" title=\"\" class=\"\" linktype=\"internal\" url=\"/dspstarter/Home/capability\" target=\"\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160307T032240Z
+    - ID: "2e373548-c1dd-4091-8514-4222d32a1d34"
+      Hint: MoreText
+      Value: Find out more
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: Creating a first class experience 
+    - ID: "70bcdd61-d26f-464a-9043-7da109f2ef36"
+      Hint: TextBackgroundOption
+      Value: "is-dark"
+    - ID: "7f66b395-ebfb-40d2-a452-fd480284d8be"
+      Hint: ShortDescription
+      Value: "Our Deloitte Sitecore Platform is a result of proven best practice and experience from numerous enterprise-grade Sitecore implementations for some of Australia’s largest organisations. "
+    - ID: "e4791d22-a8e4-41f8-ae5f-57c4e0553884"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{66091625-AFFF-4201-9A60-13CF13681A6A}\" />"
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{E8BB6F63-99A8-46FA-9D9F-D2417628E57F}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160825T083621Z
+    - ID: "2e373548-c1dd-4091-8514-4222d32a1d34"
+      Hint: MoreText
+      Value: 更多
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: 创造顶级体验
+    - ID: "70bcdd61-d26f-464a-9043-7da109f2ef36"
+      Hint: TextBackgroundOption
+      Value: "is-dark"
+    - ID: "7f66b395-ebfb-40d2-a452-fd480284d8be"
+      Hint: ShortDescription
+      Value: Deloitte Sitecore Platform 是在各种顶级企业规模级的试炼中经过无数次的淬链中所提炼出来的符合大型企业需求的产品, 并经过各领域的澳大利亚顶级企业所认可
+    - ID: "e4791d22-a8e4-41f8-ae5f-57c4e0553884"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{66091625-AFFF-4201-9A60-13CF13681A6A}\" />"
+- Language: "zh-TW"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{E8BB6F63-99A8-46FA-9D9F-D2417628E57F}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160825T082327Z
+    - ID: "2e373548-c1dd-4091-8514-4222d32a1d34"
+      Hint: MoreText
+      Value: 更多
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: 創造頂級體驗
+    - ID: "70bcdd61-d26f-464a-9043-7da109f2ef36"
+      Hint: TextBackgroundOption
+      Value: "is-dark"
+    - ID: "7f66b395-ebfb-40d2-a452-fd480284d8be"
+      Hint: ShortDescription
+      Value: Deloitte Sitecore Platform 是在各種頂級企業規模級的試煉中經過無數次的淬鍊中所提煉出來的符合大型企業需求的產品, 並經過各領域的澳洲頂級企業所認可
+    - ID: "e4791d22-a8e4-41f8-ae5f-57c4e0553884"
+      Hint: GeneralImage
+      Value: "<image mediaid=\"{66091625-AFFF-4201-9A60-13CF13681A6A}\" />"

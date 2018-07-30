@@ -1,0 +1,14 @@
+﻿---
+ID: "36533222-7317-4c63-ac93-12856f868be7"
+Parent: "3b95e19c-9274-4d28-ae8d-e12f216182ac"
+Template: "3b95e19c-9274-4d28-ae8d-e12f216182ac"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Contact Bar/Contact Bar Item/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160606T135058Z

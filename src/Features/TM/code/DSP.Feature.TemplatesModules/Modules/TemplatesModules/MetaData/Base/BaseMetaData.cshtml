@@ -1,0 +1,22 @@
+﻿@model ContextRenderingModel<DSP.Feature.TemplatesModules.Modules.TemplatesModules.MetaData.Base.BaseMetaData>
+
+@if (!string.IsNullOrEmpty(@Model.ViewModel.MetaDescription))
+{
+    <meta name="description" content="@Model.ViewModel.MetaDescription">
+}
+
+@if (!string.IsNullOrEmpty(@Model.ViewModel.MetaKeywords))
+{
+    <meta name="Keywords" content="@Model.ViewModel.MetaKeywords">
+}
+
+@if (!string.IsNullOrEmpty(@Model.ViewModel.MetaCanonical))
+{
+    <link rel="canonical" href="@Model.ViewModel.MetaCanonical"/>
+}
+
+@if (!string.IsNullOrEmpty(@Model.ViewModel.MetaRobots))
+{
+    <meta name="robots" content="@Model.ViewModel.MetaRobots">
+}
+

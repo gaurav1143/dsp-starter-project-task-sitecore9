@@ -1,0 +1,19 @@
+﻿---
+ID: "8224a3d9-54cd-45d8-ae1c-4d0e387f0b4d"
+Parent: "d84c18e6-d548-4be2-b6a6-7721d178e19f"
+Template: "ca7a9ed6-848f-4d58-8db9-818bc7553dbd"
+Path: /sitecore/content/dspstarter/Configuration/Tags/Content Tags
+DB: master
+SharedFields:
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151130T022851Z

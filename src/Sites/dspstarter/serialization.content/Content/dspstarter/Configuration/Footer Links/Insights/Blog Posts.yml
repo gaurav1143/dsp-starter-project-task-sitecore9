@@ -1,0 +1,37 @@
+﻿---
+ID: "0558b454-2720-468e-b6ee-1b1673d96d04"
+Parent: "92469965-3deb-4fd1-9a7e-3eae3628f1a6"
+Template: "0e12e814-46f2-4e78-91a2-3782eb320c31"
+Path: /sitecore/content/dspstarter/Configuration/Footer Links/Insights/Blog Posts
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link linktype=\"internal\" text=\"Blog \" querystring=\"\" target=\"\" id=\"{A0263B64-B001-43DD-879A-582AF7D9D71C}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160311T033111Z
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"网志\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{A0263B64-B001-43DD-879A-582AF7D9D71C}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160828T035101Z
+- Language: "zh-TW"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"網誌\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{A0263B64-B001-43DD-879A-582AF7D9D71C}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160828T035518Z

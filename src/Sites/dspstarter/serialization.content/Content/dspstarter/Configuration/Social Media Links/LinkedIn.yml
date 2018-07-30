@@ -1,0 +1,24 @@
+﻿---
+ID: "9056fda7-e177-460c-9f99-b06e57689648"
+Parent: "6d12af28-3346-45b0-9cc6-2405efc9322a"
+Template: "3600300a-fd37-496d-b852-1129193e52ad"
+Path: /sitecore/content/dspstarter/Configuration/Social Media Links/LinkedIn
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"Follow us in LinkedIn\" linktype=\"external\" url=\"https://www.linkedin.com/company/deloitte-digital\" anchor=\"\" target=\"\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160125T041052Z
+    - ID: "b720b647-5da4-4070-a9dd-9b97937ad4e7"
+      Hint: IconCssClass
+      Value: "svg-social-linkedin-grey"

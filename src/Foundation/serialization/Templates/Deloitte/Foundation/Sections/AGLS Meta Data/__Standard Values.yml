@@ -1,0 +1,17 @@
+﻿---
+ID: "4c8fb656-f9a0-4778-8030-9223c11b74a4"
+Parent: "7299c9c5-8ac3-47df-b7c0-21ef7999bb4b"
+Template: "7299c9c5-8ac3-47df-b7c0-21ef7999bb4b"
+Path: /sitecore/templates/Deloitte/Foundation/Sections/AGLS Meta Data/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151222T025335Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

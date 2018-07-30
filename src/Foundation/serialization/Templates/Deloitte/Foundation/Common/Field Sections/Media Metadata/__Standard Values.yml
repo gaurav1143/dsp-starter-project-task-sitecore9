@@ -1,0 +1,17 @@
+﻿---
+ID: "97a3a16a-a00c-4dc0-836a-f41cbd248bf7"
+Parent: "cd031d50-baff-48ed-b4e9-42c9545238fe"
+Template: "cd031d50-baff-48ed-b4e9-42c9545238fe"
+Path: /sitecore/templates/Deloitte/Foundation/Common/Field Sections/Media Metadata/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160108T032227Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

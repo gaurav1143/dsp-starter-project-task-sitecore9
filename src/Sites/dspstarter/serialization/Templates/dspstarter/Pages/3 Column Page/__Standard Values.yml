@@ -1,0 +1,147 @@
+﻿---
+ID: "71c93900-dba4-4408-a5c3-443f91801ba3"
+Parent: "24368a0b-c05d-470c-b544-9be20be3fff7"
+Template: "24368a0b-c05d-470c-b544-9be20be3fff7"
+Path: /sitecore/templates/Deloitte/Sites/dspstarter/Pages/3 Column Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {57ED0A05-EF04-4EC1-9A83-0E6F986A6123}
+    {1E8966BF-97D7-449B-AC14-3421C16A5E78}
+    {46BAE768-310D-4314-AEF2-AE247E5C4850}
+    {24368A0B-C05D-470C-B544-9BE20BE3FFF7}
+    {0FD3B54B-502E-40AF-B663-7C1980013476}
+    {65D9E71B-455E-4F79-8015-9D4D2F72EB1B}
+- ID: "c9283d9e-7c29-4419-9c28-5a5c8ff53e84"
+  Hint: __Bucketable
+  Type: Checkbox
+  Value: 1
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{CBA6F985-745D-4220-984C-152D2E12CF98}">
+        <p
+          uid="{437B2367-1DDC-42B8-9398-12A8572E6FDF}"
+          key="/layout/aside"
+          md="/sitecore/layout/Placeholder Settings/dspstarter/3 Column/3Column-aside" />
+        <p
+          uid="{E3CFF1F8-BE77-47D1-B646-A01D27AC4719}"
+          key="/layout/laside"
+          md="/sitecore/layout/Placeholder Settings/dspstarter/3 Column/3Column-l-aside" />
+        <p
+          uid="{47B649D2-6FFD-46AA-BC81-B50BC75B1355}"
+          key="/layout/main"
+          md="/sitecore/layout/Placeholder Settings/dspstarter/3 Column/3Column-main" />
+        <r
+          ds=""
+          id="{96F7A948-9CFF-4F30-BC82-042507DCF29A}"
+          par=""
+          ph="/layout"
+          uid="{79D93CAA-85D5-47CC-B8FC-FC5954A2EB77}" />
+        <r
+          ds=""
+          id="{2FBCFF96-E945-4486-B3DC-E5A745A567B5}"
+          par=""
+          ph="/metadata"
+          uid="{EBD79502-A9E0-493B-BD24-653CFB56FD48}" />
+        <r
+          ds=""
+          id="{3CB61F58-19A8-45F1-884B-D241E657F0CC}"
+          par=""
+          ph="/metadata"
+          uid="{764E00EB-3499-40A8-9391-7F3C7BA1850E}" />
+        <r
+          ds=""
+          id="{D6114104-F799-4323-BC51-EB6367FDD917}"
+          par=""
+          ph="/metadata"
+          uid="{D0504834-6E11-49F5-8318-AD61D1767CC3}" />
+        <r
+          cac="0"
+          ds=""
+          id="{BEE91FA9-957B-4341-BB2E-B917AA4B7A0A}"
+          par=""
+          ph="/header"
+          uid="{66150550-7E62-49C8-940F-D3E9C05AA5CA}"
+          vbd="0" />
+        <r
+          cac="0"
+          ds=""
+          id="{96289EFC-0113-47B0-A08C-66BCC7AD3D65}"
+          par=""
+          ph="/mobile-nav"
+          uid="{F714784A-BBBB-45B0-A5BB-6EE58E7F89D4}"
+          vbd="0" />
+        <r
+          cac="0"
+          ds=""
+          id="{17E34F5C-5A0F-4203-BD44-930E459C128A}"
+          par=""
+          ph="/header/primary-nav"
+          uid="{B1A663B1-20E6-47F9-84B1-6C1A1D33F4B1}"
+          vbd="0" />
+        <r
+          ds=""
+          id="{AE747F3E-508D-40C5-B3FF-CE3C7E6A53B5}"
+          par=""
+          ph="/header/search"
+          uid="{30C1F153-0B20-487D-99DC-720FC387A9EF}" />
+        <r
+          cac="0"
+          ds=""
+          id="{44FD8554-6824-410D-A1F4-ADC7B1CC0BDF}"
+          par=""
+          ph="/layout/laside"
+          uid="{224B6A18-4B29-408B-841E-2314D8B435F7}"
+          vbd="0" />
+        <r
+          cac="0"
+          ds=""
+          id="{B2BFF110-8565-4E43-965E-C765E2807E7B}"
+          par=""
+          ph="/layout/breadcrumb"
+          uid="{2F498C67-9B73-4866-845D-9CB5415D1411}"
+          vbd="0" />
+        <r
+          ds=""
+          id="{A686704F-5FED-460A-9038-DF03FB898F3E}"
+          par=""
+          ph="/layout/container-top"
+          uid="{190A7DFB-A5B2-4D5D-83A7-E71C61C2ED85}" />
+        <r
+          cac="0"
+          ds=""
+          id="{32F2D80A-BD2F-43B4-8BA6-7ADFF7FA6251}"
+          par=""
+          ph="/layout/main"
+          uid="{2595D3A5-1A42-43EF-9E08-6B8B85CCC9E5}"
+          vbd="0" />
+        <r
+          cac="0"
+          ds=""
+          id="{A26AEE6F-B80F-40F9-9282-43BC0F6EBF22}"
+          par=""
+          ph="/footer"
+          uid="{B4244C67-C151-49D6-95EB-94B19537B725}"
+          vbd="0" />
+        <r
+          id="{E2408BCE-BA63-4069-81A9-917AF694B0F7}"
+          ph="/header/language"
+          uid="{C8AA7750-1310-4709-9FC4-984FC3C617A9}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150103T230952Z

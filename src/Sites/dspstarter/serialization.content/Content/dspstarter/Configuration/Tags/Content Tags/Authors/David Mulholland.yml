@@ -1,0 +1,17 @@
+﻿---
+ID: "783cd866-4cd7-4bf1-9867-3736d3ec6d62"
+Parent: "d51ce39d-eae6-45ee-851e-dc2653c7a5c3"
+Template: "ccdcedcb-694e-495d-b78f-382d4edb3011"
+Path: /sitecore/content/dspstarter/Configuration/Tags/Content Tags/Authors/David Mulholland
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160316T023743Z
+    - ID: "68ab4d5e-3703-473b-b906-9d3656e46cda"
+      Hint: Title
+      Value: David Mulholland

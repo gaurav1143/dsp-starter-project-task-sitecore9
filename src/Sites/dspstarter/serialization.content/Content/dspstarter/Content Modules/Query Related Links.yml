@@ -1,0 +1,14 @@
+﻿---
+ID: "df4a17a4-bdca-43ed-8154-f6250a7aff95"
+Parent: "b9f5a81a-64b6-495e-8d14-5f76eaa3c2b8"
+Template: "32f7e979-4f89-46cb-8b0a-25090cb744f8"
+Path: /sitecore/content/dspstarter/Content Modules/Query Related Links
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160608T233848Z

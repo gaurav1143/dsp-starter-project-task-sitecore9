@@ -1,0 +1,14 @@
+﻿---
+ID: "4cbaf0bd-b071-471b-a8c0-8af100dd4345"
+Parent: "04119361-0d98-455b-9c73-ee34e1cfa7aa"
+Template: "7564fb4f-21d5-4533-8b2c-bf307f341ede"
+Path: /sitecore/content/dspstarter/Configuration/MetaData/Robots/noindex nofollow
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151223T011238Z

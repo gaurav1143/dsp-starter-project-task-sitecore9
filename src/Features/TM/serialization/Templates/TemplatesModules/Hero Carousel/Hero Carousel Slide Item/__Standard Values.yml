@@ -1,0 +1,14 @@
+﻿---
+ID: "0cffbdc2-f4e9-45da-9701-4cd7fffa9da4"
+Parent: "4712801f-1d3f-4384-86b2-89bb8410a2cb"
+Template: "4712801f-1d3f-4384-86b2-89bb8410a2cb"
+Path: /sitecore/templates/Deloitte/Features/TemplatesModules/Hero Carousel/Hero Carousel Slide Item/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160107T023151Z

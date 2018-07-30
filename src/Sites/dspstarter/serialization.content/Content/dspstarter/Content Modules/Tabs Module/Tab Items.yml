@@ -1,0 +1,14 @@
+﻿---
+ID: "b2f157e6-a76e-4095-8043-b4e26705e63a"
+Parent: "fe64fc33-5c8c-4c2c-822d-ad266d373685"
+Template: "512b6e7a-defd-4ceb-badf-860e315413d2"
+Path: /sitecore/content/dspstarter/Content Modules/Tabs Module/Tab Items
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160705T110427Z

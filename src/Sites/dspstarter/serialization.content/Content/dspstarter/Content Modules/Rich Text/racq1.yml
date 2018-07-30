@@ -1,0 +1,24 @@
+﻿---
+ID: "1ca5a566-e850-41a4-8930-ce9cc6be6524"
+Parent: "dadcce3e-ec29-4d51-98b9-9b0c999b8f15"
+Template: "b26f97c5-ebfb-4ab6-bc03-6fcf7991d36b"
+Path: /sitecore/content/dspstarter/Content Modules/Rich Text/racq1
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{463D02D6-939C-470C-82D9-678F729D45D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1678b4f0-b609-4841-9405-a30899a2196c"
+      Hint: GeneralText
+      Value: "free2go is designed to help young drivers in Queensland get their licence and stay safe on the road. It provides roadside assistance, educational information, discounts, and is a key acquisition channel for RACQ’s Roadside Assistance product. <br><br><span style=\"font-size: 1rem; line-height: 1.875;\">With free2go’s young demographic in mind, Deloitte delivered an engaging, responsive website appealing to free2go users and allowing them to join online. </span><br>"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160520T064852Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{717BDACA-5630-4348-80AE-D94664F2130A}"

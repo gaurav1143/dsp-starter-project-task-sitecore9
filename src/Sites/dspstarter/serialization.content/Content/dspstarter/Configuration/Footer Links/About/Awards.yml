@@ -1,0 +1,43 @@
+﻿---
+ID: "3afa01ee-3cc4-443b-b899-c25acdfeb239"
+Parent: "1719280c-db7c-47dc-9987-366f60528539"
+Template: "0e12e814-46f2-4e78-91a2-3782eb320c31"
+Path: /sitecore/content/dspstarter/Configuration/Footer Links/About/Awards
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link linktype=\"internal\" text=\"Awards\" querystring=\"\" target=\"\" id=\"{255A5250-71D6-4F2A-87FE-1683E8B10989}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160216T213616Z
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"奖项\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{255A5250-71D6-4F2A-87FE-1683E8B10989}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160829T052816Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: "zh-TW"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07cf3c40-7b9c-4b5f-9547-33c226ef1cf3"
+      Hint: GeneralLink
+      Value: "<link text=\"獎項\" linktype=\"internal\" class=\"\" title=\"\" target=\"\" querystring=\"\" id=\"{255A5250-71D6-4F2A-87FE-1683E8B10989}\" />"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160727T011359Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
